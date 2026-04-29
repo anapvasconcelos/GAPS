@@ -1,0 +1,101 @@
+<table style="width: 100%; border-collapse: collapse; margin: auto;">
+  <tbody>
+    <tr>
+      <td style="border: 0px"> <a href="/M6/main.md"><nobr><- Previous module</nobr></a> </td>
+      <td style="width: 50%; border: 0px"> </td>
+      <td style="border: 0px"> <a href="/SUMMARY.md"><nobr>GAPS Summary</nobr></a> </td>
+      <td style="width: 50%; border: 0px"></td>
+      <td style="border: 0px"> <a href="/M8/main.md"><nobr>Next module -></nobr></a> </td>
+    </tr>
+  </tbody>
+</table>
+
+<!--
+[README](/README.md) > [GAPS](../SUMMARY.md) > Module 7 - Artifact submission and review context-->
+
+---
+
+
+# Module 7 - Artifact submission and review context
+
+
+## Double-anonymous
+
+<!--A set of instructions on how to share and archive open data and keep it compatible with double-blind review are presented by Graziotin (2019). Graziotin2019 -->
+
+
+
+## Anonymization strategies when required <!-- https://arxiv.org/pdf/1904.06499 p.20 -->
+
+
+
+
+
+
+
+
+
+## Sources
+
+This material was developed based on the following sources. In some cases, content was adapted or reused with modifications.
+
+- Graziotin (2019) How to disclose data for double-blind review and make it archived open data upon acceptance. https://ineed.coffee/5205/. <!-- Graziotin2019 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## What reviewers typically check in research artifacts
+
+
+
+
+
+
+---
+
+## References
+
+This module builds on a shared set of references used throughout the GAPS material, including guidelines, standards, and research studies on Open Science and research artifacts.
+
+To avoid redundancy and ensure consistency across modules, all references are centralized in the following document: [GAPS References](/references.md).
+
+Contents in this module were adapted and synthesized from these sources.
+
+---
+
+## Table of contents
+
+- [Module 7 - Artifact submission and review context](#module-7---artifact-submission-and-review-context)
+  - [Double-anonymous](#double-anonymous)
+  - [Anonymization strategies when required ](#anonymization-strategies-when-required-)
+  - [Sources](#sources)
+  - [What reviewers typically check in research artifacts](#what-reviewers-typically-check-in-research-artifacts)
+  - [References](#references)
+  - [Table of contents](#table-of-contents)
+
+---

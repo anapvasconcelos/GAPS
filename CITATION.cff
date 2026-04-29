@@ -1,0 +1,55 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: GAPS - Guidance for Artifact Preparing and Sharing
+message: >-
+  If you use this artifact, please cite it using the metadata
+  from this file.
+type: research artifact
+authors:
+  - given-names: Ana Paula
+    family-names: Vasconcelos
+    affiliation: UFPE/UNEMAT
+    orcid: 'https://orcid.org/0000-0002-2513-4924'
+  - given-names: Fernanda
+    family-names: Madeiral
+    affiliation: UFPE
+    orcid: 'https://orcid.org/0000-0003-2048-7648'
+  - given-names: Sergio
+    family-names: Soares
+    affiliation: UFPE
+    orcid: 'https://orcid.org/0000-0002-4428-2535'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.XXXXX
+    description: The URL of version 1.0 of the GAPS.
+abstract: >-
+  GAPS is an educational resource designed to support
+  researchers in the construction, documentation, and
+  sharing of research artifacts, particularly in Empirical
+  Software Engineering.
+
+
+  The guidance provided in this document is not intended to
+  be an exhaustive set of features for research artifacts.
+  Instead, it offers examples and practical recommendations
+  based on insights gathered from survey responses, the
+  literature, and existing guidelines, including materials
+  recommended by survey participants.
+
+
+  Overall, GAPS serves as a practical tool to help
+  researchers identify and prioritize key aspects when
+  preparing research artifacts.
+keywords:
+  - Open Science
+  - Research Artifacts
+  - Artifacts
+  - Artefacts
+  - Software Engineering
+  - GAPS
+license: CC-BY-SA-4.0
+version: '1.0'
+date-released: '2026-09-03'
+

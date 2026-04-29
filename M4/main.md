@@ -1,0 +1,240 @@
+<table style="width: 100%; border-collapse: collapse; margin: auto;">
+  <tbody>
+    <tr>
+      <td style="border: 0px"> <a href="/M3/main.md"><nobr><- Previous module</nobr></a> </td>
+      <td style="width: 50%; border: 0px"> </td>
+      <td style="border: 0px"> <a href="/SUMMARY.md"><nobr>GAPS Summary</nobr></a> </td>
+      <td style="width: 50%; border: 0px"></td>
+      <td style="border: 0px"> <a href="/M5/main.md"><nobr>Next module -></nobr></a> </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+# Module 4 - Documentation and usability
+
+Documentation. Good documentation is a key factor in software adoption, but in practice, people won’t write comprehensive documentation until they have collaborators who will use it. They will, however, quickly see the point of a brief explanatory comment at the start of each script, so we have recommended that as a first step. <!-- WilsonEtAl2017 -->
+
+- Include instructions to start the container or VM. <!-- Survey2026 AKIII-->
+
+
+
+## Internal repository organization: structure and directory organization
+
+
+One basic issue to consider first is the folder structure and the naming convention. A good folder structure, should capture the very essence of the process. <!-- MendezEtAl2020 -->
+
+<!-- MendezEtAl2020 -->
+- The folder and file names must clearly indicate what each of them contains, concisely and consistently. 
+- Keep the original data in a separate folder (e.g., data-raw/).
+   - Not manipulate the raw data files but to create new data files in a separate folder for the data cleaning and analysis (e.g., data-clean/). 
+   - If you use a script to clean the data, put it here too, this makes the data cleaning process reproducible to others.
+
+
+### Artifact structure
+<!-- Survey2026 -->
+
+A research artifact should be organized around a clear and well-defined repository structure. A good starting point is to create a main folder that serves as the single entry point for all supplementary material. This folder should be populated incrementally throughout the research process, rather than only at the end. Within this structure, materials should be organized into clearly defined subfolders that reflect different aspects of the study, such as data, analysis scripts, experimental objects, consent forms, results, etc. Defining this structure early helps ensure consistency and reduces the effort required during artifact preparation.
+
+The repository structure should be designed to reflect the components of the artifact in a clear and concise way. Subfolders can be organized by artifact type (e.g., data, code, scripts, results, demos, test cases, approvals), making it easier for others to navigate and understand the project. Discussing and aligning this structure with collaborators early in the project can further facilitate artifact preparation and reduce inconsistencies across contributions.
+
+In addition to the overall structure, attention should be given to file and directory naming conventions. Files and folders should use descriptive and consistent names that clearly indicate their contents, avoiding generic or ambiguous labels. Another important practice is to avoid hardcoded paths in scripts and code, as they reduce portability and make it harder for others to reproduce the results in different environments.
+
+
+
+
+## How to write an effective README
+
+Artifacts must include clear documentation at three levels:
+
+- **Operational documentation**: explains how to install, execute, and validate the artifact.
+- **Structural documentation**: describes how the artifact is organized, including folder structure and key components.
+- **Scientific documentation**: explains how the artifact relates to the research study, including how results and claims from the paper can be reproduced.
+
+At the operational level, documentation should:
+- Provide step-by-step execution instructions.
+- Include a quick-start guide that allows users to validate the artifact within a short time.
+- List all commands required to run the artifact (copy-paste ready).
+- Describe expected outputs and execution time.
+- Include minimal working examples.
+
+At the structural level, documentation should:
+- Describe the folder structure and organization of the artifact.
+- Explain the purpose of key files and directories.
+- Clearly distinguish essential components from auxiliary materials.
+
+At the scientific level, documentation should:
+- Explain how the artifact supports the claims made in the paper.
+- Map scripts and outputs to figures, tables, or results.
+- Describe datasets, including their origin, structure, and processing steps.
+
+Providing complete and well-structured documentation significantly reduces the effort required to understand, execute, and reuse the artifact.
+
+
+The README file must include the following sections:
+
+- **Summary of artifacts**: Describe the artifact.
+  - “This is a replication package for …” is a good starting place, but go beyond and capture intrigue.
+  - Why does this artifact exist and what does it do? Clearly state why it is important.
+  - All artifacts should be made available, but provide reasons why the average reader should further investigate your artifact.
+
+- **Description of the artifacts**: Describe details about the artifact.
+  - Include the repository folder structure.
+    - Describe each of the folders and files, including what was not included (and why).
+  - Provide information about data provenance.
+  - Provide information about ethical and legal statements.
+  - Consider how you would explain the artifact to a new researcher who is about to continue the work: think high-level and include details.
+
+- **Licenses**: State the chosen licenses for your artifacts.
+  - Describe which artifacts are affected by which licenses.
+  - The research artifact may have more than one license.
+  - The full content of the chosen license will be placed in specific `LICENSE` file.
+
+- **Reproduction**: If steps are necessary to operate your artifact, consider to provide a quick reproduction guide.
+  - Consider provide what an average reader needs to know before they can easily interface with your artifact.
+
+- **Authors**: List all authors, including contact information such as emails.
+  - Institution emails are notoriously bad at existing for long periods of time. Consider adding other means of future contact.
+
+- **Citation**: Detail how to cite your artifact and the related work (full paper citation and DOI link to pre-print / final version of your paper).
+
+- **Execution guide**:
+  - Step-by-step instructions to install and run the artifact.
+  - Quick-start instructions to validate functionality.
+  - Description of expected outputs and execution time.
+
+- **Artifact structure**:
+  - Description of the folder structure.
+  - Explanation of key files and directories.
+  - Identification of essential components.
+
+- **Reproducibility mapping**:
+  - Explanation of how to reproduce results from the paper.
+  - Mapping between scripts and figures/tables.
+  - Description of expected outputs.
+
+- **Data description**:
+  - Description of datasets (raw and processed).
+  - Explanation of variables and features.
+  - Data provenance and processing steps.
+
+- **Limitations and expected behavior**:
+  - Known limitations of the artifact.
+  - Expected variability in results.
+  - Hardware-dependent behavior (if applicable).
+
+- **Support and troubleshooting**:
+  - Common errors and solutions.
+  - Known issues.
+
+
+
+
+## Execution guide
+
+Provide ready-to-use environments (e.g., containers, virtual machines, or automated setup scripts) to reduce setup effort and increase reproducibility. <!-- ASE2025 -->
+
+- Create a file named `INSTALL.md` and put it in the top level artifact folder (in the root). (if needed)
+
+This file is essential if your artifact requires more than opening PDFs, CSVs, etc.
+
+
+Include the following sections:
+
+- **System requirements**: Describe what is necessary to run your code, software, or scripts.
+  - What operating system is required?
+    - In what operational system were they tested?
+    - Is it possible to run in other operational system?
+  - What programs need to already be installed (Python, R, Microsoft Word, etc.)?
+  - Try to generalize as much as possible, e.g., don’t list “Linux” if the script only uses Python, even though you originally built and ran it on Linux.
+
+- **Installation instructions**
+  - How to go from nothing to a running artifact.
+    - If possible, provide a virtualized setup experience via Docker, VM Image, Python virtual environment, etc.
+    - The installation process should take no longer than 30 minutes.
+      - If your setup process takes longer, then consider a build system to automate it.
+
+- **Steps to reproduce**: Which commands does the user need to run to produce the same data, figures, and tables as presented in your paper?
+  - If the full script takes a long time to run (30+ minutes), it is recommended to provide smaller possible units of computing your artifact.
+  - For example, a custom run command that only uses 5% of the data for a faster experience.
+    - This builds confidence in the user that the full run will finish when they run it.
+
+- **Expected behavior**
+
+  - Document the expected execution time for each major step.
+  - Clearly indicate which steps may take several minutes or longer.
+  - Describe expected outputs and how to verify correctness.
+  - Explain acceptable variations in results, when applicable.
+
+- **Quick validation**
+
+  - Provide a short execution mode (e.g., using a reduced dataset) that:
+    - Runs in a short time (e.g., under 10 minutes)
+    - Demonstrates core functionality of the artifact
+    - Produces representative outputs
+
+This helps users quickly confirm that the artifact is working correctly.
+
+- **Troubleshooting**
+
+  - Include a basic troubleshooting guide covering:
+    - Common installation issues.
+    - Frequent runtime errors.
+    - Known limitations of the artifact.
+
+
+
+## Re-running guide
+
+
+
+
+## Reproduction guide
+
+
+
+
+## Metadata and artifact citation standards
+
+Artifacts such as datasets and tools should be made publicly available whenever possible, ideally under open licenses. <!-- ASE2025 -->
+
+
+## Documenting limitations and non-shared components
+
+
+When artifacts (e.g., data or tools) cannot be shared, authors should clearly document the reasons (e.g., legal, ethical, or proprietary constraints) and, when possible, provide alternative forms of access or partial materials. <!-- ASE2025 -->
+
+## Documentation and communication artifacts
+
+Consider providing a short demonstration video or screencast to illustrate how the artifact works and highlight its main features. This can significantly improve understandability and adoption. <!-- ASE2025 -->
+
+
+
+
+---
+
+## References
+
+This module builds on a shared set of references used throughout the GAPS material, including guidelines, standards, and research studies on Open Science and research artifacts.
+
+To avoid redundancy and ensure consistency across modules, all references are centralized in the following document: [GAPS References](/references.md).
+
+Contents in this module were adapted and synthesized from these sources.
+
+---
+
+## Table of contents
+
+- [Module 4 - Documentation and usability](#module-4---documentation-and-usability)
+  - [How to write an effective README](#how-to-write-an-effective-readme)
+  - [Execution guide](#execution-guide)
+  - [Re-running guide](#re-running-guide)
+  - [Reproduction guide](#reproduction-guide)
+  - [Metadata and artifact citation standards](#metadata-and-artifact-citation-standards)
+  - [Documenting limitations and non-shared components](#documenting-limitations-and-non-shared-components)
+  - [References](#references)
+  - [Table of contents](#table-of-contents)
+
+
+---
