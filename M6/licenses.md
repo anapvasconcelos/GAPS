@@ -72,8 +72,7 @@ The table below summarizes the main permissions, conditions, and limitations of 
 | **Liability limitation** <br> The license limits liability of the authors. | ✅ | ✅ | ✅ | ✅ | ✅ |
 | **Trademark rights granted** <br> The license grants rights to use trademarks. | ❌ | ❌ | ❌ | ❌ | ❌ |
 | **Recommended for Open Science** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐ | ⭐⭐⭐ | ⭐ |
-<nobr>Table Legend: <br> ✅ Yes;  ❌ No; ⚠️ Partial**¹**.</nobr>
-| | | | | | 
+|**Table Legend**: <br> ✅ Yes;  ❌ No; ⚠️ Partial**¹**. | | | | | 
  
 **¹** In some cases a similar or related license may be used, or this condition may not apply to works that use the licensed material as a library.
 
@@ -96,21 +95,21 @@ The elements of Creative Commons licenses define how the artifact can be used.
 | ![ND](/M6/images/FIG-ND.png) | **NoDerivatives (ND):** Does not allow distribution of modified versions of the work. |
 | ![NC](/M6/images/FIG-NC.png) | **NonCommercial (NC):** Restricts use of the work to noncommercial purposes only. |
 | ![ZERO](/M6/images/FIG-ZERO.png) | **Public Domain (CC0):** Waives copyright and related rights, allowing unrestricted use, modification, and distribution, including for commercial purposes, without requiring attribution.|
-| | |
+
 
 Instead of analyzing licenses through a single "openness level", it is often more useful to compare them across key dimensions such as attribution, commercial use, and permission to modify the work.
 
 The table below summarizes the main differences between Creative Commons licenses and CC0. The “Most suitable for Open Science” column reflects how well each license supports reuse, modification, and integration of research artifacts.
 
 <!--
-| Feature / <br> License | [**CC0**](https://creativecommons.org/publicdomain/zero/1.0/) <br> ![](/M6/images/FIG-CC-ZERO.svg) | <nobr>[**CC BY**](https://creativecommons.org/licenses/by/4.0/)</nobr> <br> ![](/M6/images/FIG-CC-BY.svg) | <nobr>[**CC BY-SA**](https://creativecommons.org/licenses/by-sa/4.0/)</nobr> <br> ![](/M6/images/FIG-CC-BY-SA.svg) | <nobr>[**CC BY-ND**](https://creativecommons.org/licenses/by-nd/4.0/)</nobr> <br> ![](/M6/images/FIG-CC-BY-ND.svg) | <nobr>[**CC BY-NC**](https://creativecommons.org/licenses/by-nc/4.0/)</nobr> <br> ![](/M6/images/FIG-CC-BY-NC.svg) | <nobr>[**CC BY-NC-SA**](https://creativecommons.org/licenses/by-nc-sa/4.0/)</nobr> <br> ![](/M6/images/FIG-CC-BY-NC-SA.svg) | <nobr>[**CC BY-NC-ND**](https://creativecommons.org/licenses/by-nc-nd/4.0/)</nobr> <br> ![](/M6/images/FIG-CC-BY-NC-ND.svg) |
+| Feature / <br> License | [**CC0**](https://creativecommons.org/publicdomain/zero/1.0/) <br> ![](/M6/images/FIG-CC-ZERO.svg) | [**CC BY**](https://creativecommons.org/licenses/by/4.0/) <br> ![](/M6/images/FIG-CC-BY.svg) | [**CC BY-SA**](https://creativecommons.org/licenses/by-sa/4.0/) <br> ![](/M6/images/FIG-CC-BY-SA.svg) | [**CC BY-ND**](https://creativecommons.org/licenses/by-nd/4.0/) <br> ![](/M6/images/FIG-CC-BY-ND.svg) | [**CC BY-NC**](https://creativecommons.org/licenses/by-nc/4.0/) <br> ![](/M6/images/FIG-CC-BY-NC.svg) | [**CC BY-NC-SA**](https://creativecommons.org/licenses/by-nc-sa/4.0/) <br> ![](/M6/images/FIG-CC-BY-NC-SA.svg) | [**CC BY-NC-ND**](https://creativecommons.org/licenses/by-nc-nd/4.0/) <br> ![](/M6/images/FIG-CC-BY-NC-ND.svg) |
 |:-----------------|:---:|:-----:|:--------:|:--------:|:--------:|:-----------:|:-----------:|
 | **Attribution required** | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | **Commercial use allowed** | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
 | **Modifications allowed** | ✅ | ✅ | ✅ | ❌ | ✅ | ✅ | ❌ |
 | **ShareAlike required** | ❌ | ❌ | ✅ | ❌ | ❌ | ✅ | ❌ |
 | **Most suitable for Open Science** | ⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐⭐ | ⭐ | ⭐ | ⭐ | 🚫 |
-<nobr>Table Legend: <br> ✅ Yes;  ❌ No.</nobr>
+Table Legend: <br> ✅ Yes;  ❌ No.
 | | | | | | | | | -->
 
 
@@ -121,11 +120,12 @@ The table below summarizes the main differences between Creative Commons license
 | [**CC BY-SA**](https://creativecommons.org/licenses/by-sa/4.0/) <br> ![](/M6/images/FIG-CC-BY-SA.svg) | ✅ | ✅ | ✅ | ✅ | ⭐⭐⭐ |
 | [**CC BY-ND**](https://creativecommons.org/licenses/by-nd/4.0/) <br> ![](/M6/images/FIG-CC-BY-ND.svg) | ✅ | ✅ | ❌ | ❌ | ⭐ |
 | [**CC BY-NC**](https://creativecommons.org/licenses/by-nc/4.0/) <br> ![](/M6/images/FIG-CC-BY-NC.svg) | ✅ | ❌ | ✅ | ❌ | ⭐ |
-| [<nobr>**CC BY-NC-SA**</nobr>](https://creativecommons.org/licenses/by-nc-sa/4.0/) <br> ![](/M6/images/FIG-CC-BY-NC-SA.svg) | ✅ | ❌ | ✅ | ✅ | ⭐ |
-| [<nobr>**CC BY-NC-ND**</nobr>](https://creativecommons.org/licenses/by-nc-nd/4.0/) <br> ![](/M6/images/FIG-CC-BY-NC-ND.svg) | ✅ | ❌ | ❌ | ❌ | 🚫 |
-<nobr>Table Legend: <br> ✅ Yes;  ❌ No.</nobr>
-| | | | | | |
+| [**CC BY-NC-SA**](https://creativecommons.org/licenses/by-nc-sa/4.0/) <br> ![](/M6/images/FIG-CC-BY-NC-SA.svg) | ✅ | ❌ | ✅ | ✅ | ⭐ |
+| [**CC BY-NC-ND**](https://creativecommons.org/licenses/by-nc-nd/4.0/) <br> ![](/M6/images/FIG-CC-BY-NC-ND.svg) | ✅ | ❌ | ❌ | ❌ | 🚫 |
 
+**Table Legend**: ✅ Yes; ❌ No.
+
+---
 
 As shown above, Creative Commons provides a range of licenses that grant different levels of permission for using, sharing, and adapting a work. All of these licenses offer more flexibility than traditional "all rights reserved" copyright.
 
@@ -189,13 +189,13 @@ Once this distinction is clear, the next step is to select a license based on th
 | Artifact type | Recommended license | Key rationale |
 |---------------| :------------: |------|
 | 1. Conceptual and scientific artifacts | CC BY | Ensures your ideas and findings are widely cited without creating barriers to scientific evolution. |
-| 2. Methodological artifacts | CC BY or <nobr>CC BY-SA</nobr> | Research instruments (surveys/checklists) need to be adaptable. CC BY allows others to translate or adapt your tools while giving you credit. |
+| 2. Methodological artifacts | CC BY or CC BY-SA | Research instruments (surveys/checklists) need to be adaptable. CC BY allows others to translate or adapt your tools while giving you credit. |
 | 3. Data artifacts | CC0 or CC BY | Many repositories suggest CC0 for raw data to facilitate automated meta-analyses. If dataset authorship is a matter of academic record, use CC BY. |
 | 4. Implementation artifacts | MIT or Apache | Analysis scripts and algorithms should be easy to run. Use MIT (for simplicity) or Apache 2.0 (for legal robustness). Apache 2.0 is excellent if your algorithm is a patentable innovation. |
 | 5. Documentation and communication artifacts | 1 - CC BY <br> 2 - MIT | 1 - If the documentation is a long manual (PDF/Markdown), use CC BY. <br> 2 - If it consists of in-code comments or technical READMEs, they usually follow the code's license (e.g., MIT). |
 | 6. Reproducibility and infrastructure artifacts | MIT | Configurations (Docker, YAML, build scripts) are utilities. It is best not to "lock" these files with restrictive licenses; MIT allows anyone to deploy your infrastructure without legal friction. |
 | 7. Research outputs as artifacts | CC BY | It ensures the dissemination of the paper text and supplementary materials. |
-| | | |
+
 
 - This makes your artifact easier to use and more likely to function in the long term (since all required sub-artifacts are packaged internally).
   - However, if applying the correct licenses is too complex or is simply not understood for a particular situation, the easier solution is to not include any third-party content in your artifact. Instead, include links to obtain that content, and/or write build scripts (E.g. MAKE files) that automatically download and integrate the dependencies (such as “requirements.txt” for Python).

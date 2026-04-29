@@ -39,8 +39,7 @@ Today, the global spread of networked technologies has removed these physical ba
 It is important to note that openness in science is not a binary toggle, but rather a continuum. The transition toward more transparent practices can be gradual and must account for contextual constraints, such as ethical considerations, participant privacy, or the sensitivity of proprietary software data. Ultimately, this movement seeks to improve the quality of scientific dialogue by addressing chronic issues like publication bias and replication failures through increased visibility of the entire research process.
 
 
-
-> **What is Open Science?**
+### What is Open Science?
 <!-- UNESCO2021 - -> <!-- FOSTER2018 - -> <!-- ZeeReich2018 - ->  <!-- MendezEtAl2020 -- > <!-- SonjaEtAl2018 -->
 
 - A set of practices that make the research process and its underlying reasoning more transparent.
@@ -58,7 +57,9 @@ Scientific progress depends on research that is reliable, verifiable, and reusab
 
 Open Science is commonly operationalized through a set of complementary practices:
 
-> **Open Access** <!-- MendezEtAl2020 --> <!-- GallagherEtAl2020 -->
+#### Open Access
+
+<!-- MendezEtAl2020 -- > <!-- GallagherEtAl2020 -->
 
 **What is it**:
 - Scientific publications are made freely available on the public Internet without financial, legal, or technical barriers, allowing anyone to read, download, copy, reuse, distribute, print, search, or link to the full texts of publications for any lawful purpose.
@@ -74,9 +75,10 @@ Open Science is commonly operationalized through a set of complementary practice
 **Relation to research artifacts**:
 - Open Access ensures that the paper describing the artifact is available, enabling others to understand its context, usage, and contributions.
 
+---
 
-
-> **Open Data** <!-- MendezEtAl2020 --> <!-- ZeeReich2018 --> <!-- GallagherEtAl2020 -->
+#### Open Data
+<!-- MendezEtAl2020 -- > <!-- ZeeReich2018 -- > <!-- GallagherEtAl2020 -->
 
 **What it is**:
 - Data produced during research are made available for access and reuse, typically through public repositories.
@@ -95,9 +97,10 @@ Open Science is commonly operationalized through a set of complementary practice
 **Relation to research artifacts**:
 - Open Data corresponds directly to data artifacts, which are central for reproducibility, validation, and reuse.
 
+---
 
-
-> **Open Resources** <!-- UNESCO2021 --> <!-- GallagherEtAl2020 --> <!-- SonjaEtAl2018 -->
+#### Open Resources
+<!-- UNESCO2021 -- > <!-- GallagherEtAl2020 -- > <!-- SonjaEtAl2018 -->
 
 **What it is**:
 - Teaching, learning and research materials in any medium (digital or otherwise) released under an open license that allow no-cost access, use, adaptation and redistribution by others with no or limited restrictions.
@@ -115,9 +118,10 @@ Open Science is commonly operationalized through a set of complementary practice
 - Open Resources correspond to documentation and communication artifacts, which improve usability, understanding, and learning.
 - They support reuse and adaptation, enabling others to build upon and extend research outputs.
 
+---
 
-
-> **Open Source (Open Research Software)** <!-- UNESCO2021 --> <!-- GallagherEtAl2020 --> <!-- SonjaEtAl2018 -->
+#### Open Source (Open Research Software)
+<!-- UNESCO2021 -- > <!-- GallagherEtAl2020 -- > <!-- SonjaEtAl2018 -->
 
 **What it is**:
 - Open research software refers to software used in research (e.g., for analysis, simulation, or visualization) or developed as a research output, whose source code is made publicly available.
@@ -134,9 +138,10 @@ Open Science is commonly operationalized through a set of complementary practice
 **Relation to research artifacts**:
 - Open Source corresponds to implementation artifacts, enabling execution and reproduction of results.
 
- 
+ ---
 
-> **Open Peer Review** <!-- MendezEtAl2020 --> <!-- GallagherEtAl2020 --> <!-- SonjaEtAl2018 -->
+#### Open Peer Review
+<!-- MendezEtAl2020 -- > <!-- GallagherEtAl2020 -- > <!-- SonjaEtAl2018 -->
 
 **What it is**:
 - Open Peer Review is an umbrella term for practices that aim to increase transparency in the peer review process.
@@ -154,9 +159,10 @@ Open Science is commonly operationalized through a set of complementary practice
 **Relation to research artifacts**:
 - Open Peer Review increases transparency and enables greater scrutiny of data and methods, which in turn reinforces the need for sharing research artifacts to support verification and reproducibility.
 
+---
 
-
-> **Open Methods** <!-- GallagherEtAl2020 -->
+#### Open Methods
+<!-- GallagherEtAl2020 -->
 
 **What it is**:
 - Research methods, protocols, and procedures are explicitly documented and shared, enabling others to understand and reproduce the research process.
@@ -172,9 +178,10 @@ Open Science is commonly operationalized through a set of complementary practice
 **Relation to research artifacts**:
 - Open Methods correspond to methodological artifacts, which are essential for replication and understanding how results were produced.
 
+---
 
-
-> **FAIR Principles** <!-- MendezEtAl2020 --> <!-- SonjaEtAl2018 --> <!-- WilkonsonEtAl2018 -->
+#### FAIR Principles
+<!-- MendezEtAl2020 -- > <!-- SonjaEtAl2018 -- > <!-- WilkonsonEtAl2018 -->
 
 **What it is**:
 - A set of guiding principles designed to ensure that digital research objects are <u>**F**</u>indable, <u>**A**</u>ccessible, <u>**I**</u>nteroperable, and <u>**R**</u>eusable.
@@ -226,7 +233,7 @@ Open Science is commonly operationalized through a set of complementary practice
 <!--
 ![FAIR Principles](/M1/images/FIG-FAIR-principles.png) <!-- WilkonsonEtAl2018 -- > <!-- ChatGPT -->
 
-
+---
 
 ### Practice Open Science sounds like extra work, right?
 <!-- FOSTER2018 -->
@@ -269,13 +276,14 @@ Adoption of open practices may require awareness and cultural change within rese
 In the context of Open Science, sharing only the paper is not enough to fully communicate a study. To make research transparent, reproducible, and reusable, it is necessary to also share the materials that support it. These materials are known as research artifacts.
 
 
-> **What is a research artifact?**
+**What is a research artifact?**
+
 - A research artifact is any external material associated with a research report (e.g., paper).
 - It helps others understand, verify, reproduce, or reuse the study. 
 - These artifacts are made available via a link within the research report.
 
 
-> **Why do artifacts matter?**
+**Why do artifacts matter?**
 
 - Research artifacts are essential because they make research transparent and verifiable, allowing others to understand and validate how results were produced.
 - They support reproducibility and replicability, enabling studies to be re-executed under the same or similar conditions.
@@ -295,7 +303,7 @@ Allowing others to obtain the same results or re-execute the study under similar
 -->
 
 
-> **Formal definition**
+**Formal definition**
 
 More formally, a research artifact can be defined as a digital object generated as a result of the research itself or created by the authors to be used as part of the research, being essential for the associated paper. <!-- ACM2020 TimperleyEtAl2021 -->
 
