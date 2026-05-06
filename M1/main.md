@@ -1,3 +1,5 @@
+
+<!--
 <table style="width: 100%; border-collapse: collapse; margin: auto;">
   <tbody>
     <tr>
@@ -9,15 +11,24 @@
     </tr>
   </tbody>
 </table>
+-->
+
+<div align="center"><nobr>
+
+← Previous module &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS Summary](/SUMMARY.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[Next module →](/M2/main.md)
+
+</nobr></div>
+
 
 ---
 
 ![GAPS logo](../GAPS-logo.png)
 
-# Module 1 - Foundations of research artifacts
+<h1> Module 1 - Foundations of research artifacts </h1>
 
-
-## Learning objectives
+# Learning objectives
 
 By the end of this module, participants will be able to:
 
@@ -33,7 +44,7 @@ Before discussing research artifacts, it is important to first understand the br
 
 In this sense, Open Science provides the conceptual foundation that motivates the creation, sharing, and reuse of research artifacts. By understanding Open Science principles, it becomes clearer why artifacts play a central role in improving transparency, reproducibility, and reuse in empirical research.
 
-## Open Science
+# Open Science
 <!-- ZeeReich2018 -- > <!-- MendezEtAl2020 -->
 
 The credibility and verifiability of empirical studies in Software Engineering depend strongly on transparency regarding complex artifacts, such as datasets, tools, and experimental setups. Historically, scientific communication was constrained by print-based publication models, which imposed strict limits on space and high dissemination costs. This scenario often led researchers to present summarized methodological descriptions that mask the inherent complexity of the research process, such as intermediate decisions, discarded analyses, or changes in study design.
@@ -43,7 +54,7 @@ Today, the global spread of networked technologies has removed these physical ba
 It is important to note that openness in science is not a binary toggle, but rather a continuum. The transition toward more transparent practices can be gradual and must account for contextual constraints, such as ethical considerations, participant privacy, or the sensitivity of proprietary software data. Ultimately, this movement seeks to improve the quality of scientific dialogue by addressing chronic issues like publication bias and replication failures through increased visibility of the entire research process.
 
 
-### What is Open Science?
+## What is Open Science?
 <!-- UNESCO2021 - -> <!-- FOSTER2018 - -> <!-- ZeeReich2018 - ->  <!-- MendezEtAl2020 -- > <!-- SonjaEtAl2018 -->
 
 - A set of practices that make the research process and its underlying reasoning more transparent.
@@ -55,7 +66,7 @@ It is important to note that openness in science is not a binary toggle, but rat
 Scientific progress depends on research that is reliable, verifiable, and reusable. In this sense, transparency, credibility, and reproducibility are essential foundations for building robust knowledge, particularly in an evolving field such as Software Engineering. Open Science provides the foundation to support these goals.
 
 
-### Open Science practices
+## Open Science practices
 
 Open Science encompasses a broad and evolving ecosystem of practices, principles, infrastructures, and policies aimed at improving transparency, accessibility, collaboration, and reuse in research.
 
@@ -68,7 +79,7 @@ This focus does not imply that other Open Science practices are less important. 
 
 
 
-#### Open Access
+### Open Access
 
 <!-- MendezEtAl2020 -- > <!-- GallagherEtAl2020 -->
 
@@ -88,7 +99,7 @@ This focus does not imply that other Open Science practices are less important. 
 
 ---
 
-#### Open Data
+### Open Data
 <!-- MendezEtAl2020 -- > <!-- ZeeReich2018 -- > <!-- GallagherEtAl2020 -->
 
 **What it is**:
@@ -110,7 +121,7 @@ This focus does not imply that other Open Science practices are less important. 
 
 ---
 
-#### Open Resources
+### Open Resources
 <!-- UNESCO2021 -- > <!-- GallagherEtAl2020 -- > <!-- SonjaEtAl2018 -->
 
 **What it is**:
@@ -131,7 +142,7 @@ This focus does not imply that other Open Science practices are less important. 
 
 ---
 
-#### Open Source (Open Research Software)
+### Open Source (Open Research Software)
 <!-- UNESCO2021 -- > <!-- GallagherEtAl2020 -- > <!-- SonjaEtAl2018 -->
 
 **What it is**:
@@ -151,7 +162,7 @@ This focus does not imply that other Open Science practices are less important. 
 
  ---
 
-#### Open Peer Review
+### Open Peer Review
 <!-- MendezEtAl2020 -- > <!-- GallagherEtAl2020 -- > <!-- SonjaEtAl2018 -->
 
 **What it is**:
@@ -172,7 +183,7 @@ This focus does not imply that other Open Science practices are less important. 
 
 ---
 
-#### Open Methods
+### Open Methods
 <!-- GallagherEtAl2020 -->
 
 **What it is**:
@@ -191,7 +202,7 @@ This focus does not imply that other Open Science practices are less important. 
 
 ---
 
-#### FAIR Principles
+### FAIR Principles
 <!-- MendezEtAl2020 -- > <!-- SonjaEtAl2018 -- > <!-- WilkonsonEtAl2018 -->
 
 **What it is**:
@@ -240,9 +251,11 @@ This focus does not imply that other Open Science practices are less important. 
 **Relation to research artifacts**:
 - FAIR principles define the quality attributes of good artifacts, guiding how all types of artifacts should be structured, documented, and shared.
 
-##### FAIR-aligned research artifacts
+---
 
-> **Findable**
+#### FAIR-aligned research artifacts
+
+##### Findable
 
 **F1. Assigned a globally unique and persistent identifier (PID)**
 
@@ -260,7 +273,9 @@ This focus does not imply that other Open Science practices are less important. 
 
 - Artifacts and their metadata should be deposited in repositories or platforms where they can be searched, discovered, and accessed by others.
 
-> **Accessible**
+---
+
+##### Accessible
 
 **A1. Retrievable by their PID using a standardized communication protocol**
 
@@ -278,7 +293,9 @@ This focus does not imply that other Open Science practices are less important. 
 
 - Even if the artifact itself becomes unavailable, its metadata should remain accessible so others can still understand its existence, context, and characteristics.
 
-> **Interoperable**
+---
+
+##### Interoperable
 
 **I1. Use formal, accessible, shared, and broadly applicable knowledge representation languages**
 
@@ -292,7 +309,9 @@ This focus does not imply that other Open Science practices are less important. 
 
 - Artifacts should explicitly indicate how they relate to other datasets, scripts, papers, software components, or research outputs, making dependencies and relationships clear.
 
-> **Reusable**
+---
+
+##### Reusable
 
 **R1. Richly described with accurate and relevant attributes**
 
@@ -315,22 +334,22 @@ This focus does not imply that other Open Science practices are less important. 
 
 ---
 
-### Practice Open Science sounds like extra work, right?
+## Practice Open Science sounds like extra work, right?
 <!-- FOSTER2018 -->
 
 Practising Open Science may require additional effort, but it brings important benefits.
 
-> **For research:**
+### For research:
 - Supports transparency, validation, and reproducibility.
 - Facilitates the reuse of results.
 - Accelerates knowledge generation.
 
-> **For society:**
+### For society:
 - Expands access to scientific knowledge.
 - Reduces barriers to accessing scientific knowledge, regardless of geographic or economic constraints.
 - Increases the return on publicly funded research.
 
-> **For researchers:**
+### For researchers:
 
 - Increases visibility and potential impact of their work.
 - Creates additional citable outputs (e.g., datasets, code), encouraging reuse.
@@ -351,7 +370,7 @@ Adoption of open practices may require awareness and cultural change within rese
 
 
 
-## Research Artifacts
+# Research Artifacts
 
 In the context of Open Science, sharing only the paper is not enough to fully communicate a study. To make research transparent, reproducible, and reusable, it is necessary to also share the materials that support it. These materials are known as research artifacts.
 
@@ -389,7 +408,7 @@ More formally, a research artifact can be defined as a digital object generated 
 
 
 
-## Types of research artifacts
+# Types of research artifacts
 
 Once we understand what artifacts are, the next step is to understand the different roles they play. They can be grouped into categories based on what they represent and how they contribute to the study.
 
@@ -441,16 +460,18 @@ The table below shows examples of the types of research artifacts of each catego
 | **6. Reproducibility and infrastructure artifacts** | - Configuration and dependency files<br> - Build scripts<br> - Containerization setups (e.g., Docker)<br> - Virtual machines or pre-configured environments<br> - Delivery tools for automated execution |
 | **7. Research outputs as artifacts** | - The paper manuscript (which describes the study and references the associated artifacts) <br> - Supplementary materials <br> - Figures and Tables |
 
+---
 
-
-## Key characteristics of good research artifacts
+# Key characteristics of good research artifacts
 
 Instead of thinking in terms of a fixed checklist, it is more useful to understand good artifacts as those that enable understanding, execution, and reuse.
 
 These qualities can be grouped into three complementary dimensions, which often overlap in practice.
 
 
-> **Usability** (Can others understand and use it?)
+## Usability
+
+***Can others understand and use it?***
 
 Good artifacts should be understandable and usable without requiring extensive interpretation from the paper authors.
 
@@ -472,7 +493,9 @@ Good artifacts should be:
 
 
 
-> **Reproducibility** (Can others run and verify it?)
+## Reproducibility
+
+***Can others run and verify it?***
 
 Good artifacts should allow others to independently execute the research workflow and verify how results were produced. This includes both computational execution and transparency of analytical procedures.
 
@@ -494,7 +517,9 @@ Good artifacts should be:
 
 
 
-> **Reusability** (Can others build upon it?)
+## Reusability
+
+***Can others build upon it?***
 
 Good artifacts should support future reuse, extension, and adaptation by other researchers.
 
@@ -514,9 +539,9 @@ Good artifacts should be:
 
 **Why it matters**: Reusability transforms artifacts from supplementary material into durable scientific contributions.
 
+---
 
-
-## Artifact life cycle
+# Artifact life cycle
 <!-- Montgomery2024 -->
 
 Research artifacts should not be treated as a final step of the research process. Instead, they should evolve alongside the study, from its early stages to publication and beyond.
@@ -527,7 +552,7 @@ Thinking in terms of a life cycle helps ensure that artifacts are not only creat
 
 A practical way to structure this process is through the following stages:
 
-> **1. Collect**
+## 1. Collect
 
 **What to do**:
 - Gather all materials produced or used during the research.
@@ -544,7 +569,7 @@ A practical way to structure this process is through the following stages:
 
 
 
-> **2. Document**
+## 2. Document
 
 **What to do**:
 - Clearly describe the artifact and its contents, so others can understand and use them.
@@ -560,7 +585,7 @@ A practical way to structure this process is through the following stages:
 
 
 
-> **3. License**
+## 3. License
 
 **What to do**:
 - Define how others can use, modify, and share the artifact.
@@ -574,7 +599,7 @@ A practical way to structure this process is through the following stages:
 
 
 
-> **4. Archive**
+## 4. Archive
 
 **What to do**:
 - Store artifacts in reliable repositories that support:
@@ -586,7 +611,7 @@ A practical way to structure this process is through the following stages:
 
 
 
-> **5. Share**
+## 5. Share
 
 **What to do**:
 - Make artifacts visible and accessible to the research community.
@@ -598,14 +623,14 @@ A practical way to structure this process is through the following stages:
 
 ---
 
-**Continuous process**
+## Continuous process
 
 Although presented as stages, this process is iterative. Artifacts are refined over time, especially after feedback, reuse, or replication attempts.
 
 
 ---
 
-## Key takeaways
+# Key takeaways
 
 - Open Science needs artifacts.
 - Artifacts support transparency and reproducibility.
@@ -654,7 +679,7 @@ This example illustrates how the concepts presented in this module come together
 -->
 ---
 
-## References
+# References
 
 This module builds on a shared set of references used throughout the GAPS material, including guidelines, standards, and research studies on Open Science and research artifacts.
 
@@ -664,32 +689,50 @@ Contents in this module were adapted and synthesized from these sources.
 
 ---
 
-[Module 1 presentation](https://docs.google.com/presentation/d/1UEMahinOvRuY6Fd-QV9TKlpxhPGo29Hm7QrBSv7etaQ/edit?usp=sharing). <!--Depois vou colocar o slide em ppt na pasta do módulo e mudar esse link aqui para o arquivo estático-->
+# Supplementary material
+
+- [Module 1 presentation](https://docs.google.com/presentation/d/1UEMahinOvRuY6Fd-QV9TKlpxhPGo29Hm7QrBSv7etaQ/edit?usp=sharing). <!--Depois vou colocar o slide em ppt na pasta do módulo e mudar esse link aqui para o arquivo estático-->
 
 ---
 
-## Table of Contents
+# Table of Contents
 
-- [Module 1 - Foundations of research artifacts](#module-1---foundations-of-research-artifacts)
-  - [Learning objectives](#learning-objectives)
-  - [Open Science](#open-science)
-    - [What is Open Science?](#what-is-open-science)
-    - [Open Science practices](#open-science-practices)
-      - [Open Access](#open-access)
-      - [Open Data](#open-data)
-      - [Open Resources](#open-resources)
-      - [Open Source (Open Research Software)](#open-source-open-research-software)
-      - [Open Peer Review](#open-peer-review)
-      - [Open Methods](#open-methods)
-      - [FAIR Principles](#fair-principles)
-        - [FAIR-aligned research artifacts](#fair-aligned-research-artifacts)
-    - [Practice Open Science sounds like extra work, right?](#practice-open-science-sounds-like-extra-work-right)
-  - [Research Artifacts](#research-artifacts)
-  - [Types of research artifacts](#types-of-research-artifacts)
-  - [Key characteristics of good research artifacts](#key-characteristics-of-good-research-artifacts)
-  - [Artifact life cycle](#artifact-life-cycle)
-  - [Key takeaways](#key-takeaways)
-  - [References](#references)
-  - [Table of Contents](#table-of-contents)
+- [Learning objectives](#learning-objectives)
+- [Open Science](#open-science)
+  - [What is Open Science?](#what-is-open-science)
+  - [Open Science practices](#open-science-practices)
+    - [Open Access](#open-access)
+    - [Open Data](#open-data)
+    - [Open Resources](#open-resources)
+    - [Open Source (Open Research Software)](#open-source-open-research-software)
+    - [Open Peer Review](#open-peer-review)
+    - [Open Methods](#open-methods)
+    - [FAIR Principles](#fair-principles)
+      - [FAIR-aligned research artifacts](#fair-aligned-research-artifacts)
+        - [Findable](#findable)
+        - [Accessible](#accessible)
+        - [Interoperable](#interoperable)
+        - [Reusable](#reusable)
+  - [Practice Open Science sounds like extra work, right?](#practice-open-science-sounds-like-extra-work-right)
+    - [For research:](#for-research)
+    - [For society:](#for-society)
+    - [For researchers:](#for-researchers)
+- [Research Artifacts](#research-artifacts)
+- [Types of research artifacts](#types-of-research-artifacts)
+- [Key characteristics of good research artifacts](#key-characteristics-of-good-research-artifacts)
+  - [Usability](#usability)
+  - [Reproducibility](#reproducibility)
+  - [Reusability](#reusability)
+- [Artifact life cycle](#artifact-life-cycle)
+  - [1. Collect](#1-collect)
+  - [2. Document](#2-document)
+  - [3. License](#3-license)
+  - [4. Archive](#4-archive)
+  - [5. Share](#5-share)
+  - [Continuous process](#continuous-process)
+- [Key takeaways](#key-takeaways)
+- [References](#references)
+- [Supplementary material](#supplementary-material)
+- [Table of Contents](#table-of-contents)
 
 ---

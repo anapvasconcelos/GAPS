@@ -1,3 +1,5 @@
+<!--
+
 <table style="width: 100%; border-collapse: collapse; margin: auto;">
   <tbody>
     <tr>
@@ -11,6 +13,19 @@
 </table>
 
 ---
+
+
+-->
+
+<div align="center"><nobr>
+
+[← Previous module](/M8/main.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS Summary](/SUMMARY.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[Glossary](/glossary.md)
+
+</nobr></div>
+
+
 
 ![GAPS logo](../GAPS-logo.png)
 

@@ -1,3 +1,5 @@
+<!--
+
 <table style="width: 100%; border-collapse: collapse; margin: auto;">
   <tbody>
     <tr>
@@ -10,8 +12,18 @@
   </tbody>
 </table>
 
-<!--
-[README](/README.md) > [GAPS](../SUMMARY.md) > Module 7 - Artifact submission and review context-->
+
+-->
+
+<div align="center"><nobr>
+
+[← Previous module](/M6/main.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS Summary](/SUMMARY.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[Next module →](/M8/main.md)
+
+</nobr></div>
+
+
 
 ---
 

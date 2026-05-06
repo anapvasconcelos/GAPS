@@ -1,3 +1,6 @@
+<!--
+
+
 <table style="width: 100%; border-collapse: collapse; margin: auto;">
   <tbody>
     <tr>
@@ -12,6 +15,15 @@
 
 <!--
 [README](/README.md) > [GAPS](../SUMMARY.md) > Module 8 - Sustainability and long-term maintenance-->
+
+<div align="center"><nobr>
+
+[← Previous module](/M7/main.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS Summary](/SUMMARY.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[Supplementary materials](/supplementary-material/main.md)
+
+</nobr></div>
+
 
 ---
 

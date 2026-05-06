@@ -1,3 +1,5 @@
+<!--
+
 <table style="width: 100%; border-collapse: collapse; margin: auto;">
   <tbody>
     <tr>
@@ -9,6 +11,17 @@
     </tr>
   </tbody>
 </table>
+
+-->
+
+<div align="center"><nobr>
+
+[README](/README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS Summary](/SUMMARY.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+Glossary
+
+</nobr></div>
+
 
 ---
 

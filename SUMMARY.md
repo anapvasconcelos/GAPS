@@ -1,3 +1,5 @@
+<!--
+
 <table style="width: 100%; border-collapse: collapse; margin: auto;">
   <tbody>
     <tr>
@@ -10,6 +12,17 @@
   </tbody>
 </table>
 
+-->
+
+<div align="center"><nobr>
+
+[README](/README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+GAPS Summary &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[Glossary](/glossary.md)
+
+</nobr></div>
+
+
 ---
 
 
@@ -21,19 +34,14 @@
 
 > **[Module 1 - Foundations of research artifacts](M1/main.md)**
 
-  - [Learning objectives](M1/main.md#learning-objectives)
-  - [Open Science](M1/main.md#open-science)
-  - [Research Artifacts](M1/main.md#research-artifacts)
-  - [Types of research artifacts](M1/main.md#types-of-research-artifacts)
-  - [Key characteristics of good research artifacts](M1/main.md#key-characteristics-of-good-research-artifacts)
-  - [Common pitfalls and good practices in research artifacts](M1/main.md#common-pitfalls-and-good-practices-in-research-artifacts)
-  - [Artifact life cycle](M1/main.md#artifact-life-cycle)
-  - [Practical example](M1/main.md#practical-example)
-  - [References](M1/main.md#references)
-  - [Table of Contents](M1/main.md#table-of-contents)
-
-
-
+- [Learning objectives](M1/main.md#learning-objectives)
+- [Open Science](M1/main.md#open-science)
+- [Research Artifacts](M1/main.md#research-artifacts)
+- [Types of research artifacts](M1/main.md#types-of-research-artifacts)
+- [Key characteristics of good research artifacts](M1/main.md#key-characteristics-of-good-research-artifacts)
+- [Artifact life cycle](M1/main.md#artifact-life-cycle)
+- [Key takeaways](M1/main.md#key-takeaways)
+- [Supplementary material](M1/main.md#supplementary-material)
 
 
 > **[Module 2 - Artifact-first mindset](M2/main.md)**

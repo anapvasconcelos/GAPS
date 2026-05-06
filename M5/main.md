@@ -1,3 +1,5 @@
+<!--
+
 <table style="width: 100%; border-collapse: collapse; margin: auto;">
   <tbody>
     <tr>
@@ -10,8 +12,17 @@
   </tbody>
 </table>
 
-<!--
-[README](/README.md) > [GAPS](../SUMMARY.md) > Module 5 - Reproducibility and transparency-->
+-->
+
+<div align="center"><nobr>
+
+[← Previous module](/M4/main.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS Summary](/SUMMARY.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[Next module →](/M6/main.md)
+
+</nobr></div>
+
+
 
 ---
 

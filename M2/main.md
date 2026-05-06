@@ -1,3 +1,5 @@
+<!--
+
 <table style="width: 100%; border-collapse: collapse; margin: auto;">
   <tbody>
     <tr>
@@ -9,6 +11,16 @@
     </tr>
   </tbody>
 </table>
+
+-->
+
+<div align="center"><nobr>
+
+[← Previous module](/M1/main.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS Summary](/SUMMARY.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[Next module →](/M3/main.md)
+
+</nobr></div>
 
 ---
 

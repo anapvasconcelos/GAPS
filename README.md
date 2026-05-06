@@ -1,3 +1,14 @@
+
+<div align="center"><nobr>
+
+README &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS Summary](/SUMMARY.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[Glossary](/glossary.md)
+
+</nobr></div>
+
+---
+
 # GAPS - Guidance for Artifact Preparing and Sharing
 Version: 1.0
 
