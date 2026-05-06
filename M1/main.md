@@ -12,7 +12,7 @@
 
 ---
 
-![GAPS logo](..\GAPS-logo.png)
+![GAPS logo](../GAPS-logo.png)
 
 # Module 1 - Foundations of research artifacts
 
@@ -674,20 +674,21 @@ Contents in this module were adapted and synthesized from these sources.
   - [Learning objectives](#learning-objectives)
   - [Open Science](#open-science)
     - [What is Open Science?](#what-is-open-science)
-    - [Core Open Science practices](#core-open-science-practices)
+    - [Open Science practices](#open-science-practices)
+      - [Open Access](#open-access)
       - [Open Data](#open-data)
       - [Open Resources](#open-resources)
       - [Open Source (Open Research Software)](#open-source-open-research-software)
       - [Open Peer Review](#open-peer-review)
       - [Open Methods](#open-methods)
       - [FAIR Principles](#fair-principles)
+        - [FAIR-aligned research artifacts](#fair-aligned-research-artifacts)
     - [Practice Open Science sounds like extra work, right?](#practice-open-science-sounds-like-extra-work-right)
   - [Research Artifacts](#research-artifacts)
   - [Types of research artifacts](#types-of-research-artifacts)
   - [Key characteristics of good research artifacts](#key-characteristics-of-good-research-artifacts)
-  - [Common pitfalls and good practices in research artifacts](#common-pitfalls-and-good-practices-in-research-artifacts)
   - [Artifact life cycle](#artifact-life-cycle)
-  - [Practical example](#practical-example)
+  - [Key takeaways](#key-takeaways)
   - [References](#references)
   - [Table of Contents](#table-of-contents)
 

@@ -1,3 +1,5 @@
+![GAPS logo](../GAPS-logo.png)
+
 # Choosing appropriate licenses
 <!-- https://arxiv.org/pdf/1904.06499 p.18 -->
 

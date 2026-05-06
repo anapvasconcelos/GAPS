@@ -12,6 +12,8 @@
 
 ---
 
+![GAPS logo](../GAPS-logo.png)
+
 # Checklists
 
 

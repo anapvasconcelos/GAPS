@@ -12,6 +12,8 @@
 
 ---
 
+![GAPS logo](GAPS-logo.png)
+
 # GAPS References
 
 This material was developed based on the following sources. In some cases, content was adapted or reused with modifications.

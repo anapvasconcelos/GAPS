@@ -15,7 +15,7 @@
 
 ---
 
-![GAPS logo](..\GAPS-logo.png)
+![GAPS logo](../GAPS-logo.png)
 
 
 # Module 8 - Sustainability and long-term maintenance

@@ -12,7 +12,7 @@
 
 ---
 
-![GAPS logo](..\GAPS-logo.png)
+![GAPS logo](../GAPS-logo.png)
 
 
 # Module 3 - Preparing research artifacts
