@@ -133,3 +133,8 @@ The following illustrations was generated using generative AI.
 
 #### ChatGPT
   - The illustration of **FAIR Principles** was produced using the ChatGPT generative AI (OpenAI), based on concepts and terminology from [Wilkinson et al. (2018)](#wilkinson-et-al-2016).
+
+
+---
+
+- Visual identity designed with Quadrillion font by [Typodermic Fonts](https://typodermicfonts.com/quadrillion/).

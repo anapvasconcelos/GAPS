@@ -13,7 +13,9 @@
 ---
 
 
-# GAPS - Guidance for Artifact Preparing and Sharing
+<!--# GAPS - Guidance for Artifact Preparing and Sharing-->
+
+![GAPS logo](GAPS-logo.png)
 
 ## Summary
 

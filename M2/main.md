@@ -12,6 +12,8 @@
 
 ---
 
+![GAPS logo](..\GAPS-logo.png)
+
 # Module 2 - Artifact-first mindset
 
 ## Learning objectives 

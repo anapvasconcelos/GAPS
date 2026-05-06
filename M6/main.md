@@ -12,6 +12,9 @@
 
 ---
 
+![GAPS logo](..\GAPS-logo.png)
+
+
 # Module 6 - Packaging and sharing artifacts
 
 ## Where to publish artifacts

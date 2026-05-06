@@ -12,6 +12,9 @@
 
 ---
 
+![GAPS logo](..\GAPS-logo.png)
+
+
 # Module 3 - Preparing research artifacts
 
 <!-- MendezEtAl2020 -->

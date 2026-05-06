@@ -12,6 +12,9 @@
 
 ---
 
+![GAPS logo](..\GAPS-logo.png)
+
+
 # Supplementary materials
 
 

@@ -15,6 +15,8 @@
 
 ---
 
+![GAPS logo](..\GAPS-logo.png)
+
 
 # Module 7 - Artifact submission and review context
 

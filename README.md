@@ -1,6 +1,11 @@
 # GAPS - Guidance for Artifact Preparing and Sharing
-
 Version: 1.0
+
+![GAPS logo](GAPS-logo.png)
+
+
+
+
 
 ## Purpose of the GAPS
 

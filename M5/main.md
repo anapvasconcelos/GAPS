@@ -15,6 +15,9 @@
 
 ---
 
+![GAPS logo](..\GAPS-logo.png)
+
+
 # Module 5 - Reproducibility and transparency
 
 

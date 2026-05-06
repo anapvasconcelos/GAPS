@@ -12,6 +12,9 @@
 
 ---
 
+![GAPS logo](..\GAPS-logo.png)
+
+
 # Module 4 - Documentation and usability
 
 Documentation. Good documentation is a key factor in software adoption, but in practice, people won’t write comprehensive documentation until they have collaborators who will use it. They will, however, quickly see the point of a brief explanatory comment at the start of each script, so we have recommended that as a first step. <!-- WilsonEtAl2017 -->

@@ -12,6 +12,8 @@
 
 ---
 
+![GAPS logo](..\GAPS-logo.png)
+
 # Module 1 - Foundations of research artifacts
 
 
@@ -27,7 +29,9 @@ By the end of this module, participants will be able to:
 
 ---
 
-Before discussing research artifacts, it is important to first understand the broader context in which they emerge. Artifacts are not an isolated concept; they emerge as a response to limitations in how research has traditionally been conducted and communicated. In this sense, Open Science provides the conceptual foundation that motivates the creation, sharing, and reuse of research artifacts. By understanding Open Science principles, it becomes clearer why artifacts play a central role in improving transparency, reproducibility, and reuse in empirical research.
+Before discussing research artifacts, it is important to first understand the broader context in which they emerge. Artifacts are not an isolated concept; they emerged as a way to complement research communication and address limitations of traditional paper-based scientific publishing.
+
+In this sense, Open Science provides the conceptual foundation that motivates the creation, sharing, and reuse of research artifacts. By understanding Open Science principles, it becomes clearer why artifacts play a central role in improving transparency, reproducibility, and reuse in empirical research.
 
 ## Open Science
 <!-- ZeeReich2018 -- > <!-- MendezEtAl2020 -->
@@ -51,11 +55,18 @@ It is important to note that openness in science is not a binary toggle, but rat
 Scientific progress depends on research that is reliable, verifiable, and reusable. In this sense, transparency, credibility, and reproducibility are essential foundations for building robust knowledge, particularly in an evolving field such as Software Engineering. Open Science provides the foundation to support these goals.
 
 
-### Core Open Science practices
+### Open Science practices
+
+Open Science encompasses a broad and evolving ecosystem of practices, principles, infrastructures, and policies aimed at improving transparency, accessibility, collaboration, and reuse in research.
+
+There are a broader landscape and highlights that Open Science goes far beyond the practices discussed in this module. Since the Open Science ecosystem is extensive, this module focuses on a subset of practices that are more directly connected to research artifacts and reproducibility in empirical Software Engineering research.
+
+This focus does not imply that other Open Science practices are less important. Rather, it reflects the scope and objectives of this material, which emphasize the role of artifacts in supporting transparency, reproducibility, and reuse.
+
 
 ![Open Science elements](/M1/images/FIG-open-science-elements.png) <!-- GallagherEtAl2020 -->
 
-Open Science is commonly operationalized through a set of complementary practices:
+
 
 #### Open Access
 
@@ -229,9 +240,78 @@ Open Science is commonly operationalized through a set of complementary practice
 **Relation to research artifacts**:
 - FAIR principles define the quality attributes of good artifacts, guiding how all types of artifacts should be structured, documented, and shared.
 
+##### FAIR-aligned research artifacts
 
-<!--
-![FAIR Principles](/M1/images/FIG-FAIR-principles.png) <!-- WilkonsonEtAl2018 -- > <!-- ChatGPT -->
+> **Findable**
+
+**F1. Assigned a globally unique and persistent identifier (PID)**
+
+- Artifacts should have stable and unique identifiers (e.g., DOI, Handle) that allow them to be reliably referenced, cited, and located over time.
+
+**F2. Described with rich metadata**
+
+- Artifacts should include detailed metadata describing their content, purpose, authorship, structure, context, and usage, making them easier to discover and understand.
+
+**F3. Metadata include the PID of the described object**
+
+- Metadata should explicitly reference the identifier of the artifact they describe, ensuring a clear and unambiguous connection between the artifact and its metadata.
+
+**F4. Registered or indexed in searchable resources**
+
+- Artifacts and their metadata should be deposited in repositories or platforms where they can be searched, discovered, and accessed by others.
+
+> **Accessible**
+
+**A1. Retrievable by their PID using a standardized communication protocol**
+
+- Artifacts should be accessible through stable and standardized mechanisms (e.g., HTTPS, APIs) using their identifiers.
+
+**A1.1. Accessible through open, free, and universally implementable protocols**
+
+- Access protocols should rely on open and widely supported technologies that do not require proprietary tools or restricted implementations.
+
+**A1.2. Support authentication and authorization procedures when necessary**
+
+- When artifacts cannot be fully public (e.g., sensitive or restricted data), access mechanisms should still support controlled and well-defined authorization procedures.
+
+**A2. Metadata remain accessible even if the object is no longer available**
+
+- Even if the artifact itself becomes unavailable, its metadata should remain accessible so others can still understand its existence, context, and characteristics.
+
+> **Interoperable**
+
+**I1. Use formal, accessible, shared, and broadly applicable knowledge representation languages**
+
+- Artifacts should use standardized and broadly supported formats, languages, and representations that facilitate interpretation and integration across tools and systems.
+
+**I2. Use vocabularies that follow FAIR principles**
+
+- Artifacts and metadata should adopt shared vocabularies, taxonomies, or terminologies that are themselves well-documented and reusable.
+
+**I3. Include qualified references to related objects**
+
+- Artifacts should explicitly indicate how they relate to other datasets, scripts, papers, software components, or research outputs, making dependencies and relationships clear.
+
+> **Reusable**
+
+**R1. Richly described with accurate and relevant attributes**
+
+- Artifacts should provide sufficient detail about their content, context, assumptions, limitations, and intended use to support correct interpretation and reuse.
+
+**R1.1. Released with a clear and accessible usage license**
+
+- Artifacts should include explicit licensing information specifying how others may use, modify, and redistribute them.
+
+**R1.2. Associated with detailed provenance**
+
+- Artifacts should document their origin, history, processing steps, versions, and responsible contributors, enabling traceability and trust.
+
+**R1.3. Meet domain-relevant community standards**
+
+- Artifacts should follow conventions, formats, and best practices commonly adopted within the relevant research community or domain.
+
+
+
 
 ---
 
@@ -241,19 +321,19 @@ Open Science is commonly operationalized through a set of complementary practice
 Practising Open Science may require additional effort, but it brings important benefits.
 
 > **For research:**
-- Improves transparency and reproducibility.
-- Facilitates validation and reuse of results.
+- Supports transparency, validation, and reproducibility.
+- Facilitates the reuse of results.
 - Accelerates knowledge generation.
-- Helps to ensure that all researchers have a level playing field, regardless of their location or economic situation.
 
 > **For society:**
-- Increases the return on publicly funded research.
 - Expands access to scientific knowledge.
+- Reduces barriers to accessing scientific knowledge, regardless of geographic or economic constraints.
+- Increases the return on publicly funded research.
 
 > **For researchers:**
 
 - Increases visibility and potential impact of their work.
-- Creates additional citable outputs (e.g., datasets, code).
+- Creates additional citable outputs (e.g., datasets, code), encouraging reuse.
 - Fosters new collaborations and research opportunities.
 
 ---
@@ -359,7 +439,7 @@ The table below shows examples of the types of research artifacts of each catego
 | **4. Implementation artifacts** | - Analysis or visualization scripts<br> - Programs implementing algorithms<br> - Executable models<br> - Pipelines and workflows |
 | **5. Documentation and communication artifacts** | - README files<br> - Execution guides<br> - Tutorials and educational materials<br> - Commentary on scripts or analysis<br> - Informative visualizations <br> - Figures and tables used in the paper |
 | **6. Reproducibility and infrastructure artifacts** | - Configuration and dependency files<br> - Build scripts<br> - Containerization setups (e.g., Docker)<br> - Virtual machines or pre-configured environments<br> - Delivery tools for automated execution |
-| **7. Research outputs as artifacts** | - The paper manuscript (which describes the study and references the associated artifacts) <br> - Supplementary materials |
+| **7. Research outputs as artifacts** | - The paper manuscript (which describes the study and references the associated artifacts) <br> - Supplementary materials <br> - Figures and Tables |
 
 
 
@@ -367,75 +447,72 @@ The table below shows examples of the types of research artifacts of each catego
 
 Instead of thinking in terms of a fixed checklist, it is more useful to understand good artifacts as those that enable understanding, execution, and reuse.
 
-These qualities can be grouped into three complementary dimensions:
+These qualities can be grouped into three complementary dimensions, which often overlap in practice.
 
 
 > **Usability** (Can others understand and use it?)
 
+Good artifacts should be understandable and usable without requiring extensive interpretation from the paper authors.
+
 Good artifacts should be:
 
-- **Well-documented**: clearly explain structure, purpose, and usage.
-- **Self-contained**: include all necessary components and dependencies or clearly specify them.
-- **Consistent**: aligned with the paper and its claims.
+- **Well-documented**: Artifact documentation should clearly describe its purpose, structure, organization, dependencies, execution process, and expected outputs.
 
-**Why it matters**: Without usability, even available artifacts are rarely reused.
+  - In practice: Typical documentation includes README files, execution instructions, metadata, and comments within scripts.
+
+- **Self-contained**: Artifacts should include all necessary components required for understanding and execution, or clearly specify external dependencies and how to obtain them.
+
+  - In practice: Artifacts should include required datasets, scripts, configuration files, dependency versions, environment specifications.
+
+- **Consistent**: Artifacts should remain aligned with the paper and its claims. Inconsistencies between artifacts and the published paper reduce trust and make validation difficult.
+  
+  - In practice: Align the artifacts with the claims presented in the paper, reported results, execution procedures, figures, and tables.
+
+**Why it matters**: Without usability, even publicly available artifacts may remain impractical to reuse.
+
 
 
 > **Reproducibility** (Can others run and verify it?)
 
+Good artifacts should allow others to independently execute the research workflow and verify how results were produced. This includes both computational execution and transparency of analytical procedures.
+
 Good artifacts should be:
 
-- **Executable**: runnable with reasonable effort.
-- **Automated**: support end-to-end execution with minimal manual intervention.
-- **Verifiable**: allow independent validation of results.
+- **Executable**: Artifacts should run with reasonable effort using the provided instructions and environment specifications.
 
-**Why it matters**: Reproducibility is not just about sharing code, it is about enabling execution.
+  - In practice: Researchers should avoid requiring undocumented manual setup, hidden dependencies, inaccessible tools, excessive configuration effort.
+
+- **Automated**: Artifacts should minimize manual intervention whenever possible. Automation reduces human error and improves consistency.
+
+  - In practice: Examples include automated pipelines, scripts for preprocessing and analysis, automatic regeneration of figures and tables, reproducible workflows.
+
+- **Verifiable**: Artifacts should allow others to independently inspect and validate the research process and its outputs. Verifiable helps ensure traceability between raw data, processed data, and reported findings.
+
+  - In practice: Provide access to intermediate outputs, analytical procedures, and generated results for independent validation.
+
+**Why it matters**: Reproducibility is not only about making materials available, but about enabling others to actually re-execute and verify the research process.
 
 
 
 > **Reusability** (Can others build upon it?)
 
+Good artifacts should support future reuse, extension, and adaptation by other researchers.
+
 Good artifacts should be:
 
-- **Legally compliant**: include clear licenses and respect ethical constraints.
-- **Preserved**: stored in reliable repositories with long-term access.
+- **Legally compliant**: Artifacts should include clear licensing and respect ethical, legal, and privacy constraints. Without clear usage conditions, reuse becomes legally uncertain.
 
-- **FAIR-aligned**: follow principles such as *Findable*, *Accessible*, *Interoperable*, and *Reusable*.
-  
-**Why it matters**: Reusability is what turns artifacts into long-term scientific contributions.
+  - In practice: This includes software licenses, data usage permissions, consent restrictions, and third-party dependency compliance.
 
+- **Preserved**: Artifacts should be stored in reliable repositories with long-term access. Temporary or personal hosting solutions may become unavailable over time.
 
+  - In practice: Store artifacts in repositories that support long-term preservation, persistent identifiers, stable access, versioning.
 
-## Common pitfalls and good practices in research artifacts
+- **FAIR-aligned**: Artifacts should follow FAIR principles, so they can be found, accessed, integrated, and reused. FAIR principles improve both human and machine reuse.
 
-Even when artifacts are shared, they often fail in practice. Typical issues include:
+   - In practice: Examples include rich metadata, standardized formats, searchable repositories, explicit relationships between artifacts.
 
-**Poor practices**
-
-- “Code available upon request”.
-- Missing preprocessing steps.
-- Hard-coded paths or parameters.
-- Undocumented setup or execution.
-- Broken or temporary links.
-- Results that cannot be reproduced.
-
-These issues are not rare, they are among the most common reasons why shared artifacts fail in practice.
-
-**Good practices**
-
-Well-prepared artifacts typically:
-
-- Provide clear documentation (README, instructions).
-- Include all dependencies and versions.
-- Allow execution from scratch.
-- Enable regeneration of results (tables/figures).
-- Maintain consistency between artifact outputs and the paper.
-- Include quick-start examples or test cases.
-- Explicitly state limitations or non-shared components.
-
-A good artifact should be understandable and usable on its own, without requiring deep interpretation of the paper.
-
-In practice, achieving these qualities depends on how artifacts are created, documented, and shared over time. This process can be understood through the artifact life cycle.
+**Why it matters**: Reusability transforms artifacts from supplementary material into durable scientific contributions.
 
 
 
@@ -445,6 +522,8 @@ In practice, achieving these qualities depends on how artifacts are created, doc
 Research artifacts should not be treated as a final step of the research process. Instead, they should evolve alongside the study, from its early stages to publication and beyond.
 
 Thinking in terms of a life cycle helps ensure that artifacts are not only created, but also properly prepared for sharing, reuse, and long-term preservation.
+
+![Artifact life cycle](/M1/images/FIG-artifact-life-cycle.png) <!-- Montgomery2024 --> <!-- Gemini2026 -->
 
 A practical way to structure this process is through the following stages:
 
@@ -524,12 +603,18 @@ A practical way to structure this process is through the following stages:
 Although presented as stages, this process is iterative. Artifacts are refined over time, especially after feedback, reuse, or replication attempts.
 
 
-![Artifact life cycle](/M1/images/FIG-artifact-life-cycle.png) <!-- Montgomery2024 --> <!-- Gemini2026 -->
+---
+
+## Key takeaways
+
+- Open Science needs artifacts.
+- Artifacts support transparency and reproducibility.
+- Good artifacts are usable, reproducible, reusable.
+- Artifacts should evolve throughout the project.
+- Good artifacts should work independently of the paper.
 
 
-
-
-
+<!--
 ## Practical example
 
 This example is based on a real research artifact developed in a study analyzing the evolution of artifact calling (i.e., how venues encourage or require artifact sharing) and artifact sharing practices in papers published at ICSE and FSE over a decade.
@@ -566,7 +651,7 @@ Artifacts in this project include:
 (e.g., README files describing the dataset, scripts, and step-by-step reproduction instructions)
 
 This example illustrates how the concepts presented in this module come together in practice and how different types of artifacts (data, code, documentation, and infrastructure) are combined to support transparency, reproducibility, and reuse in empirical research.
-
+-->
 ---
 
 ## References
@@ -579,12 +664,23 @@ Contents in this module were adapted and synthesized from these sources.
 
 ---
 
+[Module 1 presentation](https://docs.google.com/presentation/d/1UEMahinOvRuY6Fd-QV9TKlpxhPGo29Hm7QrBSv7etaQ/edit?usp=sharing). <!--Depois vou colocar o slide em ppt na pasta do módulo e mudar esse link aqui para o arquivo estático-->
+
+---
+
 ## Table of Contents
 
 - [Module 1 - Foundations of research artifacts](#module-1---foundations-of-research-artifacts)
   - [Learning objectives](#learning-objectives)
   - [Open Science](#open-science)
+    - [What is Open Science?](#what-is-open-science)
     - [Core Open Science practices](#core-open-science-practices)
+      - [Open Data](#open-data)
+      - [Open Resources](#open-resources)
+      - [Open Source (Open Research Software)](#open-source-open-research-software)
+      - [Open Peer Review](#open-peer-review)
+      - [Open Methods](#open-methods)
+      - [FAIR Principles](#fair-principles)
     - [Practice Open Science sounds like extra work, right?](#practice-open-science-sounds-like-extra-work-right)
   - [Research Artifacts](#research-artifacts)
   - [Types of research artifacts](#types-of-research-artifacts)
