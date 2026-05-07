@@ -463,10 +463,8 @@ The following checklist operationalizes the artifact-first mindset. It provides 
 
 ## Sources
 
-This material was developed based on the following sources. In some cases, content was adapted or reused with modifications.
+This module builds on a shared set of references used throughout the GAPS material, including guidelines, standards, and research studies on Open Science and research artifacts.
 
-- Siddiq, Islam-Gomes, Sekerak, Santos. (2025). Large Language Models for Software Engineering: A Reproducibility Crisis. arXiv preprint. DOI https://doi.org/10.48550/arXiv.2512.00651 <!-- SiddiqEtAl2025 -->
+To avoid redundancy and ensure consistency across modules, all references are centralized in the following document: [GAPS References](/references.md).
 
-- Open Source Guides. Starting an Open Source Project. Available at: https://opensource.guide/starting-a-project/ <!-- OpenSourceGuides -->
-
-- Wilkinson, Dumontier, Aalbersberg, et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18 <!-- WilkonsonEtAl2018 -->
+Contents in this module were adapted and synthesized from these sources.

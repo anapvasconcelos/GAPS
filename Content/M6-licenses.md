@@ -91,12 +91,12 @@ The elements of Creative Commons licenses define how the artifact can be used.
 
 | CC element | Meaning |
 | :--------: | ------- |
-| ![CC](/M6/images/FIG-CC.png) | Indicates that the work is licensed under a Creative Commons license. |
-| ![BY](/M6/images/FIG-BY.png) | **Attribution (BY):** Requires giving appropriate credit to the creator, providing a link to the license, and indicating if changes were made. |
-| ![SA](/M6/images/FIG-SA.png) | **ShareAlike (SA):** Requires that adaptations be distributed under the same or a compatible license. |
-| ![ND](/M6/images/FIG-ND.png) | **NoDerivatives (ND):** Does not allow distribution of modified versions of the work. |
-| ![NC](/M6/images/FIG-NC.png) | **NonCommercial (NC):** Restricts use of the work to noncommercial purposes only. |
-| ![ZERO](/M6/images/FIG-ZERO.png) | **Public Domain (CC0):** Waives copyright and related rights, allowing unrestricted use, modification, and distribution, including for commercial purposes, without requiring attribution.|
+| ![CC](images/FIG-CC.png) | Indicates that the work is licensed under a Creative Commons license. |
+| ![BY](images/FIG-BY.png) | **Attribution (BY):** Requires giving appropriate credit to the creator, providing a link to the license, and indicating if changes were made. |
+| ![SA](images/FIG-SA.png) | **ShareAlike (SA):** Requires that adaptations be distributed under the same or a compatible license. |
+| ![ND](images/FIG-ND.png) | **NoDerivatives (ND):** Does not allow distribution of modified versions of the work. |
+| ![NC](images/FIG-NC.png) | **NonCommercial (NC):** Restricts use of the work to noncommercial purposes only. |
+| ![ZERO](images/FIG-ZERO.png) | **Public Domain (CC0):** Waives copyright and related rights, allowing unrestricted use, modification, and distribution, including for commercial purposes, without requiring attribution.|
 
 
 Instead of analyzing licenses through a single "openness level", it is often more useful to compare them across key dimensions such as attribution, commercial use, and permission to modify the work.
@@ -104,7 +104,7 @@ Instead of analyzing licenses through a single "openness level", it is often mor
 The table below summarizes the main differences between Creative Commons licenses and CC0. The “Most suitable for Open Science” column reflects how well each license supports reuse, modification, and integration of research artifacts.
 
 <!--
-| Feature / <br> License | [**CC0**](https://creativecommons.org/publicdomain/zero/1.0/) <br> ![](/M6/images/FIG-CC-ZERO.svg) | [**CC BY**](https://creativecommons.org/licenses/by/4.0/) <br> ![](/M6/images/FIG-CC-BY.svg) | [**CC BY-SA**](https://creativecommons.org/licenses/by-sa/4.0/) <br> ![](/M6/images/FIG-CC-BY-SA.svg) | [**CC BY-ND**](https://creativecommons.org/licenses/by-nd/4.0/) <br> ![](/M6/images/FIG-CC-BY-ND.svg) | [**CC BY-NC**](https://creativecommons.org/licenses/by-nc/4.0/) <br> ![](/M6/images/FIG-CC-BY-NC.svg) | [**CC BY-NC-SA**](https://creativecommons.org/licenses/by-nc-sa/4.0/) <br> ![](/M6/images/FIG-CC-BY-NC-SA.svg) | [**CC BY-NC-ND**](https://creativecommons.org/licenses/by-nc-nd/4.0/) <br> ![](/M6/images/FIG-CC-BY-NC-ND.svg) |
+| Feature / <br> License | [**CC0**](https://creativecommons.org/publicdomain/zero/1.0/) <br> ![](images/FIG-CC-ZERO.svg) | [**CC BY**](https://creativecommons.org/licenses/by/4.0/) <br> ![](images/FIG-CC-BY.svg) | [**CC BY-SA**](https://creativecommons.org/licenses/by-sa/4.0/) <br> ![](images/FIG-CC-BY-SA.svg) | [**CC BY-ND**](https://creativecommons.org/licenses/by-nd/4.0/) <br> ![](images/FIG-CC-BY-ND.svg) | [**CC BY-NC**](https://creativecommons.org/licenses/by-nc/4.0/) <br> ![](images/FIG-CC-BY-NC.svg) | [**CC BY-NC-SA**](https://creativecommons.org/licenses/by-nc-sa/4.0/) <br> ![](images/FIG-CC-BY-NC-SA.svg) | [**CC BY-NC-ND**](https://creativecommons.org/licenses/by-nc-nd/4.0/) <br> ![](images/FIG-CC-BY-NC-ND.svg) |
 |:-----------------|:---:|:-----:|:--------:|:--------:|:--------:|:-----------:|:-----------:|
 | **Attribution required** | ❌ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | **Commercial use allowed** | ✅ | ✅ | ✅ | ✅ | ❌ | ❌ | ❌ |
@@ -117,13 +117,13 @@ Table Legend: <br> ✅ Yes;  ❌ No.
 
 | License | Attribution required | Commercial use allowed | Modifications allowed | ShareAlike required | Most suitable for Open Science |
 |:--------:|:--------------------:|:----------------------:|:---------------------:|:-------------------:|:------------------------------:|
-| [**CC0**](https://creativecommons.org/publicdomain/zero/1.0/) <br> ![](/M6/images/FIG-CC-0.svg) | ❌ | ✅ | ✅ | ❌ | ⭐⭐⭐⭐ |
-| [**CC BY**](https://creativecommons.org/licenses/by/4.0/) <br> ![](/M6/images/FIG-CC-BY.svg) | ✅ | ✅ | ✅ | ❌ | ⭐⭐⭐⭐ |
-| [**CC BY-SA**](https://creativecommons.org/licenses/by-sa/4.0/) <br> ![](/M6/images/FIG-CC-BY-SA.svg) | ✅ | ✅ | ✅ | ✅ | ⭐⭐⭐ |
-| [**CC BY-ND**](https://creativecommons.org/licenses/by-nd/4.0/) <br> ![](/M6/images/FIG-CC-BY-ND.svg) | ✅ | ✅ | ❌ | ❌ | ⭐ |
-| [**CC BY-NC**](https://creativecommons.org/licenses/by-nc/4.0/) <br> ![](/M6/images/FIG-CC-BY-NC.svg) | ✅ | ❌ | ✅ | ❌ | ⭐ |
-| [**CC BY-NC-SA**](https://creativecommons.org/licenses/by-nc-sa/4.0/) <br> ![](/M6/images/FIG-CC-BY-NC-SA.svg) | ✅ | ❌ | ✅ | ✅ | ⭐ |
-| [**CC BY-NC-ND**](https://creativecommons.org/licenses/by-nc-nd/4.0/) <br> ![](/M6/images/FIG-CC-BY-NC-ND.svg) | ✅ | ❌ | ❌ | ❌ | 🚫 |
+| [**CC0**](https://creativecommons.org/publicdomain/zero/1.0/) <br> ![](images/FIG-CC-0.svg) | ❌ | ✅ | ✅ | ❌ | ⭐⭐⭐⭐ |
+| [**CC BY**](https://creativecommons.org/licenses/by/4.0/) <br> ![](images/FIG-CC-BY.svg) | ✅ | ✅ | ✅ | ❌ | ⭐⭐⭐⭐ |
+| [**CC BY-SA**](https://creativecommons.org/licenses/by-sa/4.0/) <br> ![](images/FIG-CC-BY-SA.svg) | ✅ | ✅ | ✅ | ✅ | ⭐⭐⭐ |
+| [**CC BY-ND**](https://creativecommons.org/licenses/by-nd/4.0/) <br> ![](images/FIG-CC-BY-ND.svg) | ✅ | ✅ | ❌ | ❌ | ⭐ |
+| [**CC BY-NC**](https://creativecommons.org/licenses/by-nc/4.0/) <br> ![](images/FIG-CC-BY-NC.svg) | ✅ | ❌ | ✅ | ❌ | ⭐ |
+| [**CC BY-NC-SA**](https://creativecommons.org/licenses/by-nc-sa/4.0/) <br> ![](images/FIG-CC-BY-NC-SA.svg) | ✅ | ❌ | ✅ | ✅ | ⭐ |
+| [**CC BY-NC-ND**](https://creativecommons.org/licenses/by-nc-nd/4.0/) <br> ![](images/FIG-CC-BY-NC-ND.svg) | ✅ | ❌ | ❌ | ❌ | 🚫 |
 
 **Table Legend**: ✅ Yes; ❌ No.
 
@@ -134,7 +134,7 @@ As shown above, Creative Commons provides a range of licenses that grant differe
 To better illustrate how these permissions vary, the image below presents the Creative Commons License Spectrum, highlighting the progression from more open to more restrictive licenses.
 
 
-![CC license spectrum](/M6/images/FIG-CC-license-spectrum.png) <!-- https://creativecommons.org/public-domain/freeworks/ -->
+![CC license spectrum](images/FIG-CC-license-spectrum.png) <!-- https://creativecommons.org/public-domain/freeworks/ -->
 
 
 The comparison above highlights the key trade-offs between licenses. The next step is to translate these differences into practical decisions when selecting a license for research artifacts.

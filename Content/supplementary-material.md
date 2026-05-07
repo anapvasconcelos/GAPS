@@ -3,7 +3,7 @@
 <table style="width: 100%; border-collapse: collapse; margin: auto;">
   <tbody>
     <tr>
-      <td style="border: 0px"> <a href="/M8/main.md"><nobr><- Previous module</nobr></a> </td>
+      <td style="border: 0px"> <a href="M8/main.md"><nobr><- Previous module</nobr></a> </td>
       <td style="width: 50%; border: 0px"> </td>
       <td style="border: 0px"> <a href="/SUMMARY.md"><nobr>GAPS Summary</nobr></a> </td>
       <td style="width: 50%; border: 0px"></td>

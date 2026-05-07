@@ -32,141 +32,183 @@ GAPS Summary &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
 
 ## Summary
 
-> **[Module 1 - Foundations of research artifacts](M1/main.md)**
+> **[Module 1 - Foundations of research artifacts](Content/M1.md)**
 
-- [Learning objectives](M1/main.md#learning-objectives)
-- [Open Science](M1/main.md#open-science)
-- [Research Artifacts](M1/main.md#research-artifacts)
-- [Types of research artifacts](M1/main.md#types-of-research-artifacts)
-- [Key characteristics of good research artifacts](M1/main.md#key-characteristics-of-good-research-artifacts)
-- [Artifact life cycle](M1/main.md#artifact-life-cycle)
-- [Key takeaways](M1/main.md#key-takeaways)
-- [Supplementary material](M1/main.md#supplementary-material)
-
-
-> **[Module 2 - Artifact-first mindset](M2/main.md)**
-
-  - [Learning objectives](M2/main.md#learning-objectives)
-  - [The artifact-first mindset](M2/main.md#the-artifact-first-mindset)
-  - [Artifact-first vs. artifact-last](M2/main.md#artifact-first-vs-artifact-last)
-  - [Why the artifact-first mindset matters](M2/main.md#why-the-artifact-first-mindset-matters)
-  - [Common pitfalls in artifact-first practices](M2/main.md#common-pitfalls-in-artifact-first-practices)
-  - [What artifacts should be collected](M2/main.md#what-artifacts-should-be-collected)
-  - [Minimum quality expectations](M2/main.md#minimum-quality-expectations)
-  - [Design principles for reproducibility](M2/main.md#design-principles-for-reproducibility)
-  - [Key takeaway](M2/main.md#key-takeaway)
-  - [References](M2/main.md#references)
-  - [Table of contents](M2/main.md#table-of-contents)
+- [Learning objectives](Content/M1.md#learning-objectives)
+- [Open Science](Content/M1.md#open-science)
+- [Research Artifacts](Content/M1.md#research-artifacts)
+- [Types of research artifacts](Content/M1.md#types-of-research-artifacts)
+- [Key characteristics of good research artifacts](Content/M1.md#key-characteristics-of-good-research-artifacts)
+- [Artifact life cycle](Content/M1.md#artifact-life-cycle)
+- [Key takeaways](Content/M1.md#key-takeaways)
+- [Supplementary material](Content/M1.md#supplementary-material)
 
 
+> **[Module 2 - Artifact-first mindset](Content/M2.md)**
+
+- [Learning objectives](#learning-objectives)
+- [Why the artifact-first mindset matters](#why-the-artifact-first-mindset-matters)
+  - [Why artifact-last fails](#why-artifact-last-fails)
+  - [Benefits of artifact-first workflows](#benefits-of-artifact-first-workflows)
+- [What is the artifact-first mindset](#what-is-the-artifact-first-mindset)
+  - [Artifact-first vs. artifact-last](#artifact-first-vs-artifact-last)
+  - [Example: From artifact-last to artifact-first](#example-from-artifact-last-to-artifact-first)
+  - [Treat artifacts as first-class research outputs](#treat-artifacts-as-first-class-research-outputs)
+- [Designing studies for reproducibility](#designing-studies-for-reproducibility)
+  - [Plan artifacts during study design](#plan-artifacts-during-study-design)
+  - [Align data structure with the analysis plan](#align-data-structure-with-the-analysis-plan)
+  - [Thinking ahead: designing for future reuse](#thinking-ahead-designing-for-future-reuse)
+    - [Will someone understand this in 2 years?](#will-someone-understand-this-in-2-years)
+    - [Can a collaborator rerun this?](#can-a-collaborator-rerun-this)
+    - [What happens if I leave the project?](#what-happens-if-i-leave-the-project)
+    - [Can reviewers inspect the workflow?](#can-reviewers-inspect-the-workflow)
+- [Planning artifacts early](#planning-artifacts-early)
+  - [What artifacts should be collected](#what-artifacts-should-be-collected)
+    - [Open Data](#open-data)
+    - [Open Material and Open Source](#open-material-and-open-source)
+    - [Open Access](#open-access)
+- [Structuring repositories and workflows](#structuring-repositories-and-workflows)
+  - [Structure the project repository as the artifact](#structure-the-project-repository-as-the-artifact)
+  - [Minimum quality expectations](#minimum-quality-expectations)
+    - [Suggested directory structure](#suggested-directory-structure)
+    - [Separate raw and processed data](#separate-raw-and-processed-data)
+    - [Naming conventions](#naming-conventions)
+    - [README hierarchy](#readme-hierarchy)
+    - [Outputs](#outputs)
+    - [Reproducible environments](#reproducible-environments)
+  - [Maintain artifacts continuously](#maintain-artifacts-continuously)
+- [Automation and version control](#automation-and-version-control)
+  - [Manual vs scripted workflows](#manual-vs-scripted-workflows)
+  - [Why version control matters](#why-version-control-matters)
+  - [Design principles for reproducibility](#design-principles-for-reproducibility)
+    - [Automating reproducible workflows](#automating-reproducible-workflows)
+      - [Pipelines](#pipelines)
+      - [Scripts](#scripts)
+      - [Makefiles](#makefiles)
+      - [Notebooks](#notebooks)
+      - [CI](#ci)
+      - [Automatic figure generation](#automatic-figure-generation)
+- [Planning data sharing and restrictions](#planning-data-sharing-and-restrictions)
+  - [Plan data sharing feasibility upfront](#plan-data-sharing-feasibility-upfront)
+  - [File formats and long-term accessibility](#file-formats-and-long-term-accessibility)
+- [Practical checklist: what should usually be included?](#practical-checklist-what-should-usually-be-included)
+- [Common pitfalls](#common-pitfalls)
+- [Key takeaways](#key-takeaways)
+- [References](#references)
+- [Supplementary material](#supplementary-material)
+  - [Table of contents](#table-of-contents)
 
 
-> **[Module 3 - Preparing research artifacts](M3/main.md)**
 
-- [Module 3 - Preparing research artifacts](#module-3---preparing-research-artifacts)
-  - [Data curation](#data-curation)
-    - [Qualitative data](#qualitative-data)
-  - [Sensitive vs shareable data](#sensitive-vs-shareable-data)
-  - [Anonymization strategies](#anonymization-strategies)
+
+> **[Module 3 - Preparing research artifacts](Content/M3.md)**
+
+- [Learning objectives](#learning-objectives)
+- [Data curation](#data-curation)
+  - [Qualitative data](#qualitative-data)
+- [Sensitive vs shareable data](#sensitive-vs-shareable-data)
+- [Anonymization strategies](#anonymization-strategies)
+  - [Sharing quantitative data](#sharing-quantitative-data)
   - [Sharing qualitative data](#sharing-qualitative-data)
+  - [Examples of anomymization methods](#examples-of-anomymization-methods)
+    - [Example: Anonymizing an interview transcript](#example-anonymizing-an-interview-transcript)
+      - [Study background](#study-background)
+      - [What was anonymized?](#what-was-anonymized)
+- [Archival requirements for Open Science](#archival-requirements-for-open-science)
+- [References](#references)
+- [Table of Contents](#table-of-contents)
+
+
+
+> **[Module 4 - Documentation and usability](Content/M4.md)**
+
+- [Internal repository organization: structure and directory organization](#internal-repository-organization-structure-and-directory-organization)
+  - [Artifact structure](#artifact-structure)
+- [How to write an effective README](#how-to-write-an-effective-readme)
+- [Execution guide](#execution-guide)
+- [Re-running guide](#re-running-guide)
+- [Reproduction guide](#reproduction-guide)
+- [Metadata and artifact citation standards](#metadata-and-artifact-citation-standards)
+- [Documenting limitations and non-shared components](#documenting-limitations-and-non-shared-components)
+- [Documentation and communication artifacts](#documentation-and-communication-artifacts)
+- [References](#references)
+- [Table of contents](#table-of-contents)
+
+
+
+> **[Module 5 - Reproducibility and transparency](Content/M5.md)**
+
+- [How to ensure verifiability](#how-to-ensure-verifiability)
+  - [Validating artifacts before release](#validating-artifacts-before-release)
+- [Version control practices](#version-control-practices)
+- [Managing dependencies and isolated environments](#managing-dependencies-and-isolated-environments)
+- [Managing dependencies and isolated environments](#managing-dependencies-and-isolated-environments-1)
+- [*Optional*: containerization for reproducibility](#optional-containerization-for-reproducibility)
+- [Sharing scripts, pipelines, and parameters](#sharing-scripts-pipelines-and-parameters)
+- [Supporting independent reproduction](#supporting-independent-reproduction)
+- [Limitations (especially for qualitative data)](#limitations-especially-for-qualitative-data)
+- [References](#references)
+- [Table of contents](#table-of-contents)
+
+
+
+
+
+
+> **[Module 6 - Packaging and sharing artifacts](Content/M6.md)**
+
+- [Where to publish artifacts](#where-to-publish-artifacts)
+- [How to publish artifacts](#how-to-publish-artifacts)
   - [Shadow repositories](#shadow-repositories)
-  - [Internal repository organization: structure and directory organization](#internal-repository-organization-structure-and-directory-organization)
-  - [Version control practices](#version-control-practices)
-  - [Managing dependencies and isolated environments](#managing-dependencies-and-isolated-environments)
-  - [*Optional*: containerization for reproducibility](#optional-containerization-for-reproducibility)
-  - [References](#references)
-  - [Table of Contents](#table-of-contents)
+- [What to publish](#what-to-publish)
+  - [Transparency for restricted or processed data](#transparency-for-restricted-or-processed-data)
+  - [Preparing the artifact package for distribution](#preparing-the-artifact-package-for-distribution)
+    - [Key principles](#key-principles)
+    - [Execution environments](#execution-environments)
+    - [Versioning](#versioning)
+  - [Documentation completeness](#documentation-completeness)
+  - [Citation information](#citation-information)
+- [Versioning for submission](#versioning-for-submission)
+- [Choosing a license for research artifacts](#choosing-a-license-for-research-artifacts)
+  - [Licenses and dependencies](#licenses-and-dependencies)
+- [Consent and data sharing permissions](#consent-and-data-sharing-permissions)
+- [Legal and ethical considerations](#legal-and-ethical-considerations)
+- [Artifact packaging formats](#artifact-packaging-formats)
+- [Sharing the artifact](#sharing-the-artifact)
+- [References](#references)
+- [Table of contents](#table-of-contents)
 
 
 
-> **[Module 4 - Documentation and usability](M4/main.md)**
+> **[Module 7 - Artifact submission and review context](Content/M7.md)**
 
-- [Module 4 - Documentation and usability](#module-4---documentation-and-usability)
-  - [How to write an effective README](#how-to-write-an-effective-readme)
-  - [Execution guide](#execution-guide)
-  - [Re-running guide](#re-running-guide)
-  - [Reproduction guide](#reproduction-guide)
-  - [Metadata and artifact citation standards](#metadata-and-artifact-citation-standards)
-  - [Documenting limitations and non-shared components](#documenting-limitations-and-non-shared-components)
-  - [References](#references)
-  - [Table of contents](#table-of-contents)
+
+- [Double-anonymous](#double-anonymous)
+- [Anonymization strategies when required ](#anonymization-strategies-when-required-)
+- [Sources](#sources)
+- [What reviewers typically check in research artifacts](#what-reviewers-typically-check-in-research-artifacts)
+- [References](#references)
+- [Table of contents](#table-of-contents)
 
 
 
-> **[Module 5 - Reproducibility and transparency](M5/main.md)**
+> **[Module 8 - Sustainability and long-term maintenance](Content/M8.md)**
 
-- [Module 5 - Reproducibility and transparency](#module-5---reproducibility-and-transparency)
-  - [How to ensure verifiability](#how-to-ensure-verifiability)
-  - [Sharing scripts, pipelines, and parameters](#sharing-scripts-pipelines-and-parameters)
-  - [Supporting independent reproduction](#supporting-independent-reproduction)
-  - [Limitations (especially for qualitative data)](#limitations-especially-for-qualitative-data)
-  - [References](#references)
-  - [Table of contents](#table-of-contents)
-
-
-
-
-
-> **[Module 6 - Packaging and sharing artifacts](M6/main.md)**
-
-- [Module 6 - Packaging and sharing artifacts](#module-6---packaging-and-sharing-artifacts)
-  - [Where to publish artifacts (platforms)](#where-to-publish-artifacts-platforms)
-  - [Repository structuring for publication](#repository-structuring-for-publication)
-  - [What to include and what to omit](#what-to-include-and-what-to-omit)
-  - [Assigning DOIs](#assigning-dois)
-    - [Providing citation information](#providing-citation-information)
-  - [Versioning for submission](#versioning-for-submission)
-  - [Choosing appropriate licenses](#choosing-appropriate-licenses)
-    - [Why licensing matters](#why-licensing-matters)
-    - [Types of licenses](#types-of-licenses)
-    - [License comparison](#license-comparison)
-      - [Software licenses](#software-licenses)
-      - [Content licenses](#content-licenses)
-    - [Choosing the right license](#choosing-the-right-license)
-        - [Software licenses](#software-licenses-1)
-        - [Content licenses](#content-licenses-1)
-      - [Choosing licenses by artifact type](#choosing-licenses-by-artifact-type)
-    - [Licenses and dependencies](#licenses-and-dependencies)
-  - [Consent and data sharing permissions](#consent-and-data-sharing-permissions)
-  - [Legal and ethical considerations](#legal-and-ethical-considerations)
-  - [Share the artifacts](#share-the-artifacts)
-  - [Artifact sharing checklist](#artifact-sharing-checklist)
-  - [References](#references)
-  - [Table of contents](#table-of-contents)
-
-
-
-> **[Module 7 - Artifact submission and review context](M7/main.md)**
-
-
-- [Module 7 - Artifact submission and review context](#module-7---artifact-submission-and-review-context)
-  - [Double-anonymous](#double-anonymous)
-  - [Anonymization strategies when required ](#anonymization-strategies-when-required-)
-  - [Sources](#sources)
-  - [What reviewers typically check in research artifacts](#what-reviewers-typically-check-in-research-artifacts)
-  - [References](#references)
-  - [Table of contents](#table-of-contents)
-
-
-
-> **[Module 8 - Sustainability and long-term maintenance](M8/main.md)**
-
-- [Module 8 - Sustainability and long-term maintenance](#module-8---sustainability-and-long-term-maintenance)
-  - [Choosing appropriate archival platforms (avoid personal/institutional pages)](#choosing-appropriate-archival-platforms-avoid-personalinstitutional-pages)
-  - [Semantic versioning](#semantic-versioning)
-  - [Releases and changelogs](#releases-and-changelogs)
-  - [Issue and pull request management](#issue-and-pull-request-management)
-  - [Maintaining artifact usability over time (e.g., environment decay, deprecated dependencies)](#maintaining-artifact-usability-over-time-eg-environment-decay-deprecated-dependencies)
-  - [Strategies to prevent bit rot](#strategies-to-prevent-bit-rot)
-  - [Long-term archiving](#long-term-archiving)
-  - [Sources](#sources)
-  - [References](#references)
-  - [Table of contents](#table-of-contents)
+- [Choosing appropriate archival platforms (avoid personal/institutional pages)](#choosing-appropriate-archival-platforms-avoid-personalinstitutional-pages)
+- [Semantic versioning](#semantic-versioning)
+- [Releases and changelogs](#releases-and-changelogs)
+- [Issue and pull request management](#issue-and-pull-request-management)
+- [Maintaining artifact usability over time (e.g., environment decay, deprecated dependencies)](#maintaining-artifact-usability-over-time-eg-environment-decay-deprecated-dependencies)
+- [Strategies to prevent bit rot](#strategies-to-prevent-bit-rot)
+- [Long-term archiving](#long-term-archiving)
+- [Sources](#sources)
+- [References](#references)
+- [Table of contents](#table-of-contents)
 
 
 
 
-> **[Supplementary materials](/supplementary-material/main.md)**
+> **[Supplementary materials](/supplementary-material.md)**
 
 - [Supplementary materials](#supplementary-materials)
   - [Checklists](#checklists)
@@ -180,13 +222,13 @@ GAPS Summary &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
 
 > [About the GAPS](/README.md)
   
-  - [Purpose of the GAPS](#purpose-of-the-gaps)
-  - [GAPS Structure](#gaps-structure)
-  - [Sources](#sources)
-  - [Authors](#authors)
-  - [How to cite this material](#how-to-cite-this-material)
-  - [GAPS citation file](/CITATION.cff)
-  - [License and use](#license-and-use)
-  - [GAPS License](/LICENSE)
-  - [GAPS Glossary](/glossary.md)
-  - [GAPS References](/references.md)
+- [Purpose of the GAPS](/README.md#purpose-of-the-gaps)
+- [GAPS Structure](/README.md#gaps-structure)
+- [Sources](/README.md#sources)
+- [Authors](/README.md#authors)
+- [How to cite this material](/README.md#how-to-cite-this-material)
+- [GAPS citation file](/CITATION.cff)
+- [License and use](/README.md#license-and-use)
+- [GAPS License](/LICENSE)
+- [GAPS Glossary](/glossary.md)
+- [GAPS References](/references.md)
