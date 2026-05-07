@@ -28,7 +28,7 @@
 
 # Module 2 - Artifact-first mindset
 
-## Learning objectives 
+# Learning objectives 
 
 By the end of this module, participants will be able to:
 
@@ -39,7 +39,7 @@ By the end of this module, participants will be able to:
 - Apply practices for continuous artifact maintenance throughout the project.
 - Identify and avoid common pitfalls that hinder artifact reuse and reproducibility.
 
-## The artifact-first mindset
+# The artifact-first mindset
 <!-- Survey2026 -->
 
 Decisions about where and how to publish artifacts should be made early in the research data management plan. Key questions include: what data and materials will be shared, how long they should be preserved, and under which access conditions. <!-- = SonjaEtAl2018 -->
@@ -48,13 +48,13 @@ In practice, openness is often treated as an afterthought, with artifacts prepar
 
 Adopting an artifact-first mindset means treating artifacts as integral components of the research process, rather than a final packaging step.
 
-### Plan artifacts during study design
+## Plan artifacts during study design
 - Define early which artifacts will be produced and shared.
 - Integrate artifact creation into the research workflow from the beginning.
 - Early planning helps avoid undocumented decisions and disorganized data later.
 
 
-### Plan data sharing feasibility upfront
+## Plan data sharing feasibility upfront
 - Clarify whether data can be shared (e.g., ethical, legal, or consent constraints).
 - Adapt data collection and consent procedures accordingly.
 - Anticipate limitations, especially for qualitative or sensitive data.
@@ -74,19 +74,19 @@ For sensitive data:
 Even when data cannot be fully shared, provide rich metadata and sufficient dataset descriptions to support understanding the structure, content, and context.
 
 
-### Align data structure with the analysis plan
+## Align data structure with the analysis plan
 - Organize datasets to match the intended analysis workflows.
 - Maintain consistency between raw data, processed data, and analytical procedures.
 
-### Maintain artifacts continuously
+## Maintain artifacts continuously
 - Update and refine artifacts throughout the project, not only at the end.
 - Continuous maintenance supports incremental documentation, early error detection, and easier final packaging.
 
-### Structure the project repository as the artifact
+## Structure the project repository as the artifact
 - Organize the project so that it can be directly shared as a replication package.
 - Ensure that all necessary components (data, code, documentation) are consistently integrated.
 
-### Treat artifacts as first-class research outputs
+## Treat artifacts as first-class research outputs
 - Consider artifacts as valuable contributions, not just supporting materials.
 - Ensure they are documented, licensed, and preserved accordingly.
 - Share scripts, pipelines, and tools used in the research.
@@ -95,7 +95,7 @@ Even when data cannot be fully shared, provide rich metadata and sufficient data
 ---
 
 
-## Artifact-first vs. artifact-last
+# Artifact-first vs. artifact-last
 
 | Artifact-last approach | Artifact-first approach |
 |----------------------|------------------------|
@@ -109,7 +109,7 @@ Even when data cannot be fully shared, provide rich metadata and sufficient data
 ---
 
 
-### Example: From artifact-last to artifact-first
+## Example: From artifact-last to artifact-first
 
 Instead of:
 
@@ -130,7 +130,7 @@ At the end of the project, the artifact is already close to a publishable packag
 
 
 
-## Why the artifact-first mindset matters
+# Why the artifact-first mindset matters
 
 Without an artifact-first approach, many research projects face recurring problems:
 
@@ -151,7 +151,7 @@ In contrast, an artifact-first mindset:
 
 
 
-## Common pitfalls in artifact-first practices
+# Common pitfalls in artifact-first practices
 
 Even when researchers aim to adopt better practices, some common mistakes persist:
 
@@ -167,7 +167,7 @@ Avoiding these pitfalls is essential to make artifacts reusable and reproducible
 ---
 
 
-## What artifacts should be collected
+# What artifacts should be collected
 <!-- Montgomery2024 -->
 
 When adopting an artifact-first mindset, researchers should think early about which materials will be part of the final artifact package.
@@ -223,11 +223,11 @@ They may publish their data to make them findable with metadata, but set an emba
 
 
 
-## Minimum quality expectations
+# Minimum quality expectations
 
 Once artifacts are defined, their quality directly affects transparency, reproducibility, and reuse.
 
-### File formats and long-term accessibility
+## File formats and long-term accessibility
 <!-- SonjaEtAl2018 -->
 
 To ensure long-term accessibility and reuse, researchers should prefer open and well-documented file formats.
@@ -259,13 +259,13 @@ Also, check whether your target repository defines preferred formats for submiss
 
 
 
-## Design principles for reproducibility
+# Design principles for reproducibility
 
 Prefer script-based and version-controllable tools (e.g., R, Python) over point-and-click software (e.g., SPSS when used without syntax) or programs producing binary files (e.g., Excel). Scripted workflows improve transparency, reproducibility, and version control. <!-- MendezEtAl2020 -->
 
 ---
 
-## Key takeaway
+# Key takeaway
 
 An artifact-first mindset shifts artifact creation from a final obligation to a continuous research practice.
 
@@ -273,7 +273,7 @@ By planning, organizing, and maintaining artifacts throughout the project, resea
 
 ---
 
-## References
+# References
 
 This module builds on a shared set of references used throughout the GAPS material, including guidelines, standards, and research studies on Open Science and research artifacts.
 
@@ -283,28 +283,34 @@ Contents in this module were adapted and synthesized from these sources.
 
 ---
 
+# Supplementary material
+
+- [Module 2 presentation](https://docs.google.com/presentation/d/1qhpqDEcwzzPztr5FvrllzLmHIAVoF3uqR-L6Txep8Tc/edit?usp=sharing). <!--Depois vou colocar o slide em ppt na pasta do módulo e mudar esse link aqui para o arquivo estático-->
+
+---
 
 ## Table of contents
 
+<!-- Vai ser removido na versão final. Serve apenas para uma melhor observação da estrutura do módulo -->
 - [Module 2 - Artifact-first mindset](#module-2---artifact-first-mindset)
-  - [Learning objectives](#learning-objectives)
-  - [The artifact-first mindset](#the-artifact-first-mindset)
-    - [Plan artifacts during study design](#plan-artifacts-during-study-design)
-    - [Plan data sharing feasibility upfront](#plan-data-sharing-feasibility-upfront)
-    - [Align data structure with the analysis plan](#align-data-structure-with-the-analysis-plan)
-    - [Maintain artifacts continuously](#maintain-artifacts-continuously)
-    - [Structure the project repository as the artifact](#structure-the-project-repository-as-the-artifact)
-    - [Treat artifacts as first-class research outputs](#treat-artifacts-as-first-class-research-outputs)
-  - [Artifact-first vs. artifact-last](#artifact-first-vs-artifact-last)
-    - [Example: From artifact-last to artifact-first](#example-from-artifact-last-to-artifact-first)
-  - [Why the artifact-first mindset matters](#why-the-artifact-first-mindset-matters)
-  - [Common pitfalls in artifact-first practices](#common-pitfalls-in-artifact-first-practices)
-  - [What artifacts should be collected](#what-artifacts-should-be-collected)
-  - [Minimum quality expectations](#minimum-quality-expectations)
-    - [File formats and long-term accessibility](#file-formats-and-long-term-accessibility)
-  - [Design principles for reproducibility](#design-principles-for-reproducibility)
-  - [Key takeaway](#key-takeaway)
-  - [References](#references)
+- [Learning objectives](#learning-objectives)
+- [The artifact-first mindset](#the-artifact-first-mindset)
+  - [Plan artifacts during study design](#plan-artifacts-during-study-design)
+  - [Plan data sharing feasibility upfront](#plan-data-sharing-feasibility-upfront)
+  - [Align data structure with the analysis plan](#align-data-structure-with-the-analysis-plan)
+  - [Maintain artifacts continuously](#maintain-artifacts-continuously)
+  - [Structure the project repository as the artifact](#structure-the-project-repository-as-the-artifact)
+  - [Treat artifacts as first-class research outputs](#treat-artifacts-as-first-class-research-outputs)
+- [Artifact-first vs. artifact-last](#artifact-first-vs-artifact-last)
+  - [Example: From artifact-last to artifact-first](#example-from-artifact-last-to-artifact-first)
+- [Why the artifact-first mindset matters](#why-the-artifact-first-mindset-matters)
+- [Common pitfalls in artifact-first practices](#common-pitfalls-in-artifact-first-practices)
+- [What artifacts should be collected](#what-artifacts-should-be-collected)
+- [Minimum quality expectations](#minimum-quality-expectations)
+  - [File formats and long-term accessibility](#file-formats-and-long-term-accessibility)
+- [Design principles for reproducibility](#design-principles-for-reproducibility)
+- [Key takeaway](#key-takeaway)
+- [References](#references)
   - [Table of contents](#table-of-contents)
 
 ---
