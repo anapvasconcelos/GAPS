@@ -1,14 +1,10 @@
-<table style="width: 100%; border-collapse: collapse; margin: auto;">
-  <tbody>
-    <tr>
-      <td style="border: 0px"> <a href="/README.md"><nobr>README</nobr></a> </td>
-      <td style="width: 50%; border: 0px"> </td>
-      <td style="border: 0px"> <a href="/SUMMARY.md"><nobr>GAPS Summary</nobr></a> </td>
-      <td style="width: 50%; border: 0px"></td>
-      <td style="border: 0px"> <nobr>References</nobr> </td>
-    </tr>
-  </tbody>
-</table>
+<div align="center"><nobr>
+
+[README](/README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS Summary](/SUMMARY.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[Glossary](/glossary.md)
+
+</nobr></div>
 
 ---
 
@@ -16,7 +12,11 @@
 
 # GAPS References
 
-This material was developed based on the following sources. In some cases, content was adapted or reused with modifications.
+This material builds on a shared set of references used throughout the GAPS modules, including survey responses, guidelines, standards, policies, and research studies related to Open Science, reproducibility, and research artifacts.
+
+To avoid redundancy and ensure consistency across modules, all references are centralized in this document.
+
+The contents of the modules were adapted, synthesized, or inspired by the sources listed below.
 
 ### ACM (2020)
 - ACM (2020) Artifact Review and Badging Version 1.1. Available at: https://www.acm.org/publications/policies/artifact-review-and-badging-current <!-- ACM2020 -->
@@ -60,6 +60,13 @@ Available at: https://www.fsd.tuni.fi/en/services/data-management-guidelines/ <!
 
 ### Graziotin (2019)
 - Graziotin D (2019) How to disclose data for double-blind review and make it archived open data upon acceptance. Available at: https://github.com/dgraziotin/disclose-data-dbr-first-then-opendata <!-- Graziotin2019 -->
+
+
+### ICSA (2025)
+- ICSA (2025). Artifacts Evaluation Track. Available at: https://conf.researchr.org/track/icsa-2025/icsaartifacts+evaluation+track2025 <!-- ICSA2025 -->
+
+### ICSE (2026)
+- ICSE (2026). Artifacts Evaluation Track. Available at: https://conf.researchr.org/track/icse-2026/icse-2026-artifact-evaluation <!-- ICSE2026 -->
 
 ### Klimpel (2013)
 - Klimpel, P. (2013). Consequences, risks and side-effects of the license module "non-commercial use only - NC". Available at: https://web.archive.org/web/20140629072316/http://openglam.org/files/2013/01/iRights_CC-NC_Guide_English.pdf <!-- Klimpel2013 -->
