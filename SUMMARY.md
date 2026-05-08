@@ -1,19 +1,3 @@
-<!--
-
-<table style="width: 100%; border-collapse: collapse; margin: auto;">
-  <tbody>
-    <tr>
-      <td style="border: 0px"> <a href="/README.md"><nobr>README</nobr></a> </td>
-      <td style="width: 50%; border: 0px"> </td>
-      <td style="border: 0px"> <nobr>GAPS Summary</nobr> </td>
-      <td style="width: 50%; border: 0px"></td>
-      <td style="border: 0px"> <a href="/glossary.md"><nobr>Glossary</nobr></a> </td>
-    </tr>
-  </tbody>
-</table>
-
--->
-
 <div align="center"><nobr>
 
 [README](/README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
@@ -22,17 +6,13 @@ GAPS Summary &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
 
 </nobr></div>
 
-
 ---
-
-
-<!--# GAPS - Guidance for Artifact Preparing and Sharing-->
 
 ![GAPS logo](GAPS-logo.png)
 
-## Summary
+# Summary
 
-> **[Module 1 - Foundations of research artifacts](Content/M1.md)**
+## [Module 1 - Foundations of research artifacts](Content/M1.md)
 
 - [Learning objectives](Content/M1.md#learning-objectives)
 - [Open Science](Content/M1.md#open-science)
@@ -43,8 +23,7 @@ GAPS Summary &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
 - [Key takeaways](Content/M1.md#key-takeaways)
 - [Supplementary material](Content/M1.md#supplementary-material)
 
-
-> **[Module 2 - Artifact-first mindset](Content/M2.md)**
+## [Module 2 - Artifact-first mindset](Content/M2.md)
 
 - [Learning objectives](#learning-objectives)
 - [Why the artifact-first mindset matters](#why-the-artifact-first-mindset-matters)
@@ -58,6 +37,7 @@ GAPS Summary &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
   - [Plan artifacts during study design](#plan-artifacts-during-study-design)
   - [Align data structure with the analysis plan](#align-data-structure-with-the-analysis-plan)
   - [Thinking ahead: designing for future reuse](#thinking-ahead-designing-for-future-reuse)
+    - [Keep reproduction effort reasonable](#keep-reproduction-effort-reasonable)
     - [Will someone understand this in 2 years?](#will-someone-understand-this-in-2-years)
     - [Can a collaborator rerun this?](#can-a-collaborator-rerun-this)
     - [What happens if I leave the project?](#what-happens-if-i-leave-the-project)
@@ -68,9 +48,9 @@ GAPS Summary &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
     - [Open Material and Open Source](#open-material-and-open-source)
     - [Open Access](#open-access)
 - [Structuring repositories and workflows](#structuring-repositories-and-workflows)
+- [Internal repository organization: structure and directory organization](#internal-repository-organization-structure-and-directory-organization)
   - [Structure the project repository as the artifact](#structure-the-project-repository-as-the-artifact)
   - [Minimum quality expectations](#minimum-quality-expectations)
-    - [Suggested directory structure](#suggested-directory-structure)
     - [Separate raw and processed data](#separate-raw-and-processed-data)
     - [Naming conventions](#naming-conventions)
     - [README hierarchy](#readme-hierarchy)
@@ -82,9 +62,8 @@ GAPS Summary &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
   - [Why version control matters](#why-version-control-matters)
   - [Design principles for reproducibility](#design-principles-for-reproducibility)
     - [Automating reproducible workflows](#automating-reproducible-workflows)
-      - [Pipelines](#pipelines)
       - [Scripts](#scripts)
-      - [Makefiles](#makefiles)
+      - [Pipelines, makefiles, and CI](#pipelines-makefiles-and-ci)
       - [Notebooks](#notebooks)
       - [CI](#ci)
       - [Automatic figure generation](#automatic-figure-generation)
@@ -96,12 +75,9 @@ GAPS Summary &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
 - [Key takeaways](#key-takeaways)
 - [References](#references)
 - [Supplementary material](#supplementary-material)
-  - [Table of contents](#table-of-contents)
 
 
-
-
-> **[Module 3 - Preparing research artifacts](Content/M3.md)**
+## [Module 3 - Preparing research artifacts](Content/M3.md)
 
 - [Learning objectives](#learning-objectives)
 - [Data curation](#data-curation)
@@ -115,47 +91,83 @@ GAPS Summary &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
       - [Study background](#study-background)
       - [What was anonymized?](#what-was-anonymized)
 - [Archival requirements for Open Science](#archival-requirements-for-open-science)
+- [Avoiding hardcoded paths](#avoiding-hardcoded-paths)
 - [References](#references)
-- [Table of Contents](#table-of-contents)
 
 
+## [Module 4 - Documentation and usability](Content/M4.md)
 
-> **[Module 4 - Documentation and usability](Content/M4.md)**
-
-- [Internal repository organization: structure and directory organization](#internal-repository-organization-structure-and-directory-organization)
-  - [Artifact structure](#artifact-structure)
+- [Learning objectives](#learning-objectives)
+- [Why documentation matters](#why-documentation-matters)
+  - [Documentation as a usability and reproducibility factor](#documentation-as-a-usability-and-reproducibility-factor)
+  - [Documentation debt and late-stage documentation](#documentation-debt-and-late-stage-documentation)
+- [Documentation levels](#documentation-levels)
+  - [Operational documentation](#operational-documentation)
+  - [Structural documentation](#structural-documentation)
+  - [Scientific documentation](#scientific-documentation)
+- [Documenting artifact structure](#documenting-artifact-structure)
+  - [Why structure documentation matters](#why-structure-documentation-matters)
+  - [Documenting folder structure](#documenting-folder-structure)
+  - [Explaining naming conventions](#explaining-naming-conventions)
+  - [Documenting raw vs processed data](#documenting-raw-vs-processed-data)
+  - [Repository navigation and entry points](#repository-navigation-and-entry-points)
+  - [Common repository documentation mistakes](#common-repository-documentation-mistakes)
 - [How to write an effective README](#how-to-write-an-effective-readme)
-- [Execution guide](#execution-guide)
-- [Re-running guide](#re-running-guide)
-- [Reproduction guide](#reproduction-guide)
+  - [Writing style and usability](#writing-style-and-usability)
+  - [Required README sections](#required-readme-sections)
+    - [Summary of artifacts](#summary-of-artifacts)
+    - [Artifact description](#artifact-description)
+    - [Citation](#citation)
+    - [Licenses](#licenses)
+    - [Authors](#authors)
+    - [Quick start execution guide](#quick-start-execution-guide)
+- [Execution and installation documentation](#execution-and-installation-documentation)
+  - [INSTALL.md](#installmd)
+    - [Purpose](#purpose)
+    - [When needed](#when-needed)
+    - [Relation to README](#relation-to-readme)
+  - [System requirements](#system-requirements)
+  - [Installation instructions](#installation-instructions)
+    - [Steps to reproduce](#steps-to-reproduce)
+  - [Container and VM instructions](#container-and-vm-instructions)
+  - [Quick validation](#quick-validation)
+  - [Troubleshooting](#troubleshooting)
+- [Re-running and reproduction guides](#re-running-and-reproduction-guides)
+  - [Re-running guide](#re-running-guide)
+  - [Reproduction guide](#reproduction-guide)
+  - [Mapping scripts to figures and tables](#mapping-scripts-to-figures-and-tables)
+  - [Expected behavior and result variability](#expected-behavior-and-result-variability)
 - [Metadata and artifact citation standards](#metadata-and-artifact-citation-standards)
 - [Documenting limitations and non-shared components](#documenting-limitations-and-non-shared-components)
-- [Documentation and communication artifacts](#documentation-and-communication-artifacts)
+- [Supplementary communication artifacts](#supplementary-communication-artifacts)
+  - [Demonstration videos and screencasts](#demonstration-videos-and-screencasts)
+- [Documentation enables reproducibility](#documentation-enables-reproducibility)
+- [Common pitfalls](#common-pitfalls)
+- [Key takeaways](#key-takeaways)
+- [Supplementary material](#supplementary-material)
 - [References](#references)
-- [Table of contents](#table-of-contents)
+    - [Data description](#data-description)
+    - [Reproducibility mapping](#reproducibility-mapping)
+    - [Limitations and expected behavior](#limitations-and-expected-behavior)
+    - [Support and troubleshooting](#support-and-troubleshooting)
 
 
+## [Module 5 - Reproducibility and transparency](Content/M5.md)
 
-> **[Module 5 - Reproducibility and transparency](Content/M5.md)**
-
-- [How to ensure verifiability](#how-to-ensure-verifiability)
-  - [Validating artifacts before release](#validating-artifacts-before-release)
-- [Version control practices](#version-control-practices)
-- [Managing dependencies and isolated environments](#managing-dependencies-and-isolated-environments)
-- [Managing dependencies and isolated environments](#managing-dependencies-and-isolated-environments-1)
-- [*Optional*: containerization for reproducibility](#optional-containerization-for-reproducibility)
-- [Sharing scripts, pipelines, and parameters](#sharing-scripts-pipelines-and-parameters)
-- [Supporting independent reproduction](#supporting-independent-reproduction)
-- [Limitations (especially for qualitative data)](#limitations-especially-for-qualitative-data)
-- [References](#references)
-- [Table of contents](#table-of-contents)
-
+  - [How to ensure verifiability](#how-to-ensure-verifiability)
+    - [Validating artifacts before release](#validating-artifacts-before-release)
+  - [Version control practices](#version-control-practices)
+  - [Managing dependencies and isolated environments](#managing-dependencies-and-isolated-environments)
+  - [Managing dependencies and isolated environments](#managing-dependencies-and-isolated-environments-1)
+  - [*Optional*: containerization for reproducibility](#optional-containerization-for-reproducibility)
+  - [Sharing scripts, pipelines, and parameters](#sharing-scripts-pipelines-and-parameters)
+  - [Supporting independent reproduction](#supporting-independent-reproduction)
+  - [Limitations (especially for qualitative data)](#limitations-especially-for-qualitative-data)
+  - [What to do before sharing artifacts](#what-to-do-before-sharing-artifacts)
+  - [References](#references)
 
 
-
-
-
-> **[Module 6 - Packaging and sharing artifacts](Content/M6.md)**
+## [Module 6 - Packaging and sharing artifacts](Content/M6.md)
 
 - [Where to publish artifacts](#where-to-publish-artifacts)
 - [How to publish artifacts](#how-to-publish-artifacts)
@@ -174,61 +186,55 @@ GAPS Summary &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
 - [Consent and data sharing permissions](#consent-and-data-sharing-permissions)
 - [Legal and ethical considerations](#legal-and-ethical-considerations)
 - [Artifact packaging formats](#artifact-packaging-formats)
+  - [Package types](#package-types)
+    - [Installation package](#installation-package)
+    - [Simple Package](#simple-package)
 - [Sharing the artifact](#sharing-the-artifact)
 - [References](#references)
-- [Table of contents](#table-of-contents)
 
 
+## [Module 7 - Artifact submission and review context](Content/M7.md)
 
-> **[Module 7 - Artifact submission and review context](Content/M7.md)**
-
-
-- [Double-anonymous](#double-anonymous)
-- [Anonymization strategies when required ](#anonymization-strategies-when-required-)
-- [Sources](#sources)
-- [What reviewers typically check in research artifacts](#what-reviewers-typically-check-in-research-artifacts)
-- [References](#references)
-- [Table of contents](#table-of-contents)
-
-
-
-> **[Module 8 - Sustainability and long-term maintenance](Content/M8.md)**
-
-- [Choosing appropriate archival platforms (avoid personal/institutional pages)](#choosing-appropriate-archival-platforms-avoid-personalinstitutional-pages)
-- [Semantic versioning](#semantic-versioning)
-- [Releases and changelogs](#releases-and-changelogs)
-- [Issue and pull request management](#issue-and-pull-request-management)
-- [Maintaining artifact usability over time (e.g., environment decay, deprecated dependencies)](#maintaining-artifact-usability-over-time-eg-environment-decay-deprecated-dependencies)
-- [Strategies to prevent bit rot](#strategies-to-prevent-bit-rot)
-- [Long-term archiving](#long-term-archiving)
-- [Sources](#sources)
-- [References](#references)
-- [Table of contents](#table-of-contents)
-
-
-
-
-> **[Supplementary materials](/supplementary-material.md)**
-
-- [Supplementary materials](#supplementary-materials)
-  - [Checklists](#checklists)
+  - [Double-anonymous](#double-anonymous)
+  - [Anonymization strategies when required ](#anonymization-strategies-when-required-)
+  - [Sources](#sources)
+  - [What reviewers typically check in research artifacts](#what-reviewers-typically-check-in-research-artifacts)
   - [References](#references)
-  - [Table of contents](#table-of-contents)
 
 
+## [Module 8 - Sustainability and long-term maintenance](Content/M8.md)
+
+  - [Choosing appropriate archival platforms (avoid personal/institutional pages)](#choosing-appropriate-archival-platforms-avoid-personalinstitutional-pages)
+  - [Semantic versioning](#semantic-versioning)
+  - [Releases and changelogs](#releases-and-changelogs)
+  - [Issue and pull request management](#issue-and-pull-request-management)
+  - [Maintaining artifact usability over time (e.g., environment decay, deprecated dependencies)](#maintaining-artifact-usability-over-time-eg-environment-decay-deprecated-dependencies)
+  - [Strategies to prevent bit rot](#strategies-to-prevent-bit-rot)
+  - [Long-term archiving](#long-term-archiving)
+  - [Sources](#sources)
+  - [References](#references)
 
 
+## [Supplementary materials](/supplementary-material.md)
+
+- [Checklists](#checklists)
+- [Templates](#templates)
+- [README examples](#readme-examples)
+- [INSTALL.md examples](#installmd-examples)
+- [References](#references)
 
 
-> [About the GAPS](/README.md)
+## [About the GAPS](/README.md)
   
 - [Purpose of the GAPS](/README.md#purpose-of-the-gaps)
 - [GAPS Structure](/README.md#gaps-structure)
 - [Sources](/README.md#sources)
 - [Authors](/README.md#authors)
 - [How to cite this material](/README.md#how-to-cite-this-material)
-- [GAPS citation file](/CITATION.cff)
+- [Citation file](/CITATION.cff)
 - [License and use](/README.md#license-and-use)
-- [GAPS License](/LICENSE)
-- [GAPS Glossary](/glossary.md)
-- [GAPS References](/references.md)
+- [License](/LICENSE)
+- [Glossary of terms](/glossary.md)
+- [References](/references.md)
+
+

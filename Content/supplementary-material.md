@@ -33,14 +33,21 @@
 # Supplementary materials
 
 
-## Checklists
+# Checklists
 
 - [Checkists](/supplementary-material/checklists.md)
 
 
+# Templates
 
 
-## References
+# README examples
+
+
+# INSTALL.md examples
+
+
+# References
 
 This module builds on a shared set of references used throughout the GAPS material, including guidelines, standards, and research studies on Open Science and research artifacts.
 
@@ -50,9 +57,11 @@ Contents in this module were adapted and synthesized from these sources.
 
 
 
-## Table of contents
+---
 
 - [Supplementary materials](#supplementary-materials)
-  - [Checklists](#checklists)
-  - [References](#references)
-  - [Table of contents](#table-of-contents)
+- [Checklists](#checklists)
+- [Templates](#templates)
+- [README examples](#readme-examples)
+- [INSTALL.md examples](#installmd-examples)
+- [References](#references)

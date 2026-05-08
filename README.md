@@ -31,25 +31,27 @@ Access the [GAPS Summary](/SUMMARY.md).
 
 ## GAPS Structure
 
-> **[Module 1 - Foundations of research artifacts](M1/main.md)**
+**[Module 1 - Foundations of research artifacts](M1.md)**: Introduces Open Science, research artifacts, and their role in reproducibility and reuse.
 
-> **[Module 2 - Artifact-first mindset](M2/main.md)**
+**[Module 2 - Artifact-first mindset](M2.md)**: Discusses how to plan studies and workflows with artifacts in mind from the beginning.
 
-> **[Module 3 - Preparing research artifacts](M3/main.md)**
+**[Module 3 - Preparing research artifacts](M3.md)**: Covers data preparation, anonymization, and artifact curation practices.
 
-> **[Module 4 - Documentation and usability](M4/main.md)**
+**[Module 4 - Documentation and usability](M4.md)**: Explains how to document, organize, and make artifacts understandable and reusable.
 
-> **[Module 5 - Reproducibility and transparency](M5/main.md)**
+**[Module 5 - Reproducibility and transparency](M5.md)**: Presents practices for reproducible workflows, environments, and verification.
 
-> **[Module 6 - Packaging and sharing artifacts](M6/main.md)**
+**[Module 6 - Packaging and sharing artifacts](M6.md)**: Covers licensing, repositories, packaging, and artifact publication.
 
-> **[Module 7 - Artifact submission and review context](M7/main.md)**
+**[Module 7 - Artifact submission and review context](M7.md)**: Discusses artifact evaluation, anonymization, and reviewer expectations.
 
-> **[Module 8 - Sustainability and long-term maintenance](M8/main.md)**
+**[Module 8 - Sustainability and long-term maintenance](M8.md)**: Explores preservation, versioning, and long-term usability of artifacts.
 
-> **[Supplementary materials](/supplementary-material/main.md)**
-> 
----
+**[Supplementary materials](/supplementary-material.md)**: Provides templates, checklists, examples, and additional supporting resources.
+
+**[GAPS References](/references.md)**: Centralized references used across the modules.
+
+**[GAPS Glossary](/glossary.md)**: Definitions of key concepts related to Open Science and research artifacts.
 
 <!--
 

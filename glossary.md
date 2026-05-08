@@ -1,24 +1,8 @@
-<!--
-
-<table style="width: 100%; border-collapse: collapse; margin: auto;">
-  <tbody>
-    <tr>
-      <td style="border: 0px"> <a href="/README.md"><nobr>README</nobr></a> </td>
-      <td style="width: 50%; border: 0px"> </td>
-      <td style="border: 0px"> <a href="/SUMMARY.md"><nobr>GAPS Summary</nobr></a> </td>
-      <td style="width: 50%; border: 0px"></td>
-      <td style="border: 0px"> <nobr>Glossary</nobr> </td>
-    </tr>
-  </tbody>
-</table>
-
--->
-
 <div align="center"><nobr>
 
 [README](/README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
 [GAPS Summary](/SUMMARY.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-Glossary
+[References](/references.md)
 
 </nobr></div>
 
@@ -28,7 +12,7 @@ Glossary
 ![GAPS logo](GAPS-logo.png)
 
 
-# GAPS Glossary
+# Glossary
 
 
 ## Anonymized data

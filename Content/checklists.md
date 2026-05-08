@@ -450,9 +450,6 @@ The following checklist operationalizes the artifact-first mindset. It provides 
 
 
 
-
-
-
 ---
 
 ## FAIR Data Self-Assessment Tool
