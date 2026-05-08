@@ -136,7 +136,7 @@ Access the [GAPS Summary](/SUMMARY.md).
 
 ## Sources
 
-The content of the GAPS modules is based on a synthesis of prior work, including guidelines, standards, and research studies on Open Science and research artifacts.
+The content of the GAPS modules is based on a synthesis of prior work, including survey responses, guidelines, standards, and research studies on Open Science and research artifacts.
 
 We have made every effort to properly acknowledge all sources. If any attribution has been omitted unintentionally, we welcome feedback and will be happy to make the necessary corrections.
 
