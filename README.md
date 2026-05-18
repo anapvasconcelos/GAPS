@@ -12,7 +12,7 @@ README &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
 # GAPS - Guidance for Artifact Preparing and Sharing
 Version: 1.0
 
-![GAPS logo](GAPS-logo.png)
+![](GAPS-logo.png)
 
 
 
