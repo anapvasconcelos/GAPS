@@ -2,7 +2,7 @@
 <div align="center"><nobr>
 
 README &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[GAPS Summary](/SUMMARY.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS structure](/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
 [Glossary](/glossary.md)
 
 </nobr></div>
@@ -26,7 +26,7 @@ The guidance provided in this document is not intended to be exhaustive. Instead
 
 Overall, GAPS serves as a practical tool to help researchers identify and prioritize key aspects when preparing research artifacts.
 
-Access the [GAPS Summary](/SUMMARY.md).
+Access the [GAPS structure](/structure.md).
 
 
 ## GAPS Structure

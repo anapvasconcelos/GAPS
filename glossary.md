@@ -1,7 +1,7 @@
 <div align="center"><nobr>
 
 [README](/README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[GAPS Summary](/SUMMARY.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS structure](/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
 [References](/references.md)
 
 </nobr></div>
@@ -23,6 +23,8 @@ Anonymized data are data rendered anonymous in such a way that the data subject 
 ## Citation
 Citation is a formal reference to a research work, such as a paper, dataset, or software. It allows others to identify, locate, and access the original source. Citations usually appear in the text and are detailed in a reference list. In some cases, they may also point to specific parts of a work, such as a page, figure, or subset of data. <!-- DataCitationSynthesisGroup2014 -->
 
+## Confidentiality
+For us, ‘confidentiality’ is a generic term that refers to all information that is kept hidden from everyone except the primary research team. Anonymity is one form of confidentiality – that of keeping participants’ identities secret. However, confidentiality also includes keeping private what is said by the participants, something only achievable through researchers choosing not to share parts of the data. <!-- == SaundersKitzingerKitzinger2015 -->
 
 
 ## Data
