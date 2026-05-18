@@ -300,3 +300,118 @@ GAPS structure &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
 - [License](/LICENSE)
 - [Glossary of terms](/glossary.md)
 - [References](/references.md)
+
+
+<!-- 
+# Summary
+
+- [About the GAPS](/README.md)
+  - Purpose of the GAPS
+  - [GAPS Structure](/structure.md)
+  - Sources
+  - Authors
+  - How to cite this material
+  - Citation file
+  - License and use
+  - License
+  - [Glossary of terms](/glossary.md)
+  - [References](/references.md)
+- [Module 1 - Foundations of research artifacts](Content/M1.md)
+  - Learning objectives
+  - Open Science
+  - Research Artifacts
+  - Types of research artifacts
+  - Key characteristics of good research artifacts
+  - Artifact life cycle
+  - Key takeaways
+  - Supplementary material of the module
+- [Module 2 - Artifact-first mindset](Content/M2.md)
+  - Learning objectives
+  - Why the artifact-first mindset matters
+  - What is the artifact-first mindset
+  - Designing studies for reproducibility
+  - Planning artifacts early
+  - Structuring repositories and workflows
+  - Internal repository organization: structure and directory organization
+  - Automation and version control
+  - Planning data sharing and restrictions
+  - Practical checklist: what should usually be included?
+  - Common pitfalls
+  - Key takeaways
+  - Supplementary material of the module
+- [Module 3 - Preparing research artifacts](Content/M3.md)
+  - Learning objectives
+  - Data curation
+  - Sensitive vs shareable data
+  - Anonymization strategies
+  - Archival requirements for Open Science
+  - Avoiding hardcoded paths
+  - Supplementary material of the module
+- [Module 4 - Documentation and usability](Content/M4.md)
+  - Learning objectives
+  - Why documentation matters
+  - Documentation levels
+  - Documenting artifact structure
+  - How to write an effective README
+  - Execution and installation documentation
+  - Re-running and reproduction guides
+  - Metadata and artifact citation standards
+  - Documenting limitations and non-shared components
+  - Usage instructions
+  - Supplementary communication artifacts
+  - Documentation enables reproducibility
+  - Supplementary material
+  - Common pitfalls
+  - Key takeaways
+  - Sections missing to organize
+  - Supplementary material of the module
+- [Module 5 - Reproducibility and transparency](Content/M5.md)
+  - Learning objectives
+  - How to ensure verifiability
+  - Version control practices
+  - Managing dependencies and isolated environments
+  - Optional: containerization for reproducibility
+  - Sharing scripts, pipelines, and parameters
+  - Supporting independent reproduction
+  - Limitations (especially for qualitative data)
+  - Virtualized vs bare-metal execution
+  - What to do before sharing artifacts
+  - Supplementary material of the module
+- [Module 6 - Packaging and sharing artifacts](Content/M6.md)
+  - Learning objectives
+  - Where to publish artifacts
+  - How to publish artifacts
+  - What to publish
+  - Versioning for submission
+  - Choosing a license for research artifacts
+  - Consent and data sharing permissions
+  - Legal and ethical considerations
+  - Artifact packaging formats
+  - Sharing the artifact
+  - The artifact supplementary material
+  - Supplementary material of the module
+- [Module 7 - Artifact submission and review context](Content/M7.md)
+  - Learning objectives
+  - Review models and anonymization requirements
+  - Anonymization strategies when required
+  - Artifact evaluation tips
+  - What reviewers typically check in research artifacts
+  - Clarification period and reviewer interaction
+  - Supplementary material of the module
+- [Module 8 - Sustainability and long-term maintenance](Content/M8.md)
+  - Learning objectives
+  - Choosing appropriate archival platforms (avoid personal/institutional pages)
+  - Semantic versioning
+  - Releases and changelogs
+  - Issue and pull request management
+  - Maintaining artifact usability over time (e.g., environment decay, deprecated dependencies)
+  - Strategies to prevent bit rot
+  - Long-term archiving
+  - Supplementary material of the module
+- [Supplementary material of the modules](Content/supplementary-material.md)
+  - Checklists
+  - Templates
+  - README examples
+  - INSTALL.md examples
+  - Supplementary material of the module
+ -->
