@@ -19,27 +19,41 @@
 
 <div align="center"><nobr>
 
-[← Previous module](/M8/main.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[GAPS Summary](/SUMMARY.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[Glossary](/glossary.md)
+[← Previous module](/M8.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS Summary](../structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[Glossary](../glossary.md)
 
 </nobr></div>
 
 
 
-![GAPS logo](../GAPS-logo.png)
+![](../GAPS-logo.png)
 
 
-# Supplementary materials
+# Supplementary Material
 
 
 # Checklists
 
-- [Checkists](/supplementary-material/checklists.md)
+- [Checkists](checklists.md)
 
 
 # Templates
 
+Using predefined templates may reduce omissions, standardize reporting practices, and simplify the preparation of reproducible research materials. <!-- PageEtAl2021 -->
+
+
+<!-- Survey2026 -->
+- an AUTHORS file and a CITATION.cff file.
+
+<!-- Survey2026 -->
+- the accepted version of the corresponding paper in PDF format
+
+<!-- Survey2026 -->
+- License.
+
+<!-- Survey2026 -->
+- A copyright notice identifying the rights holder.
 
 # README examples
 
@@ -47,13 +61,36 @@
 # INSTALL.md examples
 
 
-# References
+<!-- Survey2026 -->
+A good artifact allows users to receive the artifact, guides them through all necessary steps to create executable source code (best if this step is automated via build scripts or similar), and it allows them to reproduce results and figures of the respective paper.
 
-This module builds on a shared set of references used throughout the GAPS material, including guidelines, standards, and research studies on Open Science and research artifacts.
+<!-- Survey2026 -->
+In case of data, a clear description on how to make use of the data (also best automated) should be included. This is especially true for database dumps. 
 
-To avoid redundancy and ensure consistency across modules, all references are centralized in the following document: [GAPS References](/references.md).
 
-Contents in this module were adapted and synthesized from these sources.
+<!-- Survey2026 -->
+A good research artifact needs to have: 
+- A thorough README.
+- Materials/tools developed to use during the study lifecycle.
+  - e.g., protocols, code, software.
+- Step-by-step instructions to prepare the environment, unpack, get started, install, use, extend, and uninstall the artifacts.
+- Accepted paper.
+- Resulting data.
+- Analyses scripts (for execution and result processing).
+- Contributing guide.
+- Changelog.
+- Citation file.
+- License.
+- Copyright.
+
+
+# Supplementary material of the module
+
+
+- [Glossary of terms](/glossary.md)
+
+- [Shared references used across modules](/references.md)
+
 
 
 
@@ -64,4 +101,4 @@ Contents in this module were adapted and synthesized from these sources.
 - [Templates](#templates)
 - [README examples](#readme-examples)
 - [INSTALL.md examples](#installmd-examples)
-- [References](#references)
+- [Supplementary material of the module](#supplementary-material-of-the-module)

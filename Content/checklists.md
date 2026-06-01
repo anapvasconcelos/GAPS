@@ -3,7 +3,7 @@
     <tr>
       <td style="border: 0px"> <a href="/supplementary-material/main.md"><nobr>Supplementary material</nobr></a> </td>
       <td style="width: 50%; border: 0px"> </td>
-      <td style="border: 0px"> <a href="/SUMMARY.md"><nobr>GAPS Summary</nobr></a> </td>
+      <td style="border: 0px"> <a href="/structure.md"><nobr>GAPS structure</nobr></a> </td>
       <td style="width: 50%; border: 0px"></td>
       <td style="border: 0px"> <a href="/glossary.md"><nobr>Glossary</nobr></a> </td>
     </tr>
@@ -12,7 +12,7 @@
 
 ---
 
-![GAPS logo](../GAPS-logo.png)
+![](../GAPS-logo.png)
 
 # Checklists
 
@@ -447,6 +447,533 @@ The following checklist operationalizes the artifact-first mindset. It provides 
 > **Report your research transparently**
 
 - [ ] Report and publish your methods and interventions explicitly and transparently and fully to allow for replication.
+
+
+---
+
+## Based on the ID-Card document
+ <!-- AbualhaijaEtAl2024 -->
+
+**1. Research context and purpose**
+
+• **Research problem and scope**
+- [ ] Is the research problem or task clearly defined?
+- [ ] **Is the type of task or operation performed by the artifact explicitly characterized?**
+- Clarifies the kind of operation performed by the artifact, such as classification, prediction, simulation, extraction, visualization, transformation, or analysis.
+
+- [ ] Is the role of the artifact in the study explicitly described?
+- [ ] Is the application domain or context specified?
+- [ ] Are the goals, assumptions, or intended use cases documented?
+
+• **Research contribution**
+- [ ] Is it clear how the artifact supports the paper’s claims or findings?
+- [ ] Are the limitations or known constraints documented?
+  
+- [ ] **Are potential reuse or repurposing scenarios discussed?**
+- Describes how the artifact may be reused, extended, adapted, or repurposed in future studies or practical applications.
+
+**2. Inputs, outputs, and workflow**
+
+• **Inputs**
+- [ ] Are the expected inputs clearly described?
+- [ ] Are input formats, structures, or schemas documented?
+- [ ] Are preprocessing or transformation steps explained?
+
+• **Outputs**
+- [ ] Are the generated outputs clearly described?
+- [ ] Are output formats and interpretations documented?
+- [ ] Are example inputs and outputs provided?
+
+- [ ] **Is the semantic meaning or interpretation of outputs explained?**
+- Explains what the produced outputs represent and how they should be interpreted by users or researchers.
+
+• **Workflow traceability**
+- [ ] Is the workflow connecting inputs, processing steps, and outputs understandable?
+- [ ] Are intermediate artifacts or processing stages documented?
+
+- [ ] **Are manual and automated steps in the workflow clearly distinguished?**
+- Indicates which parts of the workflow depend on human intervention and which are fully automated, improving transparency and reproducibility.
+
+
+**3. Data description and provenance**
+
+• **Dataset characterization**
+- [ ] Is the dataset size or scale reported?
+- [ ] Are the data sources identified?
+- [ ] Is the number of different sources from which the data originates reported?
+- [ ] Are collection procedures described?
+- [ ] Are the data domains or contexts documented?
+- [ ] Are languages, formats, or modalities specified?
+- [ ] Is the time period or interval when the data was produced specified?
+
+• **Data provenance and licensing**
+- [ ] Is the provenance of the data documented?
+- [ ] Are licensing or usage restrictions specified?
+- [ ] Is the dataset publicly available?
+- [ ] If not publicly available, is the restriction justified?
+
+• **Data quality and structure**
+- [ ] Is the level of data structure or rigor documented?
+- [ ] Are metadata or data dictionaries provided?
+
+- [ ] **Is the abstraction level of the data documented (e.g., user-level, system-level, code-level)?**
+- Specifies the level at which the data represents the phenomenon being studied, such as user-level, file-level, function-level, sentence-level, or system-level data.
+
+
+
+**4. Annotation, curation, and preprocessing**
+
+• **Annotation process**
+- [ ] Is the annotation or labeling process described?
+- [ ] Are annotator roles and expertise documented?
+- [ ] Are annotation guidelines available?
+- [ ] Is it specified whether entries were annotated by a single person or multiple annotators (with or without quality control)?
+- [ ] Is the method for establishing the annotation scheme documented (e.g., oral agreement, written guidelines with examples)?
+
+- [ ] **Is the context available to annotators/coders during labeling or classification documented?**
+- Explains whether annotators had accessed only to isolated items or to additional surrounding context that could influence interpretation and labeling decisions.
+
+- [ ] **Are potential quality threats during manual annotation or coding discussed (e.g., fatigue, drift, context loss)?**
+- Documents factors that may affect annotation quality, such as annotator fatigue, inconsistent interpretation, context loss, or changes in coding behavior over time.
+
+- [ ] Are the specific methods for resolving annotation conflicts (e.g., majority voting, expert resolution, discussion) clearly identified?
+
+**Quality assurance**
+- [ ] **Are agreement or consistency measures reported?**
+- Indicates whether the consistency between annotators or coders was evaluated using measures such as Cohen’s kappa, Fleiss’ kappa, or percentage agreement.
+
+- [ ] Are conflict resolution procedures documented?
+- [ ] Are known sources of bias or subjectivity discussed?
+
+**Preprocessing and transformation**
+- [ ] Are preprocessing steps documented?
+- [ ] Are cleaning, filtering, or transformation procedures reproducible?
+
+**5. Implementation and infrastructure**
+
+• **Software and tooling**
+- [ ] Is the implementation publicly available?
+- [ ] Are scripts, pipelines, or executables included?
+- [ ] Are algorithms or major technical components described?
+- [ ] Is the type of proposed solution explicitly described (e.g., script, library, API, standalone tool, plugin, model, framework)?
+- [ ] Are the main algorithms, models, or computational techniques identified?
+- [ ] If no executable tool is provided, is the absence of an implementation clearly justified?
+
+
+• **Dependencies and environments**
+- [ ] Are software dependencies documented?
+- [ ] Are versions explicitly specified?
+- [ ] Are operating system or platform requirements documented?
+- [ ] Are hardware requirements specified when relevant?
+
+- [ ] **Are dependency types documented (e.g., libraries, external services, hardware accelerators, operating system components)?**
+- Identifies the kinds of external resources required by the artifact, including libraries, operating systems, cloud services, databases, GPUs, or APIs.
+
+
+• **Packaging and distribution**
+- [ ] Is the artifact distributed in a reusable format?
+- [ ] Are containers, virtual environments, or reproducible environments provided?
+- [ ] Is versioning information available?
+- [ ] Is it clear which components were released (e.g., source code, datasets, models, scripts, containers, binaries, documentation)?
+- [ ] Is the release/distribution format documented (e.g., repository, package manager, container image, VM, executable archive)?
+
+- [ ] **Are the specific actions required to run the tool identified (e.g., no installation, compile and run, or reproduction from paper explanation)?**
+- Explains the exact steps needed to execute the artifact, such as installation, compilation, configuration, dataset preparation, or command execution.
+
+
+
+**Licensing**
+- [ ] Is a clear license provided?
+- [ ] Are third-party dependency licenses compatible?
+
+**6. Documentation and usability**
+
+• **Core documentation**
+- [ ] Is there a clear README?
+- [ ] Is the artifact structure explained?
+- [ ] Are execution instructions provided?
+- [ ] Are usage examples included?
+- [ ] Are the types of provided documentation identified (e.g., README, API documentation, tutorials, notebooks, screencasts)?
+
+• **Reusability support**
+- [ ] Is troubleshooting guidance provided?
+- [ ] Are expected execution behaviors documented?
+- [ ] Are common failure scenarios explained?
+
+• **User support**
+- [ ] Are contact or support channels provided?
+- [ ] Is citation information available?
+
+**7. Reproduction and execution**
+
+• **Installation and execution**
+- [ ] Can the artifact be installed and executed from scratch?
+- [ ] Are installation steps reproducible?
+- [ ] Are execution commands clearly documented?
+
+• **Reproducing results**
+- [ ] Are steps to reproduce the paper’s results documented?
+- [ ] Are scripts mapped to figures, tables, or results?
+- [ ] Are expected outputs described?
+
+• **Runtime considerations**
+- [ ] Is the expected execution time reported?
+- [ ] Are minimum working examples provided when execution is expensive?
+- [ ] Are intermediate outputs available to facilitate reproduction?
+
+• **8. Evaluation and validation**
+
+• **Evaluation procedure**
+- [ ] Is the validation methodology documented?
+- [ ] Are evaluation metrics explained?
+
+- [ ] **Are baselines or comparison methods sufficiently documented to support interpretation or replication?**
+- Ensures that comparison methods or baseline approaches are described in enough detail for others to understand or reproduce the evaluation.
+
+- [ ] Is the specific validation procedure identified (e.g., train-test split, cross-validation, or use of the entire dataset)?
+  
+- [ ] **Are the evaluation methods appropriate for the type of task performed by the artifact?**
+- Verifies whether the chosen evaluation procedures and metrics are suitable for the artifact’s intended purpose and outputs.
+
+• **Result interpretation**
+- [ ] Are deviations from published results documented?
+- [ ] Are threats to validity or limitations discussed?
+- [ ] Is the relationship between the artifact and reported results traceable?
+- [ ] Is it clear which datasets, inputs, or intermediate artifacts contribute to each reported result?
+- Helps readers understand exactly which data, scripts, models, or intermediate artifacts were used to generate each reported result.
+
+- [ ] **Is the relationship between inputs and produced outputs clearly characterized?**
+- Explains how inputs are transformed into outputs, including whether one input generates one, multiple, or aggregated outputs.
+
+- [ ] **Is the level of analysis or processing granularity documented?**
+- Specifies the unit of analysis or processing adopted by the artifact, such as document-level, sentence-level, participant-level, file-level, or commit-level analysis.
+
+
+
+**9. Preservation and accessibility**
+
+• **Archival and persistence**
+- [ ] Is the artifact archived in a persistent repository?
+- [ ] Does the artifact have a DOI or persistent identifier?
+- [ ] Is long-term accessibility considered?
+
+• **Public availability**
+- [ ] Can the artifact be accessed without registration?
+- [ ] Are access restrictions clearly explained?
+
+• **Sustainability**
+- [ ] Are maintenance or update expectations documented?
+- [ ] Are stable releases or archived versions identified?
+
+
+
+---
+
+## Based on BeyerWinter2025
+<!-- == BeyerWinter2025 -->
+
+• **Pre-assessment (“Kick the tires”):**
+
+- [ ] Can the digital object be retrieved without revealing your identity?
+
+- [ ] Is it packaged in an open format that you can work with?
+
+- [ ] If the provided digital object is a compressed archive, can it be decompressed without errors?
+
+- [ ] Is the artifact operable on your computing architecture?
+
+- [ ] Are all documents required in the call for artifacts included in the submission?
+
+- [ ] Do the documents contain the information asked for in the call for artifacts?
+  
+
+• **Full Review (Badging Decisions):**
+
+**Available:**
+
+- [ ] Is the artifact published on a long-term archival platform with declared retention policy (≥ 10 years)?
+
+- [ ] Is a DOI provided? (A DOI implies long-term availability.)
+
+- [ ] If the artifact is on Zenodo: Is it linked to via a version-specific DOI (as opposed to a concept DOI, which is always redirected to the latest version and should be avoided to support reproducibility)?
+
+- [ ] Is the artifact linked to from the paper using the DOI link (or other long-term archive link)?
+
+- [ ] Is a license specified for the artifact?
+
+
+**Functional:**
+
+- [ ] Is the artifact exercisable?
+
+- [ ] Have the documentation guidelines in the call for artifacts been followed?
+
+- [ ] Is the artifact sufficiently documented to be used for reproducing results from the paper?
+
+- [ ] Does the artifact contain all relevant parts for reproducing results from the paper (are input data, plotting scripts, etc. included; are external dependencies expected to be permanently available)?
+
+- [ ] Are results you have obtained using the artifact consistent with what is written in the paper?
+  
+**Reusable:**
+
+- [ ] Is the artifact documentation sufficiently comprehensive and well-structured, such that the artifact can be used in other settings than reproducing the exact study presented in the paper?
+
+- [ ] Are common standards for code, mechanized proofs, and data formats followed, so that it can be adapted with reasonable effort?
+
+
+---
+
+
+## Perform a final pre-release checklist
+
+<!-- Survey2026 -->
+Before publication:
+1. Translate materials to English.
+2. Perform final proofread and sanity check.
+   - Review for typos, grammatical errors, and logical flow.
+3. Remove or anonymize sensitive data.
+   - Scrub internal comments, personal data, test credentials, and proprietary information.
+4. Verify links and references.
+   - Ensure all hyperlinks, cross-references, and embedded assets work and are accessible to the intended audience.
+5. Apply consistent formatting.
+   - Ensure visual consistency (fonts, spacing, headings, code indentation).
+6. Define clear context and purpose.
+   - Add a succinct summary, README, or "About This Document" section.
+   - Be transparent in all levels and details overall.
+   - Avoid all text that is not relevant to explain the artifact structure (i.e., the design decisions should go into the paper, while the manual presents where the ideas are implemented, do not justify why)
+   - Deliberately include details that may appear trivial to use the artifacts.
+7. Choose the right format and platform.
+   - For compressed archive format use a widely available such as ZIP (.zip), tar and gzip (.tgz), or tar and bzip2 (.tbz2).
+   - For documents use open formats such as .txt, .html, and .pdf.
+   - For figures use widely accessible format such as .png.
+8. Set appropriate permissions and security.
+   - Configure share settings (view/edit) on platforms like Google Drive, GitHub, or SharePoint.
+9. Making sure ALL details are available to enable replication and reproduction. 
+
+---
+
+## HOWTO for AEC Submitters
+ <!-- == BarowyEtAl2023 -->
+
+### How to Build a Good Software Artifact
+
+- Provide documentation with your artifact.  We recommend that you prepare a Getting Started Guide.  It should explain:
+   - how to download your artifact
+   - how to install your artifact
+   - how to run your artifact
+   - how to compare your artifact’s outputs to outputs described in your paper.
+- Explicitly enumerate your claims in both your paper and in your artifact’s documentation.
+- Provide a VM if possible, and when appropriate.  VMs aid reproducibility because they help control for nuisance factors that are not central to an author’s claims, significantly facilitating the review process.  Nonetheless, reviewers may need to accept performance tradeoffs for VMs (e.g., because of the absence of special hardware).  These tradeoffs are acceptable as long as authors explain to reviewers how and why they should adjust their expectations.
+- Provide step-by-step instructions, but make it easy for reviewers to supply their own inputs to your artifact.  When reviewers can “play” with your artifact, it gives them confidence that your ideas were implemented robustly.
+
+### Source Code
+
+- If you are not bound by a nondisclosure agreement, make every effort to supply reviewers with source code.  Good reviewers may read and modify your source code to learn the true capabilities of your artifact.
+- Document your code.  You should sufficiently explain what is going on so that people who want to build on your work can do so.
+- If you discuss a new algorithm or unique implementation approach in your paper, have a reference to its implementation in the source code.
+- If you are pointing to a remote repository, make sure to create a stable AEC branch. If there are major changes between AEC submission and the decision deadline, reviewers may end up looking at code that breaks the build. We understand that bugs happen, and pushing bug fixes to your AEC branch is fine. However, if your source code and/or analyses are significantly different from paper, make sure you document those differences so reviewers know what to expect.
+
+### Virtual Machines
+
+- Use a familiar window manager, if you need one at all. Remember that not all reviewers will have a middle mouse button.
+- Ship your VM in a portable format (OVA or OVF) so reviewers can use whatever virtualization software they already have installed.
+- Delete snapshots from your VM, unless these are an important part of the artifact evaluation.
+- Document the folder structure of the VM. e.g., point out where the artifact’s source code is, benchmark source code is, input data is, expected output data is, etc. A good strategy is to have a terminal open at startup, in the appropriate directory.
+
+### Automated Benchmarks
+
+- If your benchmarks take more than a trivial amount of time to run, please inform reviewers how long they should take with the hardware you used. Provide a shorter evaluation script that reviewers can use to make sure everything is working.
+- Make it clear what the specifications of the hardware were that you used, and whether these hardware resources are adequately simulated in a virtual machine environment.
+  - If performance claims cannot be reproduced in a virtual environment, consider adding instructions describing how to run the benchmarks on bare metal.
+- You should make it easy to reproduce all of the data for your paper, ideally with a single batch script or mouse click.
+- If your paper includes figures such as tables or charts, you should make it easy to reproduce those figures without having to manually create charts in Excel. There are many packages available for producing graphs programmatically:
+  - R has built-in graphing functionality, but the ggplot package provides much more flexible graphing functionality.
+  - Python has a compatible ggplot package, or you can use matplotlib directly.
+  - JavaScript has many graphing libraries, including D3 and Google Charts.
+
+---
+
+## README template
+ <!-- Wendler2024  -->
+
+When creating a reproduction artifact, follow this checklist:
+
+- **Data**
+  - Added all raw results
+  - Added single command for reproducing all tables and plots presented in the paper, from the existing raw results
+  - Added single command for each table and plot presented in the paper to reproduce only that element, from the existing raw results
+
+- **Tool Setup**
+  - All dependencies included in artifact
+  - No compilation necessary
+  - No manual installation necessary
+  - Artifact works with systems other than Ubuntu
+  - Diagnosis command exists that allows user to check if the tool is runnable - Initial example, tests, etc.
+  - README contains copy of expected tool output (verbatim!)
+  - VM: US Keymap and English language!
+
+- **Running the Tool**
+  - Added single command for running an example
+  - Added single command for running a small, expressive benchmark set
+    - runtime below 24 hours in VM
+  - Added single command for repeating all experiments
+ 
+- **README for VM**
+  - README next to the VM-file exists
+    - States corresponding publication of artifact
+    - States required VirtualBox version
+    - States resource requirements of VM
+
+- **README for tool**
+  - README inside the VM exists
+  - Link to README on Desktop (for finding it easily)
+  - If dependencies must be installed, README contains exact versions required and the OS used.
+  - README contains list of all tables, plots and claims made in the paper, and maps each to a single command to recreate that exact entity from the raw results
+  - README contains instructions and the expected output for:
+    - Setup on a bare system
+    - Running the examples
+    - Running the small, expressive benchmark
+    - Running the full experiments
+
+- **Final checks**
+  - Disabled use of verifier-cloud for benchmark runs
+  - All included repositories in correct revision/tag
+  - Thorough cleanup of the VM:
+    - Check cache directories such as ~/.cache or /var/cache whether they contain significant amounts of data.
+    - Make sure unused sectors are zeroed and do not contain old data (fstrim should do this).
+    - Removed personal data such as (bash) history in VM:
+    - rm ~/.bash_history && history -c && exit and potentially other files depending on what was done
+  - Archive tested by someone unfamiliar with the work:
+    - VM import (make sure .ova is exported without network interface and shared folders)
+    - Proofread
+    - Full run (after VM reboot)
+
+- **Publication of Artifact**
+  - Zip everything in one zip archive, which has a README and LICENSE file at the top level
+  - Dirk uploaded artifact to Zenodo
+  - Checked checksum of artifact-file on Zenodo and local version
+  - Supplementary webpage references artifact
+
+---
+
+## Badge checklist
+<!-- Não sei ainda se vou usar, pois o conceito das badges dele tá enviesado https://sysartifacts.github.io/sosp2026/badges -->
+
+**“Available” checklist**
+- [ ] The artifact is available on a public archive with irrevocable versioning and long-term storage, such as Zenodo but not GitHub
+- [ ] The artifact has a license that allows comparison and extension, such as the CC-BY or MIT licenses
+- [ ] The artifact has a “read me” file referencing the paper
+
+These criteria must be met at the time artifact evaluation finishes.
+
+Authors only need to put the data in long-term storage once evaluators are otherwise satisfied. Development may take place on a platform like GitHub.
+
+Promises of future availability are not acceptable, such as uploading the artifact to a private repository with the goal of “eventually” making it public.
+
+**“Functional” checklist**
+- [ ] The artifact has a “read me” file with:
+  - [ ] A description of each artifact component and how it relates to the paper
+  - [ ] A description of the exact environment the authors used, such as OS version and hardware
+  - [ ] If the artifact includes code that deliberately performs malicious or destructive operations, appropriate warnings and context
+- [ ] The artifact includes all code and data relevant to the paper, and only those
+  - [ ] The artifact must not include obsolete or unrelated code nor data
+  - [ ] If existing code or data has been modified, the artifact should clearly separate the modifications from the original
+  - [ ] If the paper makes soundness claims, such as proofs, there should be simple scripts to verify these, such as listing proof assumptions
+  - [ ] If the paper makes quantifiable claims, such as code size per module, there should be simple scripts to output these
+- [ ] For data, modifications made to the raw data are documented
+  - [ ] For instance, whether parts of the raw data were anonymized or discarded
+- [ ] For executable artifacts, the “read me” file also contains documentation to:
+  - [ ] Run and extend a “minimal working example”
+  - [ ] Compile and execute the artifact, including pre-installation steps
+  - [ ] Configure the artifact, such as selecting IP addresses or disks
+  - [ ] Know the expected resource use per kind of experiment, such as “5 minutes, 10 GB of disk space”
+  - [ ] Know what unusual behavior to expect, such as warning messages emitted by another system used as baseline for experiments
+- [ ] For executable artifacts, the artifact includes a precise list of dependencies:
+  - [ ] Whenever possible, it should be usable by a package manager
+  - [ ] Exotic dependencies must have associated automation to download and build them
+  - [ ] OS-level dependencies must involve a VM/container, accompanied by a script to generate the VM/container
+  - [ ] Proprietary dependencies must have associated instructions to obtain them along with “mock” versions to demonstrate their use
+- [ ] The artifact includes an example input and configuration for each kind of experiment in the paper
+  - [ ] Authors are encouraged, but not required, to provide inputs, configurations, and outputs for all experiments described in the paper
+
+Artifacts must be usable on other environments than the authors’, though software may require specific hardware such as one model of network card.
+
+Manual work such as writing configuration files must be minimized. There must be no redundant manual steps such as writing the same configuration values in multiple places, as this inevitably leads to human error.
+
+**“Reproduced” checklist:**
+- [ ] The artifact includes a single script to run each experiment and output results, given the necessary input and configuration
+  - [ ] The scripts must be documented, allowing researchers to ensure they correspond to the claims, merely producing the right output is not enough
+  - [ ] The scripts must handle common edge cases in a reasonable fashion, such as forgetting arguments or running the same script twice
+- [ ] The artifact includes a script to convert each experiment’s results into human-readable ones as close to the paper presentation as possible
+  - [ ] For simple results presentation such as tables, this and the previous script can be merged into one
+  - [ ] The artifact may contain separate installation steps for the dependencies of plotting scripts, subject to the same criteria
+
+The expected workflow for an evaluator or a researcher looking to reuse the artifact is to install the artifact using a handful of commands, run experiments with one command each, and plot data as necessary.
+
+In the absence of problems requiring debugging, active time must not exceed a few minutes.
+
+
+## Checklist to Ensure Your Data Support the FAIR Principles
+<!-- https://journalologytraining.ca/topic/checklist-to-ensure-your-data-support-the-fair-principles/ -->
+
+### FAIR Checklist
+
+**Dataset/Files**
+
+- [ ] Your dataset should be open (if available).
+- [ ] Your dataset should have a DOI.
+- [ ] All files should be in open formats.
+- [ ] Your data should be discoverable through an open search protocol (for example, via Google).
+
+**Metadata**
+
+- [ ] The metadata should include useful disciplinary notation and terminology.
+- [ ] The metadata should include machine-readable standards where available (e.g. ORCIDs (for authors and/or data contributors)).
+- [ ] Provide a citation format for the data.
+- [ ] Indicate any terms of use clearly.
+- [ ] The metadata exportable should be in a machine-readable structured text-based format (e.g., XML, JSON)​.
+
+
+**Tips for Preparing Your Data for Sharing**
+
+Preparing your data files:
+
+- [ ] You should include raw or processed data or both, depending on what is most useful or common in a discipline.
+- [ ] Your file formats should be common and open.
+- [ ] Organize the files logically according to your project.
+
+Documenting your data and files:
+
+- [ ] Describe methods of data collection and file structures.
+- [ ] Reference articles and include ORCIDs of all data contributors.
+
+Depositing your data in a repository:  
+
+- [ ] Zip up all files into one package or dataset.
+- [ ] Select a well-known data repository and upload your data.
+- [ ] Make sure the repository provides a DOI to access and re-use the data.
+- [ ] Provide a license attribution for your data, so users can easily copy and attribute.
+
+---
+
+# Practical checklist: what should usually be included?
+
+Before publication, verify whether your artifact package includes: <!-- Montgomery2024 -->  <!-- Survey2026 -->
+- [ ] Protocols and study design artifacts
+- [ ] Raw data
+- [ ] Processed data
+- [ ] Derived data
+- [ ] Data collection scripts
+- [ ] Data transformation scripts
+- [ ] Analysis scripts
+- [ ] Software tools
+- [ ] Figures, tables, and extended findings
+- [ ] Documentation and README
+- [ ] Reproduction instructions
+- [ ] Environment/configuration files
+- [ ] Licensing information
+- [ ] Links to the associated paper
+- [ ] Notebooks, containers, software, and hardware
 
 
 

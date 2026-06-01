@@ -9,7 +9,7 @@
 
 ---
 
-![GAPS logo](GAPS-logo.png)
+![](GAPS-logo.png)
 
 
 # Glossary

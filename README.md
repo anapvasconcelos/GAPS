@@ -9,7 +9,7 @@ README &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
 
 ---
 
-# GAPS - Guidance for Artifact Preparing and Sharing
+# GAPS - Guidance for Artifact Preparation and Sharing
 
 **Version**: 1.0
 
@@ -21,7 +21,7 @@ README &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
 
 ## Purpose of the GAPS
 
-GAPS (Guidance for Artifact Preparing and Sharing) is an educational resource designed to support researchers in the construction, documentation, and sharing of research artifacts, particularly in Empirical Software Engineering.
+GAPS (Guidance for Artifact Preparation and Sharing) is an educational resource designed to support researchers in the construction, documentation, and sharing of research artifacts, particularly in Empirical Software Engineering.
 
 The guidance provided in this document is not intended to be exhaustive. Instead, it offers practical recommendations based on survey responses, the literature, and existing guidelines, including materials suggested by survey participants.
 
@@ -32,9 +32,31 @@ Access the [GAPS structure](/structure.md).
 
 ## GAPS Structure
 
-**[Module 1 - Foundations of research artifacts](Content/M1.md)**: Introduces Open Science, research artifacts, and their role in reproducibility and reuse.
+GAPS is organized into seven modules that cover the preparation, documentation, sharing, and maintenance of research artifacts throughout their lifecycle.
 
-**[Module 2 - Artifact-first mindset](Content/M2.md)**: Discusses how to plan studies and workflows with artifacts in mind from the beginning.
+**[Module 1 - Foundations](Content/M1.md)**: Introduces Open Science, research artifacts, and their role in reproducibility and reuse.
+
+**[Module 2 - Preparation](Content/M2.md)**: Discusses how to plan studies and workflows with artifacts in mind from the beginning. Covers data preparation, anonymization, and artifact curation practices.
+
+**[Module 3 - Documentation](Content/M3.md)**: Explains how to document, organize, and make artifacts understandable and reusable.
+
+**[Module 4 - Reproducibility](Content/M4.md)**: Presents practices for reproducible workflows, environments, and verification.
+
+**[Module 5 - Publishing](Content/M5.md)**: Covers licensing, repositories, packaging, and artifact publication.
+
+**[Module 6 - Maintenance](Content/M6.md)**: Explores preservation, versioning, and long-term usability of artifacts.
+
+**[Module 7 - Evaluation](Content/M7.md)**: Discusses artifact evaluation, anonymization, and reviewer expectations.
+
+**[Supplementary Material](Content/supplementary-material.md)**: Provides templates, checklists, examples, and additional supporting resources.
+
+**[References](/references.md)**: Centralized references used across the modules.
+
+**[Glossary](/glossary.md)**: Definitions of key concepts related to Open Science and research artifacts.
+
+<!-- **[Module 1 - Foundations of research artifacts](Content/M1.md)**: Introduces Open Science, research artifacts, and their role in reproducibility and reuse.
+
+**[Module 2 - Planning research artifacts](Content/M2.md)**: Discusses how to plan studies and workflows with artifacts in mind from the beginning.
 
 **[Module 3 - Preparing research artifacts](Content/M3.md)**: Covers data preparation, anonymization, and artifact curation practices.
 
@@ -44,15 +66,15 @@ Access the [GAPS structure](/structure.md).
 
 **[Module 6 - Packaging and sharing artifacts](Content/M6.md)**: Covers licensing, repositories, packaging, and artifact publication.
 
-**[Module 7 - Artifact submission and review context](Content/M7.md)**: Discusses artifact evaluation, anonymization, and reviewer expectations.
+**[Module 7 - Sustainability and long-term maintenance](Content/M7.md)**: Explores preservation, versioning, and long-term usability of artifacts.
 
-**[Module 8 - Sustainability and long-term maintenance](Content/M8.md)**: Explores preservation, versioning, and long-term usability of artifacts.
+**[Module 8 - Artifact submission and review context](Content/M8.md)**: Discusses artifact evaluation, anonymization, and reviewer expectations.
 
 **[Supplementary materials](Content/supplementary-material.md)**: Provides templates, checklists, examples, and additional supporting resources.
 
 **[References](/references.md)**: Centralized references used across the modules.
 
-**[Glossary](/glossary.md)**: Definitions of key concepts related to Open Science and research artifacts.
+**[Glossary](/glossary.md)**: Definitions of key concepts related to Open Science and research artifacts. -->
 
 
 <!--
@@ -168,7 +190,7 @@ Citation metadata is also available in the [`CITATION.cff`](/CITATION.cff) file 
   author    = {Ana Paula Vasconcelos and
                Fernanda Madeiral and
                Sergio Soares},
-  title     = {GAPS - Guidance for Artifact Preparing and Sharing},
+  title     = {GAPS - Guidance for Artifact Preparation and Sharing},
   year      = {2026},
   publisher = {Zenodo},
   version   = {v1.0},
@@ -180,12 +202,12 @@ Citation metadata is also available in the [`CITATION.cff`](/CITATION.cff) file 
 ### Plain text
 
 ```
-Vasconcelos, A. P., Madeiral, F., and Soares, S. (2026). GAPS - Guidance for Artifact Preparing and Sharing. DOI: https://doi.org/10.5281/zenodo.XXXXX
+Vasconcelos, A. P., Madeiral, F., and Soares, S. (2026). GAPS - Guidance for Artifact Preparation and Sharing. DOI: https://doi.org/10.5281/zenodo.XXXXX
 ```
 
 ## License and use
 
-The Guidance for Artifact Preparing and Sharing (GAPS) is released as an Open Educational Resource under the Creative Commons Attribution-ShareAlike 4.0 International License ([CC BY-SA 4.0](/LICENSE)).
+The Guidance for Artifact Preparation and Sharing (GAPS) is released as an Open Educational Resource under the Creative Commons Attribution-ShareAlike 4.0 International License ([CC BY-SA 4.0](/LICENSE)).
 
 This means that the content can be freely reused, adapted, and redistributed, including for commercial purposes, provided that appropriate credit is given and that any derivative works are distributed under the same license.
 
@@ -193,12 +215,14 @@ This material includes adapted content from sources licensed under CC BY-SA 4.0.
 
 To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/.
 
+![](/Content/images/FIG-CC-BY-SA.svg)
+
 ---
 
-GAPS - Guidance for Artifact Preparing and Sharing © 2026 by Ana Paula Vasconcelos, Fernanda Madeiral, and Sergio Soares is licensed under CC BY-SA 4.0.
+GAPS - Guidance for Artifact Preparation and Sharing © 2026 by Ana Paula Vasconcelos, Fernanda Madeiral, and Sergio Soares is licensed under CC BY-SA 4.0.
 
 <!--
-- [GAPS - Guidance for Artifact Preparing and Sharing](#gaps---guidance-for-artifact-preparing-and-sharing)
+- [GAPS - Guidance for Artifact Preparation and Sharing](#gaps---guidance-for-artifact-preparing-and-sharing)
   - [Purpose of the GAPS](#purpose-of-the-gaps)
   - [GAPS Structure](#gaps-structure)
   - [Sources](#sources)
