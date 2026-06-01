@@ -1,9 +1,7 @@
 # Summary
 
 - [About the GAPS](/README.md)
-
 - [GAPS Structure](/structure.md)
-
 - [Module 1 - Foundations](content/M1.md)
   - [Learning objectives](content/M1.md#learning-objectives)
   - [Open Science](content/M1.md#open-science)
@@ -34,7 +32,6 @@
     - [Reusability — *Can others build upon it?*](content/M1.md#reusability--can-others-build-upon-it)
   - [Key takeaways](content/M1.md#key-takeaways)
   - [Shortcuts](content/M1.md#shortcuts)
-
 - [Module 2 - Preparation](content/M2.md)
   - [Learning objectives](content/M2#learning-objectives)
   - [Prepare artifacts as part of the research process](content/M2#prepare-artifacts-as-part-of-the-research-process)
@@ -77,8 +74,6 @@
     - [FAIR Principles](content/M2#fair-principles)
   - [Key Takeaways](content/M2#key-takeaways)
   - [Shortcuts](content/M2#shortcuts)
-  
-
 - [Module 3 - Documentation](content/M3.md)
   - [Learning objectives](content/M3#learning-objectives)
   - [Levels of artifact documentation](content/M3#levels-of-artifact-documentation)
@@ -106,7 +101,6 @@
   - [Complementary documentation](content/M3#complementary-documentation)
   - [Key takeaways](content/M3#key-takeaways)
   - [Shortcuts](content/M3#shortcuts)
-
 - [Module 4 - Reproducibility](content/M4.md)
   - [Learning objectives](content/M4#learning-objectives)
   - [Why reproducibility matters](content/M4#why-reproducibility-matters)
@@ -141,7 +135,6 @@
   - [Common pitfalls](content/M4#common-pitfalls)
   - [Key takeaways](content/M4#key-takeaways)
   - [Shortcuts](content/M4#shortcuts)
-
 - [Module 5 - Publishing](content/M5.md)
   - [Learning objectives](content/M5.md#learning-objectives)
   - [Where to publish artifacts](content/M5.md#where-to-publish-artifacts)
@@ -173,8 +166,6 @@
   - [Publishing visibility](content/M5.md#publishing-visibility)
   - [Key takeaways](content/M5.md#key-takeaways)
   - [Shortcuts](content/M5.md#shortcuts)
-
-
 - [Module 6 - Maintenance](content/M6.md)
   - [Learning objectives](content/M6.md#learning-objectives)
   - [Artifact decay: causes and prevention](content/M6.md#artifact-decay-causes-and-prevention)
@@ -200,8 +191,6 @@
     - [Enabling community reuse](content/M6.md#enabling-community-reuse)
   - [Key takeaways](content/M6.md#key-takeaways)
   - [Shortcuts](content/M6.md#shortcuts)
-
-
 - [Module 7 - Evaluation](content/M7.md)
   - [Learning objectives](content/M7.md#learning-objectives)
   - [Review models and anonymization](content/M7.md#review-models-and-anonymization)
@@ -228,14 +217,11 @@
   - [Clarification period and reviewer interaction](content/M7.md#clarification-period-and-reviewer-interaction)
   - [Key takeaways](content/M7.md#key-takeaways)
   - [Shortcuts](content/M7.md#shortcuts)
-
 - [Supplementary Material](content/supplementary-material.md)
   - [Checklists](content/supplementary-material.md#checklists)
   - [Templates](content/supplementary-material.md#templates)
   - [README examples](content/supplementary-material.md#readme-examples)
   - [INSTALL.md examples](content/supplementary-material.md#installmd-examples)
   - [Supplementary material of the module](content/supplementary-material.md#supplementary-material-of-the-module)
-
 - [Glossary of terms](/glossary.md)
-
 - [References](/references.md)

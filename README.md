@@ -213,7 +213,7 @@ This means that the content can be freely reused, adapted, and redistributed, in
 
 This material includes adapted content from sources licensed under CC BY-SA 4.0. Therefore, this license is used to comply with ShareAlike requirements from these sources.
 
-To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/.
+To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ![](/Content/images/FIG-CC-BY-SA.svg)
 
