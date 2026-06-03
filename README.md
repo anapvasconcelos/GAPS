@@ -56,9 +56,9 @@ All references are centralized in the following document: [GAPS References](refe
 
 ## Authors
 
-[**Ana Paula Vasconcelos**](https://orcid.org/0000-0002-2513-4924) is a Ph.D. student at the Centro de Informática of the Universidade Federal de Pernambuco and a Technical Staff Member at the Universidade do Estado de Mato Grosso, Brazil. Her research interests include Open Science and research artifacts, focusing on education and training.
+[**Ana Paula Vasconcelos**](https://orcid.org/0000-0002-2513-4924) is a Ph.D. student at the Centro de Informática of the Universidade Federal de Pernambuco (CIn/UFPE) and a Technical Staff Member at the Universidade do Estado de Mato Grosso (UNEMAT), Brazil. Her research interests include Open Science and research artifacts, focusing on education and training.
 
-[**Fernanda Madeiral**](https://orcid.org/0000-0003-2048-7648) is an Assistant Professor at the Centro de Informática of the Universidade Federal de Pernambuco, Brazil. Her broad research goal is to help developers produce and maintain high-quality software systems. Her research interests include software bugs and their fixes, linter violations, and source code understandability. She is also an Advocate of Open Science.
+[**Fernanda Madeiral**](https://orcid.org/0000-0003-2048-7648) is an Assistant Professor at the Centro de Informática of the Universidade Federal de Pernambuc (CIn/UFPE), Brazil. Her broad research goal is to help developers produce and maintain high-quality software systems. Her research interests include software bugs and their fixes, linter violations, and source code understandability. She is also an Advocate of Open Science.
 
 [**Sergio Soares**](https://orcid.org/0000-0002-4428-2535) is an Associate Professor at the Centro de Informática of the Universidade Federal de Pernambuco (CIn/UFPE), one of Brazil's top Computer Science academic groups. He has experience in coordinating industry research, development, and innovation projects. He works on software engineering, mainly in experimental Software Engineering, data protection and privacy, Open Science, smart cities, knowledge management, and digital health.
 
