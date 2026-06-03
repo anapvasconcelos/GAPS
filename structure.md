@@ -1,8 +1,8 @@
 <div align="center"><nobr>
 
-[README](/README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[README](README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
 GAPS structure &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[Glossary](/glossary.md)
+[References](references.md)
 
 </nobr></div>
 
@@ -91,23 +91,18 @@ GAPS structure &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
 - [Clarification period and reviewer interaction](content/M7.md#clarification-period-and-reviewer-interaction)
 - [Key takeaways](content/M7.md#key-takeaways)
 
-## [Supplementary Material](content/supplementary-material.md)
+## [Supplementary Material](content/supplementary-material.md) *(under development)*
 
 - [Checklists](content/supplementary-material.md#checklists)
 - [Templates](content/supplementary-material.md#templates)
-- [README examples](content/supplementary-material.md#readme-examples)
-- [INSTALL.md examples](content/supplementary-material.md#installmd-examples)
-- [Supplementary material of the module](content/supplementary-material.md#supplementary-material-of-the-module)
+- [Examples](content/supplementary-material.md#readme-examples)
 
 ## [About the GAPS](/README.md)
   
-- [Purpose of the GAPS](/README.md#purpose-of-the-gaps)
-- [GAPS Structure](/README.md#gaps-structure)
-- [Sources](/README.md#sources)
-- [Authors](/README.md#authors)
-- [How to cite this material](/README.md#how-to-cite-this-material)
-- [Citation file](/CITATION.cff)
-- [License and use](/README.md#license-and-use)
-- [License](/LICENSE)
-- [Glossary of terms](/glossary.md)
+- [Purpose of the GAPS](README.md#purpose-of-the-gaps)
+- [GAPS Structure](README.md#gaps-structure)
+- [Sources](README.md#sources)
+- [Authors](README.md#authors)
+- [How to cite this material](README.md#how-to-cite-this-material)
+- [License and use](README.md#license-and-use)
 - [References](/references.md)

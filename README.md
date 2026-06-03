@@ -2,7 +2,7 @@
 
 README &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
 [GAPS structure](structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[First module →](content/M1.md)
+[References](references.md)
 
 </nobr></div>
 
@@ -26,27 +26,25 @@ Access the [GAPS structure](structure.md).
 
 ## GAPS Structure
 
-GAPS is organized into seven modules that cover the preparation, documentation, sharing, and maintenance of research artifacts throughout their lifecycle.
+GAPS is organized into seven modules that cover the artifact lifecycle.
 
-**[Module 1 - Foundations](content/M1.md)**: Introduces Open Science, research artifacts, and their role in reproducibility and reuse.
+**[Module 1 - Foundations](content/M1.md)**: Introduces Open Science, research artifacts, their lifecycle, and their role in transparency, reproducibility, and reuse.
 
-**[Module 2 - Preparation](content/M2.md)**: Discusses how to plan studies and workflows with artifacts in mind from the beginning. Covers data preparation, anonymization, and artifact curation practices.
+**[Module 2 - Preparation](content/M2.md)**: Discusses how to adopt an artifact-oriented mindset from the beginning of a study. Covers repository organization, workflow design, data curation, anonymization, and artifact preparation for easy sharing.
 
-**[Module 3 - Documentation](content/M3.md)**: Explains how to document, organize, and make artifacts understandable and reusable.
+**[Module 3 - Documentation](content/M3.md)**: Explains how to document, organize, and communicate artifacts through README files, repository documentation, and claim-to-artifact mappings.
 
-**[Module 4 - Reproducibility](content/M4.md)**: Presents practices for reproducible workflows, environments, and verification.
+**[Module 4 - Reproducibility](content/M4.md)**: Presents practices for reproducible workflows, version control, validation, independent execution, and reproducibility assessment.
 
-**[Module 5 - Publishing](content/M5.md)**: Covers licensing, repositories, packaging, and artifact publication.
+**[Module 5 - Publishing](content/M5.md)**: Covers artifact packaging, licensing, repositories, metadata, discoverability, and publication.
 
-**[Module 6 - Maintenance](content/M6.md)**: Explores preservation, versioning, and long-term usability of artifacts.
+**[Module 6 - Maintenance](content/M6.md)**: Explores artifact preservation, versioning, sustainability, and long-term reuse.
 
-**[Module 7 - Evaluation](content/M7.md)**: Discusses artifact evaluation, anonymization, and reviewer expectations.
+**[Module 7 - Evaluation](content/M7.md)**: Discusses artifact review processes, anonymization requirements, reviewer expectations, artifact badges, and evaluation practices.
 
-**[Supplementary Material](content/supplementary-material.md)**: Provides templates, checklists, examples, and additional supporting resources.
+**[Supplementary Material](content/supplementary-material.md)**: Provides templates, checklists, examples, and additional supporting resources. ***(under development)***
 
 **[References](references.md)**: Centralized references used across the modules.
-
-<!-- **[Glossary](glossary.md)**: Definitions of key concepts related to Open Science and research artifacts. -->
 
 ## Sources
 

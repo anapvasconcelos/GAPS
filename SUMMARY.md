@@ -215,6 +215,6 @@
   - [Clarification period and reviewer interaction](content/M7.md#clarification-period-and-reviewer-interaction)
   - [Key takeaways](content/M7.md#key-takeaways)
 
-<!-- - [Glossary of terms](/glossary.md) -->
+- [Supplementary Material](content/supplementary-material.md)
 
 - [References](references.md)
