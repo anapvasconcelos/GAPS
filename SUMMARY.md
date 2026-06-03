@@ -218,5 +218,3 @@
 - [Supplementary Material](content/supplementary-material.md)
 
 - [References](references.md)
-
-- [README](/README.md)
