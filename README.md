@@ -8,11 +8,11 @@ README &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
 
 ---
 
+![](GAPS-logo.png)
+
 # Guidance for Artifact Preparation and Sharing
 
 **Version**: 1.0
-
-![](GAPS-logo.png)
 
 ## Purpose of the GAPS
 
