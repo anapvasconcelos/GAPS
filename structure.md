@@ -95,7 +95,7 @@ GAPS structure &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
 
 - [Checklists](content/supplementary-material.md#checklists)
 - [Templates](content/supplementary-material.md#templates)
-- [Examples](content/supplementary-material.md#readme-examples)
+- [Examples](content/supplementary-material.md#examples)
 
 ## [About the GAPS](/README.md)
   
