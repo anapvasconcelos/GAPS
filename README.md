@@ -1,8 +1,8 @@
 <div align="center"><nobr>
 
 README &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[GAPS structure](/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[Glossary](/glossary.md)
+[GAPS structure](structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[First module →](content/M1.md)
 
 </nobr></div>
 
@@ -22,31 +22,31 @@ The guidance provided in this document is not intended to be exhaustive. Instead
 
 Overall, GAPS serves as a practical tool to help researchers identify and prioritize key aspects when preparing research artifacts.
 
-Access the [GAPS structure](/structure.md).
+Access the [GAPS structure](structure.md).
 
 ## GAPS Structure
 
 GAPS is organized into seven modules that cover the preparation, documentation, sharing, and maintenance of research artifacts throughout their lifecycle.
 
-**[Module 1 - Foundations](Content/M1.md)**: Introduces Open Science, research artifacts, and their role in reproducibility and reuse.
+**[Module 1 - Foundations](content/M1.md)**: Introduces Open Science, research artifacts, and their role in reproducibility and reuse.
 
-**[Module 2 - Preparation](Content/M2.md)**: Discusses how to plan studies and workflows with artifacts in mind from the beginning. Covers data preparation, anonymization, and artifact curation practices.
+**[Module 2 - Preparation](content/M2.md)**: Discusses how to plan studies and workflows with artifacts in mind from the beginning. Covers data preparation, anonymization, and artifact curation practices.
 
-**[Module 3 - Documentation](Content/M3.md)**: Explains how to document, organize, and make artifacts understandable and reusable.
+**[Module 3 - Documentation](content/M3.md)**: Explains how to document, organize, and make artifacts understandable and reusable.
 
-**[Module 4 - Reproducibility](Content/M4.md)**: Presents practices for reproducible workflows, environments, and verification.
+**[Module 4 - Reproducibility](content/M4.md)**: Presents practices for reproducible workflows, environments, and verification.
 
-**[Module 5 - Publishing](Content/M5.md)**: Covers licensing, repositories, packaging, and artifact publication.
+**[Module 5 - Publishing](content/M5.md)**: Covers licensing, repositories, packaging, and artifact publication.
 
-**[Module 6 - Maintenance](Content/M6.md)**: Explores preservation, versioning, and long-term usability of artifacts.
+**[Module 6 - Maintenance](content/M6.md)**: Explores preservation, versioning, and long-term usability of artifacts.
 
-**[Module 7 - Evaluation](Content/M7.md)**: Discusses artifact evaluation, anonymization, and reviewer expectations.
+**[Module 7 - Evaluation](content/M7.md)**: Discusses artifact evaluation, anonymization, and reviewer expectations.
 
-**[Supplementary Material](Content/supplementary-material.md)**: Provides templates, checklists, examples, and additional supporting resources.
+**[Supplementary Material](content/supplementary-material.md)**: Provides templates, checklists, examples, and additional supporting resources.
 
-**[References](/references.md)**: Centralized references used across the modules.
+**[References](references.md)**: Centralized references used across the modules.
 
-**[Glossary](/glossary.md)**: Definitions of key concepts related to Open Science and research artifacts.
+<!-- **[Glossary](glossary.md)**: Definitions of key concepts related to Open Science and research artifacts. -->
 
 ## Sources
 
@@ -54,7 +54,7 @@ The content of the GAPS modules is based on a synthesis of prior work, including
 
 We have made every effort to properly acknowledge all sources. If any attribution has been omitted unintentionally, we welcome feedback and will be happy to make the necessary corrections.
 
-All references are centralized in the following document: [GAPS References](/references.md).
+All references are centralized in the following document: [GAPS References](references.md).
 
 ## Authors
 
@@ -66,7 +66,7 @@ All references are centralized in the following document: [GAPS References](/ref
 
 ## How to cite this material
 
-Citation metadata is also available in the [`CITATION.cff`](/CITATION.cff) file for tools that support it. The formats below are provided for convenience.
+Citation metadata is also available in the [`CITATION.cff`](CITATION.cff) file for tools that support it. The formats below are provided for convenience.
 
 ### BibTeX
 
@@ -92,7 +92,7 @@ Vasconcelos, A. P., Madeiral, F., and Soares, S. (2026). GAPS - Guidance for Art
 
 ## License and use
 
-The Guidance for Artifact Preparation and Sharing (GAPS) is released as an Open Educational Resource under the Creative Commons Attribution-ShareAlike 4.0 International License ([CC BY-SA 4.0](/LICENSE)).
+The Guidance for Artifact Preparation and Sharing (GAPS) is released as an Open Educational Resource under the Creative Commons Attribution-ShareAlike 4.0 International License ([CC BY-SA 4.0](LICENSE)).
 
 This means that the content can be freely reused, adapted, and redistributed, including for commercial purposes, provided that appropriate credit is given and that any derivative works are distributed under the same license.
 
@@ -100,7 +100,7 @@ This material includes adapted content from sources licensed under CC BY-SA 4.0.
 
 To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/).
 
-![](/Content/images/FIG-CC-BY-SA.svg)
+![](content/images/FIG-CC-BY-SA.svg)
 
 ---
 

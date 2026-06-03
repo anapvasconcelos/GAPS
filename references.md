@@ -65,6 +65,9 @@ Bergen, Norway: CESSDA ERIC. Available at: https://dmeg.cessda.eu/ <!-- CESSDA -
 - Creative Commons. About The Licenses. Available at: https://creativecommons.org/cc-licenses/ <!-- CC -->
 - Creative Commons. Understanding Free Cultural Works. Available at: https://creativecommons.org/public-domain/freeworks/ <!-- CC -->
 
+### Damasceno and Struber (2021)
+- Carlos Diego Nascimento Damasceno and Daniel Strüber (2021). Quality Guidelines for Research Artifacts in Model-Driven Engineering. ACM/IEEE 24th International Conference on Model Driven Engineering Languages and Systems (MoDELS’21), ACM, Fukuoka, Japan (Virtual Event). Available at: http://doi.org/10.1109/MODELS50736.2021.00036 <!-- DamascenoStruber2021 -->
+
 ### Data Citation Synthesis Group (2014)
 - Data Citation Synthesis Group: Joint Declaration of Data Citation Principles. Martone M. (ed.) San Diego CA: FORCE11; 2014. Available at: https://doi.org/10.25490/a97f-egyk <!-- DataCitationSynthesisGroup2014 -->
 
@@ -91,6 +94,9 @@ Available at: https://www.fsd.tuni.fi/en/services/data-management-guidelines/ <!
 
 ### Mendez et al. (2020)
 - Mendez D, Graziotin D, Wagner S, Seibold H. (2020) Open Science in Software Engineering. Contemporary Empirical Methods in Software Engineering. Available at: https://doi.org/10.1007/978-3-030-32489-6_17 <!-- MendezEtAl2020 -->
+
+### Mendez et al. (2019)
+- Daniel Mendez, Martin Monperrus, Robert Feldt, and Thomas Zimmermann (2019) The open science initiative of the Empirical Software Engineering journal. Empirical Software Engineering. Available at: https://doi.org/10.1007/s10664-019-09712-x <!-- MendezEtAl2019 -->
 
 ### Menzies et al. (2018)
 - Menzies, Zimmermann, Murphy-Hill, Marcus, Monperrus M (2018) List of known research artifact types. Available at: https://github.com/researchart/all/blob/master/ListOfArtifacts.md <!-- MenziesEtAl2018 -->

@@ -230,4 +230,3 @@ Dependencies with source-available licenses, such as the Business Source License
 Projects often rely on non-source code content, such as images, icons, videos, fonts, data files, or other materials, which are governed by their own licenses. As with traditional software dependencies, the licenses these materials range from Commercial to permissive to Copyleft. The Creative Commons, a non-profit organization, created a series of licenses popular for non-source content. Creative Commons licenses range from very permissive CC0 to Permissive CC-BY to copyleft CC-SA. They also can sometimes restrict commercial use by adding a non-commercial (NC) option to these licenses. 
 
 Choosing an appropriate license is not only a legal decision, but also a scientific and strategic one, as it directly influences the visibility, reuse, and impact of research artifacts.
-
