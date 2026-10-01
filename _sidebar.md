@@ -1,9 +1,7 @@
 # Summary
 
 - [Home](/home.md)
-
 - [GAPS Structure](content/structure.md)
-
 - [M1 - Foundations](content/M1.md#module-1---foundations)
 - [M2 - Planning & Organization](content/M2.md#module-2---planning-and-artifact-organization)
 - [M3 - Documentation](content/M3.md#module-3---documentation)
@@ -19,5 +17,4 @@
 - [Researcher-facing Self-check](materials/researcher-facing-self-check.md)
 - [GAPS References](materials/references.md)
 - [GAPS Advisor](https://notebook.google.com/notebook/17518b1f-e320-48be-a9c2-0edee13c6737)
-
 - [README](/README.md)

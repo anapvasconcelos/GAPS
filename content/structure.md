@@ -109,10 +109,10 @@ GAPS structure &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
 
 ## [Complementary Resources](supplementary-material.md)
 
-  - [GAPS Advisor](supplementary-material.md#gaps-advisor)
-  - [Researcher-facing Self-check](supplementary-material.md#researcher-facing-self-check)
-  - [README Template](supplementary-material.md#readme-template)
-  - [GAPS References](supplementary-material.md#gaps-references)
+  - [GAPS Advisor](content/supplementary-material.md#gaps-advisor)
+  - [Researcher-facing Self-check](content/supplementary-material.md#researcher-facing-self-check)
+  - [README Template](content/supplementary-material.md#readme-template)
+  - [GAPS References](content/supplementary-material.md#gaps-references)
 
 
 ## [About the GAPS](../README.md)
