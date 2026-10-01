@@ -1,4 +1,16 @@
-# GAPS - Guidance for Artifact Preparation and Sharing
+<div align="center"><nobr>
+
+[Home](../home.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS structure](../content/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[Supplementary materials](../content/supplementary-material.md)
+
+</nobr></div>
+
+---
+
+![](GAPS-logo.png)
+
+## GAPS - Guidance for Artifact Preparation and Sharing
 
 Version: 2.0
 - GAPS Material: [https://gaps-material.netlify.app/](https://gaps-material.netlify.app/)
@@ -65,7 +77,7 @@ We have made every effort to properly acknowledge all sources. If any attributio
 
 ## How to cite this material
 
-Citation metadata is also available in the [`CITATION.cff`](https://github.com/anapvasconcelos/GAPS/blob/main/CITATION.cff) file for tools that support it. The formats below are provided for convenience.
+Citation metadata is also available in the [`CITATION.cff`](/CITATION.cff) file for tools that support it. The formats below are provided for convenience.
 
 ### BibTeX
 
@@ -91,7 +103,7 @@ Vasconcelos, Ana Paula, Madeiral, Fernanda, and Soares, Sergio. (2026). GAPS - G
 
 ## License and use
 
-The Guidance for Artifact Preparation and Sharing (GAPS) is released as an Open Educational Resource under the Creative Commons Attribution-ShareAlike 4.0 International License ([CC BY-SA 4.0](https://github.com/anapvasconcelos/GAPS/blob/main/LICENSE)).
+The Guidance for Artifact Preparation and Sharing (GAPS) is released as an Open Educational Resource under the Creative Commons Attribution-ShareAlike 4.0 International License ([CC BY-SA 4.0](/LICENSE)).
 
 This means that the content can be freely reused, adapted, and redistributed, including for commercial purposes, provided that appropriate credit is given and that any derivative works are distributed under the same license.
 
@@ -99,7 +111,7 @@ This material includes adapted content from sources licensed under CC BY-SA 4.0.
 
 To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/).
 
-![](https://github.com/anapvasconcelos/GAPS/blob/main/content/images/FIG-CC-BY-SA.svg)
+![](/images/FIG-CC-BY-SA.svg)
 
 ---
 

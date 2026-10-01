@@ -16,4 +16,4 @@
 - [Researcher-facing Self-check](/materials/researcher-facing-self-check.md)
 - [GAPS References](/materials/references.md)
 - [GAPS Advisor](https://notebook.google.com/notebook/17518b1f-e320-48be-a9c2-0edee13c6737)
-- [README](/README.md)
+- [About](/GAPS-Advisor-files/advisor-about.md)
