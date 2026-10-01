@@ -41,7 +41,7 @@ The guidance is organized into **10 modules** covering the research artifact lif
 
 The interactive mind map provides a visual overview of the GAPS structure, including its 10 modules, main topics, and complementary resources.
 
-[**GAPS mind map**](/materials/GAPS-mind-map.html)
+[**GAPS mind map**](/materials/GAPS-mind-map.md)
 
 ---
 
