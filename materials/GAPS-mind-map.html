@@ -1,0 +1,822 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GAPS Mind Map</title>
+<style>
+  :root {
+    --bg: #F1F0EC;
+    --surface: #E8E7E2;
+    --border: #D2D0C9;
+    --text: #30302D;
+    --text-dim: #6F6D66;
+    /* --bg: #0f1117;
+    --surface: #1a1d27;
+    --border: #2d3148;
+    --text: #e8eaf6;
+    --text-dim: #9095b8; */
+    /* --root-bg: #3949ab;
+    --root-glow: #5c6bc0; */
+    --root-bg: #D8D7D2;
+--root-glow: #BEBDB7;
+    --m1: #1565c0; --m2: #00695c; --m3: #6a1b9a; --m4: #e65100;
+    --m5: #ad1457; --m6: #0277bd; --m7: #2e7d32; --m8: #4527a0;
+    --m9: #c62828; --m10: #f57f17;
+    --advisor: #00838f; --readme: #558b2f; --selfcheck: #6d4c41; --refs: #37474f;
+    --line: rgba(255,255,255,0.15);
+    --connector: #9A9891;
+    /* --connector: #3d4275; */
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  header {
+    text-align: center;
+    padding: 20px 16px 12px;
+    border-bottom: 1px solid var(--border);
+    background: var(--surface);
+  }
+  header h1 { font-size: 1.3rem; font-weight: 700; color: var(--text); letter-spacing: .5px; }
+  header p { font-size: .8rem; color: var(--text-dim); margin-top: 4px; }
+  .controls {
+    display: flex; gap: 8px; justify-content: center; flex-wrap: wrap;
+    padding: 10px 16px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+  }
+  .controls button {
+    padding: 5px 14px; border-radius: 20px; border: 1px solid var(--border);
+    background: var(--bg); color: var(--text-dim); font-size: .75rem; cursor: pointer;
+    transition: all .2s;
+  }
+  .controls button:hover { background: var(--border); color: var(--text); }
+  .mindmap {
+    padding: 24px 16px 40px;
+    display: flex; flex-direction: column; align-items: center; gap: 0;
+  }
+
+  /* ROOT NODE */
+  .root {
+    background: var(--root-bg);
+    border: 2px solid var(--root-glow);
+    border-radius: 50px;
+    padding: 14px 32px;
+    text-align: center;
+    /* box-shadow: 0 0 24px rgba(92,107,192,.5); */
+    box-shadow: 0 0 20px rgba(80,78,70,.15);
+    max-width: 420px; width: 100%;
+    position: relative; z-index: 2;
+    cursor: default;
+  }
+  .root .acronym { font-size: 2rem; font-weight: 800; letter-spacing: 2px; }
+  /* .root .acronym {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+} */
+  .root .full { font-size: 1.05rem; color: rgba(0, 0, 0, 0.8); margin-top: 2px; }
+
+  /* CONNECTOR LINE from root down */
+  .vline { width: 2px; height: 24px; background: var(--connector); margin: 0 auto; }
+
+  /* BRANCHES GRID */
+  .branches {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); */
+    gap: 16px;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 8px;
+  }
+
+  /* COMPONENT CARD */
+  .card {
+    background: var(--surface);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+    transition: box-shadow .2s;
+  }
+  .card:hover { box-shadow: 0 4px 20px rgba(0,0,0,.4); }
+
+  .card-header {
+    padding: 12px 16px;
+    display: flex; align-items: center; gap: 10px;
+    cursor: pointer;
+    user-select: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color .2s;
+  }
+  .card.open .card-header { border-color: var(--border); }
+  .card-icon {
+    width: 36px; height: 36px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.1rem; flex-shrink: 0;
+  }
+  .card-title { flex: 1; }
+  .card-title .label { font-size: .7rem; text-transform: uppercase; letter-spacing: 1px; opacity: .7; }
+  .card-title .name { font-size: .95rem; font-weight: 600; margin-top: 1px; white-space: nowrap;}
+  .chevron { font-size: .8rem; color: var(--text-dim); transition: transform .25s; flex-shrink: 0; }
+  .card.open .chevron { transform: rotate(90deg); }
+
+  .card-body { display: none; padding: 12px 14px 14px; }
+  .card.open .card-body { display: block; }
+
+  /* TOPIC LIST */
+  .topic { margin-bottom: 10px; }
+  .topic:last-child { margin-bottom: 0; }
+  .topic-name {
+    font-size: .82rem; font-weight: 600; color: var(--text);
+    display: flex; align-items: center; gap: 6px;
+    padding: 4px 0;
+    cursor: pointer;
+  }
+  .topic-name .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .topic-name .tchev { font-size: .65rem; color: var(--text-dim); margin-left: auto; transition: transform .2s; }
+  .topic.open .topic-name .tchev { transform: rotate(90deg); }
+  .subtopics { display: none; padding-left: 22px; margin-top: 4px; }
+  .topic.open .subtopics { display: block; }
+  .subtopic {
+    font-size: .76rem; color: var(--text-dim);
+    color: #191c1c;
+    padding: 2px 0 2px 10px;
+    border-left: 2px solid var(--border);
+    margin-bottom: 2px;
+    line-height: 1.4;
+  }
+  .subtopic:last-child { margin-bottom: 0; }
+
+  /* MODULE GRID inside GAPS Material card */
+  .modules-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 240px), 1fr));
+    gap: 10px;
+  }
+  .module {
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+  }
+  .module-header {
+    padding: 8px 12px;
+    display: flex; align-items: center; gap: 8px;
+    cursor: pointer;
+  }
+  .module-num {
+    font-size: .9rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .5px; opacity: .8;
+  }
+  .module-name { font-size: .9rem; font-weight: 600; flex: 1; }
+  .module-chev { font-size: .65rem; color: var(--text-dim); transition: transform .2s; }
+  .module.open .module-chev { transform: rotate(90deg); }
+  .module-body { display: none; padding: 6px 10px 10px; }
+  .module.open .module-body { display: block; }
+  .module-topic {
+    font-size: .8rem; color: var(--text-dim);
+    color: #181817;
+    padding: 2px 0 2px 10px;
+    border-left: 2px solid var(--border);
+    margin-bottom: 3px;
+    line-height: 1.4;
+    cursor: pointer;
+  }
+  .module-topic:hover { color: var(--text); }
+  .module-topic.has-sub { cursor: pointer; }
+  .module-topic .st-chevron { font-size: .6rem; margin-left: 4px; transition: transform .15s; display: inline-block; }
+  .module-topic.open .st-chevron { transform: rotate(90deg); }
+  .module-subtopic {
+    display: none;
+    font-size: .75rem; color: var(--text-dim);
+    color: #41413c;
+    padding: 1px 0 1px 20px;
+    border-left: 2px solid var(--border);
+    margin-left: 10px;
+    margin-bottom: 2px;
+    line-height: 1.4;
+  }
+  .module-topic.open + .module-subtopic { display: block; }
+
+  /* Color-coded material header */
+  .mat-header {
+  padding: 12px 16px;
+  display: flex; align-items: center; gap: 10px;
+  cursor: pointer;
+  background: #E4E3DE;
+  border-bottom: 1px solid transparent;
+}
+  /* .mat-header {
+    padding: 12px 16px;
+    display: flex; align-items: center; gap: 10px;
+    cursor: pointer;
+    background: linear-gradient(135deg, #1a1d2e 0%, #1e2135 100%);
+    border-bottom: 1px solid transparent;
+  } */
+  .mat-header .mat-icon {
+    font-size: 1.4rem;
+  }
+  .mat-header .mat-title .label { font-size: .7rem; text-transform: uppercase; letter-spacing: 1px; opacity: 1; color: var(--text-dim); }
+  .mat-header .mat-title .name { font-size: 1rem; font-weight: 700; color: var(--text); margin-top: 1px; }
+  .mat-header .mat-title .sub { font-size: .8rem; color: var(--text-dim); }
+  .mat-chevron { font-size: .85rem; color: var(--text-dim); transition: transform .25s; margin-left: auto; }
+  .card.open .mat-chevron { transform: rotate(90deg); }
+  .mat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+  .mat-card.open .mat-header { border-color: var(--border); }
+  .mat-body { display: none; padding: 14px; }
+  .mat-card.open .mat-body { display: block; }
+
+  .top-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+  padding: 10px 16px;
+  flex-wrap: wrap;
+}
+
+.top-nav a {
+  color: #0000EE;
+  font-size: .95rem;
+  text-decoration: underline;
+}
+
+.top-nav a:hover {
+  color: var(--text);
+}
+
+  /* Legend */
+  .legend {
+    display: flex; flex-wrap: wrap; gap: 8px; justify-content: center;
+    padding: 12px 16px;
+    border-top: 1px solid var(--border);
+    background: var(--surface);
+    margin-top: 24px;
+  }
+  .legend-item { display: flex; align-items: center; gap: 5px; font-size: .9rem; color: var(--text-dim); }
+  .legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+
+  @media (max-width: 600px) {
+    .root { padding: 12px 20px; }
+    .root .acronym { font-size: 1.2rem; }
+    .modules-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- <header>
+  <h1>GAPS - Structure Mind Map</h1>
+  <p>Guidance for Artifact Preparation and Sharing · Interactive Overview</p>
+</header> -->
+<!-- <header>
+</div>
+ <div class="legend"> 
+  <div class="legend-item"><span class="legend-dot" ></span><a href="https://gaps.gitbook.io/gaps/jQBaAQpYuk4HtfLcsK7Y">GAPS Material</a></div>
+  <div class="legend-item"><span class="legend-dot" ></span>&emsp;</div>
+  <div class="legend-item"><span class="legend-dot" ></span><a href="https://notebook.google.com/notebook/17518b1f-e320-48be-a9c2-0edee13c6737">GAPS Advisor</a></div>
+  <div class="legend-item"><span class="legend-dot" ></span>&emsp;</div>
+  <div class="legend-item"><span class="legend-dot" ></span><a href="https://github.com/anapvasconcelos/GAPS/blob/main/materials/template-README.md">README Template</a></div>
+  <div class="legend-item"><span class="legend-dot" ></span>&emsp;</div>
+  <div class="legend-item"><span class="legend-dot" ></span><a href="https://github.com/anapvasconcelos/GAPS/blob/main/materials/researcher-facing-self-check.md">Researcher-facing self-check</a></div>
+  <div class="legend-item"><span class="legend-dot" ></span>&emsp;</div>
+  <div class="legend-item"><span class="legend-dot" ></span><a href="https://github.com/anapvasconcelos/GAPS/blob/main/materials/references.md">GAPS References</a></div>
+  <div class="legend-item"><span class="legend-dot" ></span>&emsp;</div>
+</div>
+</div>
+</header> -->
+<header>
+  <nav class="top-nav">
+    <a href="https://gaps.gitbook.io/gaps/jQBaAQpYuk4HtfLcsK7Y">GAPS Material</a>
+    <a href="https://notebook.google.com/notebook/17518b1f-e320-48be-a9c2-0edee13c6737">GAPS Advisor</a>
+    <a href="https://github.com/anapvasconcelos/GAPS/blob/main/materials/template-README.md">README Template</a>
+    <a href="https://github.com/anapvasconcelos/GAPS/blob/main/materials/researcher-facing-self-check.md">Researcher-facing self-check</a>
+    <a href="https://github.com/anapvasconcelos/GAPS/blob/main/materials/references.md">GAPS References</a>
+  </nav>
+</header>
+
+<div class="controls">
+  <button onclick="expandAll()">Expand All</button>
+  <button onclick="expandMaterial()">Expand GAPS Material</button>
+  <button onclick="expandComponents()">Expand GAPS Components</button>
+  <button onclick="collapseAll()">Collapse All</button>
+</div>
+
+<div class="mindmap">
+
+  <!-- ROOT -->
+  <div class="root">
+    <p>&nbsp;</p>
+    <div class="acronym">GAPS</div>
+    <div class="full">Guidance for Artifact Preparation and Sharing</div>
+    <p>&nbsp;</p>
+    <p>Mind map interactive overview</p>
+    <p>&nbsp;</p>
+  </div>
+  <div class="vline"></div>
+
+  <!-- BRANCHES -->
+  <div class="branches">
+
+    <!-- ===================== GAPS MATERIAL ===================== -->
+    <div class="mat-card card" id="mat-card" style="grid-column: 1 / -1;" onclick="toggleMat(event)">
+      <div class="mat-header">
+        <span class="mat-icon">📚</span>
+        <div class="mat-title">
+          <div class="label">Core Component</div>
+          <div class="name">GAPS Material</div>
+          <div class="sub">10 modules · full artifact lifecycle</div>
+        </div>
+        <span class="mat-chevron">▶</span>
+      </div>
+      <div class="mat-body">
+        <div class="modules-grid" id="modules-grid">
+
+          <!-- M1 -->
+          <div class="module" style="border-color:#1565c0; background:rgba(21,101,192,.08);" id="m1">
+            <div class="module-header" style="background:rgba(21,101,192,.2);" onclick="toggleModule(event,'m1')">
+              <div>
+                <div class="module-num" style="color:#1565C0;">Module 1</div>
+                <div class="module-name">Foundations</div>
+              </div>
+              <span class="module-chev">▶</span>
+            </div>
+            <div class="module-body">
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Open Science <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Open Access, Open Data, Open Resources, Open Source, Open Peer Review, Open Methods</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">FAIR Principles <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Findable, Accessible, Interoperable, Reusable</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Research Artifacts <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Definition, role, artifact types, execution-oriented and transparency-oriented artifacts</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Artifact Life Cycle <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Collect → Document → License → Archive → Share</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Good Artifact Characteristics <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Usability, reproducibility, reusability</div>
+            </div>
+          </div>
+
+          <!-- M2 -->
+          <div class="module" style="border-color:#00695c; background:rgba(0,105,92,.08);" id="m2">
+            <div class="module-header" style="background:rgba(0,105,92,.2);" onclick="toggleModule(event,'m2')">
+              <div>
+                <div class="module-num" style="color:#00695C;">Module 2</div>
+                <div class="module-name">Planning & Organization</div>
+              </div>
+              <span class="module-chev">▶</span>
+            </div>
+            <div class="module-body">
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Artifact-oriented Workflow <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Early planning, continuous preparation, planning for reuse</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">File Formats <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Open formats, format suitability, long-term viability</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Repository Organization <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Folder structure, raw/processed data separation, naming conventions</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Data Curation <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Data selection, cleaning, transformation, provenance</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Data Sharing Constraints <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Ethical, legal, licensing, consent, privacy constraints</div>
+            </div>
+          </div>
+
+          <!-- M3 -->
+          <div class="module" style="border-color:#6a1b9a; background:rgba(106,27,154,.08);" id="m3">
+            <div class="module-header" style="background:rgba(106,27,154,.2);" onclick="toggleModule(event,'m3')">
+              <div>
+                <div class="module-num" style="color:#6A1B9A;">Module 3</div>
+                <div class="module-name">Documentation</div>
+              </div>
+              <span class="module-chev">▶</span>
+            </div>
+            <div class="module-body">
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Documentation Levels <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Operational, structural, scientific documentation</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Operational Documentation <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Requirements, setup, execution steps, parameters, resources, error recovery</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Structural Documentation <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Folder structure, in-folder documentation, naming, essential vs. auxiliary components</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Scientific Documentation <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Artifact purpose, data description, paper–artifact mapping, comparative evaluations</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">README <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Recommended sections, organization, audience-aware writing</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Limitations, Disclosure & Complementary Documentation <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Unsupported claims, non-shared components, disclosure, variability, complementary materials</div>
+            </div>
+          </div>
+
+          <!-- M4 -->
+          <div class="module" style="border-color:#e65100; background:rgba(230,81,0,.08);" id="m4">
+            <div class="module-header" style="background:rgba(230,81,0,.2);" onclick="toggleModule(event,'m4')">
+              <div>
+                <div class="module-num" style="color:#C45100;">Module 4</div>
+                <div class="module-name">Environments & Automation</div>
+              </div>
+              <span class="module-chev">▶</span>
+            </div>
+            <div class="module-body">
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Reproducible Environments <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Dependency specification, isolation, portability, containers and virtual machines</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Workflow Automation <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Scripted workflows, end-to-end automation, modular execution, automated outputs</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Version Control <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Change history, version tracking, what to version</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Reproducibility Pitfalls <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Undocumented steps, implicit dependencies, platform assumptions, incomplete workflows</div>
+            </div>
+          </div>
+
+          <!-- M5 -->
+          <div class="module" style="border-color:#ad1457; background:rgba(173,20,87,.08);" id="m5">
+            <div class="module-header" style="background:rgba(173,20,87,.2);" onclick="toggleModule(event,'m5')">
+              <div>
+                <div class="module-num" style="color:#AD1457;">Module 5</div>
+                <div class="module-name">Data, Privacy & Ethics</div>
+              </div>
+              <span class="module-chev">▶</span>
+            </div>
+            <div class="module-body">
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Legal & Ethical Considerations <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Personal and sensitive data, confidentiality, anonymity, consent, publication constraints</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Anonymization <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Identifiers, anonymization methods, identification risks, quantitative and qualitative data</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Restricted Data Sharing <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Sharing strategies, shadow repositories, preserving analytical value</div>
+            </div>
+          </div>
+
+          <!-- M6 -->
+          <div class="module" style="border-color:#0277bd; background:rgba(2,119,189,.08);" id="m6">
+            <div class="module-header" style="background:rgba(2,119,189,.2);" onclick="toggleModule(event,'m6')">
+              <div>
+                <div class="module-num" style="color:#0277BD;">Module 6</div>
+                <div class="module-name">Validation & Pre-release</div>
+              </div>
+              <span class="module-chev">▶</span>
+            </div>
+            <div class="module-body">
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Artifact Validation <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">External execution, clean environments, automated tests, documented behavior</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Integrity & Completeness <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">File integrity, checksums, required components, archive testing</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Result Variability & Limitations <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Expected variability, deviations, qualitative reproducibility, documented limitations</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Final Artifact Inspection <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Consistency, unnecessary materials, access conditions, pre-release checks</div>
+            </div>
+          </div>
+
+          <!-- M7 -->
+          <div class="module" style="border-color:#2e7d32; background:rgba(46,125,50,.08);" id="m7">
+            <div class="module-header" style="background:rgba(46,125,50,.2);" onclick="toggleModule(event,'m7')">
+              <div>
+                <div class="module-num" style="color:#2E7D32;">Module 7</div>
+                <div class="module-name">Publishing & Licensing</div>
+              </div>
+              <span class="module-chev">▶</span>
+            </div>
+            <div class="module-body">
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Repository & Archiving <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Repository selection, archival platforms, publication workflow</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">FAIR Publishing <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Findability, accessibility, interoperability, reusability</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Artifact Package & Review Preparation <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Package assembly, review anonymization, publication formats, archive preparation</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Licensing <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Software vs. non-software, license selection, compatibility, application</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">PIDs & Citation <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Persistent identifiers, CITATION.cff, AUTHORS, artifact citation</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Data Availability & Visibility <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Data Availability Statements, access scenarios, publication visibility</div>
+            </div>
+          </div>
+
+          <!-- M8 -->
+          <div class="module" style="border-color:#4527a0; background:rgba(69,39,160,.08);" id="m8">
+            <div class="module-header" style="background:rgba(69,39,160,.2);" onclick="toggleModule(event,'m8')">
+              <div>
+                <div class="module-num" style="color:#4527A0;">Module 8</div>
+                <div class="module-name">Preservation & Maintenance</div>
+              </div>
+              <span class="module-chev">▶</span>
+            </div>
+            <div class="module-body">
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Artifact Decay <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Dependency decay, broken links, environment assumptions, platform incompatibility, format obsolescence</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Versioning & Changelogs <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Version-specific PIDs, version tags, changelogs, immutable releases</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Long-term Preservation <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Archival repositories, durable formats, independent access to published artifacts</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Active Maintenance <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Issue management, dependency updates, current documentation</div>
+            </div>
+          </div>
+
+          <!-- M9 -->
+          <div class="module" style="border-color:#c62828; background:rgba(198,40,40,.08);" id="m9">
+            <div class="module-header" style="background:rgba(198,40,40,.2);" onclick="toggleModule(event,'m9')">
+              <div>
+                <div class="module-num" style="color:#C62828;">Module 9</div>
+                <div class="module-name">Reusability & Extension</div>
+              </div>
+              <span class="module-chev">▶</span>
+            </div>
+            <div class="module-body">
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Designing for Reusability <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Reusable components, adaptation, reuse limitations</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Reusability Guide & Extension <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Adaptation instructions, new inputs and contexts, extension scenarios</div>
+            </div>
+          </div>
+
+          <!-- M10 -->
+          <div class="module" style="border-color:#f57f17; background:rgba(245,127,23,.08);" id="m10">
+            <div class="module-header" style="background:rgba(245,127,23,.2);" onclick="toggleModule(event,'m10')">
+              <div>
+                <div class="module-num" style="color:#B85C00;">Module 10</div>
+                <div class="module-name">Artifact Evaluation</div>
+              </div>
+              <span class="module-chev">▶</span>
+            </div>
+            <div class="module-body">
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Access During Review <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Artifact accessibility, anonymous access, credentials, reviewer access</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Artifact Evaluation & Badges <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Evaluation programs, badge systems, venue-specific requirements</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Evaluation Criteria <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Availability, documentation, functionality, reproducibility, reusability</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Preparing for Evaluation <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Pre-submission verification, venue requirements, artifact versioning</div>
+
+              <div class="module-topic has-sub" onclick="toggleMT(this)">Reviewer Interaction <span class="st-chevron">▶</span></div>
+              <div class="module-subtopic">Clarification period, responses, fixes, updated instructions</div>
+            </div>
+          </div>
+
+        </div><!-- end modules-grid -->
+      </div>
+    </div><!-- end mat-card -->
+
+    <!-- ===================== GAPS ADVISOR ===================== -->
+    <div class="card" id="advisor-card" onclick="toggleCard(event,'advisor-card')">
+      <div class="card-header" style="border-left: 4px solid #00838f;">
+        <div class="card-icon" style="background:rgba(0,131,143,.2); color:#00838f;">🤖</div>
+        <div class="card-title">
+          <div class="label">Support Tool</div>
+          <div class="name">GAPS Advisor</div>
+        </div>
+        <span class="chevron">▶</span>
+      </div>
+      <div class="card-body">
+        <div class="topic" id="t-advisor-1">
+          <div class="topic-name" onclick="toggleTopic('t-advisor-1')">
+            <span class="dot" style="background:#00838f;"></span>
+            Purpose & Function <span class="tchev">▶</span>
+          </div>
+          <div class="subtopics">
+            <div class="subtopic">Interactive, context-aware guidance for artifact preparation and sharing</div>
+          </div>
+        </div>
+        <div class="topic" id="t-advisor-2">
+          <div class="topic-name" onclick="toggleTopic('t-advisor-2')">
+            <span class="dot" style="background:#00838f;"></span>
+            Adaptive Guidance <span class="tchev">▶</span>
+          </div>
+          <div class="subtopics">
+            <div class="subtopic">Researcher needs, artifact stage, artifact type, and artifact identity</div>
+          </div>
+        </div>
+        <div class="topic" id="t-advisor-3">
+          <div class="topic-name" onclick="toggleTopic('t-advisor-3')">
+            <span class="dot" style="background:#00838f;"></span>
+            Outputs <span class="tchev">▶</span>
+          </div>
+          <div class="subtopics">
+            <div class="subtopic">Relevant GAPS recommendations, prioritized for the researcher's current needs</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== README TEMPLATE ===================== -->
+    <div class="card" id="readme-card" onclick="toggleCard(event,'readme-card')">
+      <div class="card-header" style="border-left: 4px solid #558b2f;">
+        <div class="card-icon" style="background:rgba(85,139,47,.2); color:#558b2f;">📄</div>
+        <div class="card-title">
+          <div class="label">Ready-to-use Template</div>
+          <div class="name">README Template</div>
+        </div>
+        <span class="chevron">▶</span>
+      </div>
+      <div class="card-body">
+        <div class="topic" id="t-readme-1">
+          <div class="topic-name" onclick="toggleTopic('t-readme-1')">
+            <span class="dot" style="background:#558b2f;"></span>
+            Purpose & Function <span class="tchev">▶</span>
+          </div>
+          <div class="subtopics">
+            <div class="subtopic">Provides a ready-to-use structure for documenting and communicating a research artifact</div>
+          </div>
+        </div>
+        <div class="topic" id="t-readme-2">
+          <div class="topic-name" onclick="toggleTopic('t-readme-2')">
+            <span class="dot" style="background:#558b2f;"></span>
+            Core Documentation <span class="tchev">▶</span>
+          </div>
+          <div class="subtopics">
+            <div class="subtopic">Artifact identity, overview, repository structure, requirements, installation, and execution</div>
+          </div>
+        </div>
+        <div class="topic" id="t-readme-3">
+          <div class="topic-name" onclick="toggleTopic('t-readme-3')">
+            <span class="dot" style="background:#558b2f;"></span>
+            Metadata & Attribution <span class="tchev">▶</span>
+          </div>
+          <div class="subtopics">
+            <div class="subtopic">License, citation, DOI, limitations, contact information</div>
+          </div>
+        </div>
+        <div class="topic" id="t-readme-4">
+          <div class="topic-name" onclick="toggleTopic('t-readme-4')">
+            <span class="dot" style="background:#558b2f;"></span>
+            Maintenance <span class="tchev">▶</span>
+          </div>
+          <div class="subtopics">
+            <div class="subtopic">Modular structure, audience-aware writing, and updates across versions</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== SELF-CHECK ===================== -->
+    <div class="card" id="selfcheck-card" onclick="toggleCard(event,'selfcheck-card')">
+      <div class="card-header" style="border-left: 4px solid #6d4c41;">
+        <div class="card-icon" style="background:rgba(109,76,65,.2); color:#a1887f;">✅</div>
+        <div class="card-title">
+          <div class="label">Researcher Tool</div>
+          <div class="name">Researcher-facing self-check</div>
+        </div>
+        <span class="chevron">▶</span>
+      </div>
+      <div class="card-body">
+        <div class="topic" id="t-sc-1">
+          <div class="topic-name" onclick="toggleTopic('t-sc-1')">
+            <span class="dot" style="background:#6d4c41;"></span>
+            Purpose & Function <span class="tchev">▶</span>
+          </div>
+          <div class="subtopics">
+            <div class="subtopic">Supports researchers in assessing artifact readiness before submission</div>
+          </div>
+        </div>
+        <div class="topic" id="t-sc-2">
+          <div class="topic-name" onclick="toggleTopic('t-sc-2')">
+            <span class="dot" style="background:#6d4c41;"></span>
+            Readiness Areas <span class="tchev">▶</span>
+          </div>
+          <div class="subtopics">
+            <div class="subtopic">Documentation, reproducibility, rights, metadata, ethics, and sharing</div>
+          </div>
+        </div>
+        <div class="topic" id="t-sc-3">
+          <div class="topic-name" onclick="toggleTopic('t-sc-3')">
+            <span class="dot" style="background:#6d4c41;"></span>
+            When to Use <span class="tchev">▶</span>
+          </div>
+          <div class="subtopics">
+            <div class="subtopic">During final preparation, after validation, and before submission</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===================== REFERENCES ===================== -->
+    <div class="card" id="refs-card" onclick="toggleCard(event,'refs-card')">
+      <div class="card-header" style="border-left: 4px solid #37474f;">
+        <div class="card-icon" style="background:rgba(55,71,79,.3); color:#90a4ae;">📖</div>
+        <div class="card-title">
+          <div class="label">Supporting Resources</div>
+          <div class="name">GAPS References</div>
+        </div>
+        <span class="chevron">▶</span>
+      </div>
+      <div class="card-body">
+        <div class="topic" id="t-ref-1">
+          <div class="topic-name" onclick="toggleTopic('t-ref-1')">
+            <span class="dot" style="background:#37474f;"></span>
+            Purpose <span class="tchev">▶</span>
+          </div>
+          <div class="subtopics">
+            <div class="subtopic">Provides the references that support and contextualize the GAPS content</div>
+          </div>
+        </div>
+        <div class="topic" id="t-ref-2">
+          <div class="topic-name" onclick="toggleTopic('t-ref-2')">
+            <span class="dot" style="background:#37474f;"></span>
+            Coverage <span class="tchev">▶</span>
+          </div>
+          <div class="subtopics">
+            <div class="subtopic">Open Science, FAIR, research artifacts, reproducibility, artifact evaluation, and related practices</div>
+          </div>
+        </div>
+        <div class="topic" id="t-ref-3">
+          <div class="topic-name" onclick="toggleTopic('t-ref-3')">
+            <span class="dot" style="background:#37474f;"></span>
+            Supporting Sources <span class="tchev">▶</span>
+          </div>
+          <div class="subtopics">
+            <div class="subtopic">Guidelines, standards, tools, platforms, and other resources used to support GAPS recommendations</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- end branches -->
+  <!-- <div class="legend"></div>
+  <div class="legend-item"><span class="legend-dot" style="background:#1565c0;"></span>GAPS Material</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#1565c0;"></span>GAPS Advisor</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#1565c0;"></span>README Template</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#1565c0;"></span>Researcher-facing self-check</div>
+  <div class="legend-item"><span class="legend-dot" style="background:#1565c0;"></span>GAPS References</div>
+</div> -->
+</div><!-- end mindmap -->
+
+<script>
+function toggleMat(e) {
+  if (e.target.closest('.module') || e.target.closest('.module-topic')) return;
+  const card = document.getElementById('mat-card');
+  card.classList.toggle('open');
+}
+function toggleCard(e, id) {
+  if (e.target.closest('.topic-name') || e.target.closest('.subtopics')) return;
+  const card = document.getElementById(id);
+  card.classList.toggle('open');
+}
+function toggleModule(e, id) {
+  e.stopPropagation();
+  const mod = document.getElementById(id);
+  mod.classList.toggle('open');
+}
+function toggleMT(el) {
+  event.stopPropagation();
+  el.classList.toggle('open');
+}
+function toggleTopic(id) {
+  document.getElementById(id).classList.toggle('open');
+}
+function expandAll() {
+  document.querySelectorAll('.card, .module, .topic, .mat-card').forEach(el => el.classList.add('open'));
+}
+function collapseAll() {
+  document.querySelectorAll('.card, .module, .topic, .mat-card').forEach(el => el.classList.remove('open'));
+}
+function expandMaterial() {
+  document.getElementById('mat-card').classList.add('open');
+  document.querySelectorAll('.module').forEach(m => m.classList.add('open'));
+}
+function expandComponents() {
+  ['advisor-card', 'readme-card', 'selfcheck-card', 'refs-card']
+    .forEach(id => document.getElementById(id).classList.add('open'));
+}
+</script>
+</body>
+</html>
+
+</body></html>

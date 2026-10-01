@@ -1,8 +1,8 @@
 <div align="center"><nobr>
 
-[← Previous module](M7.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[GAPS Summary](../structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[References](../references.md)
+[← Previous module](M10.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS structure](structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[References](../materials/references.md)
 
 </nobr></div>
 
@@ -10,80 +10,31 @@
 
 ![](../GAPS-logo.png)
 
-# Supplementary Material (under development)
 
-Work in progress: We are currently developing a collection of checklists, templates, and exemplary artifacts to complement the instructional modules and support classroom adoption.
+#  Additional Resources and supplementary materials
 
-## Checklists
+The GAPS supplementary materials provide practical resources to support the preparation, documentation, evaluation, and sharing of research artifacts. These resources complement the instructional modules and can be used by researchers, educators, and students according to their needs.
 
-Planned: artifact preparation, documentation, reproducibility, publication, and maintenance checklists.
+## GAPS Advisor
 
-## Templates
+An interactive advisor that provides context-aware guidance based on the GAPS recommendations and checklist. Rather than presenting the recommendations sequentially, the Advisor identifies requirements relevant to the researcher's artifact and current situation.
 
-Planned: README templates, metadata files, and artifact documentation templates.
+[Access the GAPS Advisor](https://notebook.google.com/notebook/17518b1f-e320-48be-a9c2-0edee13c6737)
 
-## Examples
+## Researcher-facing Self-check
 
-Planned: curated examples of research artifacts illustrating good practices in documentation, reproducibility, publication, and long-term maintenance.
+A concise checklist to help researchers assess the readiness of their artifacts before sharing or submission.
 
+[Access the Researcher-facing Self-check](https://github.com/anapvasconcelos/GAPS/blob/main/materials/researcher-facing-self-check.md)
 
-<!-- 
+## README Template
 
-- [Checkists](checklists.md)
+A ready-to-use template for documenting and communicating a research artifact. It provides a suggested structure covering key aspects of artifact documentation and can be adapted to different artifact types and contexts.
 
----
+[Access the README Template](https://github.com/anapvasconcelos/GAPS/blob/main/materials/template-README.md)
 
+## GAPS References
 
-Using predefined templates may reduce omissions, standardize reporting practices, and simplify the preparation of reproducible research materials. <!-- PageEtAl2021 -->
+A collection of the references that support the recommendations and practices presented throughout GAPS. It provides the literature and guidelines used as the basis for the development of the material.
 
-
-<!-- Survey2026 -- >
-- an AUTHORS file and a CITATION.cff file.
-
-<!-- Survey2026 -- >
-- the accepted version of the corresponding paper in PDF format
-
-<!-- Survey2026 -- >
-- License.
-
-<!-- Survey2026 -- >
-- A copyright notice identifying the rights holder.
-
-# README examples
-
-
-# INSTALL.md examples
-
-
-<!-- Survey2026 -- >
-A good artifact allows users to receive the artifact, guides them through all necessary steps to create executable source code (best if this step is automated via build scripts or similar), and it allows them to reproduce results and figures of the respective paper.
-
-<!-- Survey2026 -- >
-In case of data, a clear description on how to make use of the data (also best automated) should be included. This is especially true for database dumps. 
-
-
-<!-- Survey2026 -- >
-A good research artifact needs to have: 
-- A thorough README.
-- Materials/tools developed to use during the study lifecycle.
-  - e.g., protocols, code, software.
-- Step-by-step instructions to prepare the environment, unpack, get started, install, use, extend, and uninstall the artifacts.
-- Accepted paper.
-- Resulting data.
-- Analyses scripts (for execution and result processing).
-- Contributing guide.
-- Changelog.
-- Citation file.
-- License.
-- Copyright.
-
-
-
----
-
-- [Supplementary materials](#supplementary-materials)
-- [Checklists](#checklists)
-- [Templates](#templates)
-- [README examples](#readme-examples)
-- [INSTALL.md examples](#installmd-examples)
-- [Supplementary material of the module](#supplementary-material-of-the-module) -->
+[Access the GAPS References](../materials/references.md)

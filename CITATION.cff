@@ -1,12 +1,11 @@
 # This CITATION.cff file was generated with cffinit.
 # Visit https://bit.ly/cffinit to generate yours today!
 
-cff-version: 1.2.0
-title: GAPS - Guidance for Artifact Preparing and Sharing
+cff-version: 1.3.0
+title: GAPS - Guidance for Artifact Preparation and Sharing
 message: >-
-  If you use this artifact, please cite it using the metadata
-  from this file.
-type: research artifact
+  If you use GAPS, please cite it using the metadata from this file.
+type: dataset
 authors:
   - given-names: Ana Paula
     family-names: Vasconcelos
@@ -22,12 +21,12 @@ authors:
     orcid: 'https://orcid.org/0000-0002-4428-2535'
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.XXXXX
-    description: The URL of version 1.0 of the GAPS.
+    value: 10.5281/zenodo.23074677
+    description: The DOI of the archived GAPS release.
 abstract: >-
   GAPS is an educational resource designed to support
-  researchers in the construction, documentation, and
-  sharing of research artifacts, particularly in Empirical
+  researchers in the preparation, documentation, evaluation,
+  and sharing of research artifacts, particularly in Empirical
   Software Engineering.
 
 
@@ -45,11 +44,13 @@ abstract: >-
 keywords:
   - Open Science
   - Research Artifacts
-  - Artifacts
-  - Artefacts
   - Software Engineering
+  - Artifact Preparation
+  - Artifact Sharing
+  - Reproducibility
   - GAPS
 license: CC-BY-SA-4.0
-version: '1.0'
-date-released: '2026-09-03'
-
+repository-code: https://github.com/anapvasconcelos/GAPS
+url: https://gaps.gitbook.io/gaps/jQBaAQpYuk4HtfLcsK7Y
+version: '2.0'
+date-released: '2026-10-01'

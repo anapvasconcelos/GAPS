@@ -1,15 +1,3 @@
-<div align="center"><nobr>
-
-[README](/README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[GAPS Structure](/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-References
-
-</nobr></div>
-
----
-
-![](GAPS-logo.png)
-
 # References
 
 This material builds on a shared set of references used throughout the GAPS modules, including survey responses, guidelines, standards, policies, and research studies related to Open Science, reproducibility, and research artifacts.
@@ -162,6 +150,9 @@ Available at: [https://www.fsd.tuni.fi/en/services/data-management-guidelines/](
 ### Siddiq et al. (2025)
 - Siddiq, Islam-Gomes, Sekerak, Santos. (2025). Large Language Models for Software Engineering: A Reproducibility Crisis. arXiv preprint. Available at: [https://doi.org/10.48550/arXiv.2512.00651](https://doi.org/10.48550/arXiv.2512.00651) <!-- SiddiqEtAl2025 -->
 
+### SOSP - ACM Symposium on Operating Systems Principles
+- SOSP (2026) Badges. Systems Research Artifacts. Available at: [https://sysartifacts.github.io/sosp2026/badges](https://sysartifacts.github.io/sosp2026/badges). <!-- SOSP2026 -->
+
 ### SPLASH - ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity
 - SPLASH (2024) OOPSLA Artifacts. About. Available at: [https://2024.splashcon.org/track/splash-2024-oopsla-artifacts#About](https://2024.splashcon.org/track/splash-2024-oopsla-artifacts#About) <!-- SPLASH2024-About -->
 - SPLASH (2024) OOPSLA Artifacts. Call for Artifacts. Available at: [https://2024.splashcon.org/track/splash-2024-oopsla-artifacts#Call-for-Artifacts](https://2024.splashcon.org/track/splash-2024-oopsla-artifacts#Call-for-Artifacts) <!-- SPLASH2024-CfA -->
@@ -231,10 +222,3 @@ The GAPS visual identity was designed with Quadrillion font by [Typodermic Fonts
 ## Scope of the Material
 
 The recommendations presented throughout GAPS are intended as practical guidance rather than mandatory requirements. Conferences, journals, institutions, and research domains may impose additional policies, constraints, or expectations that should be considered alongside the practices described in this material.
-
-<!--
-### Medeiros et al. (2023)
-- Medeiros, C. M. B.; Laender, A. H. F.; Packer, A. L.; Val, A. L.; Cruz, C. H. B.; Chavez, C. F. G.; Marques, E. C. L.; Kon, F.; Cendes, I. L. C.; Barcinski, M. A.; Sluys, M. V.; Almeida, U. B. (2023). Open science: overview and general recommendations. Rio de Janeiro: Academia Brasileira de Ciências. Available at: https://www.abc.org.br/wp-content/uploads/2023/11/Open-Science-Overview-and-General-Recommendations.pdf - https://repositorio.usp.br/item/003267226 <!-- MedeirosEtAl2023 -- > <!--- FALTAAA --- >
-
-### Pontika et al. (2015)
-- Pontika, Knoth, Cancellieri, and Pearce. 2015. Fostering open science to research using a taxonomy and an eLearning portal. In Proceedings of the 15th International Conference on Knowledge Technologies and Data-driven Business (i-KNOW '15). Association for Computing Machinery, New York, NY, USA, Article 11, 1–8. Available at: [https://doi.org/10.1145/2809563.2809571](https://doi.org/10.1145/2809563.2809571) <!-- PontikaEtAl2015 -->
