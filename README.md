@@ -10,7 +10,7 @@
 
 ![](GAPS-logo.png)
 
-# GAPS - Guidance for Artifact Preparation and Sharing
+## GAPS - Guidance for Artifact Preparation and Sharing
 
 Version: 2.0
 - GAPS Material: [https://gaps-material.netlify.app/](https://gaps-material.netlify.app/)
