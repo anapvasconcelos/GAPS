@@ -31,10 +31,10 @@ The guidance is organized into **10 modules** covering the research artifact lif
 
 **Complementary Resources**:
 
-- [Researcher-facing Self-check](/supplementary-material.md#researcher-facing-self-check)
-- [README Template](/supplementary-material.md#readme-template)
+- [Researcher-facing Self-check](/materials/researcher-facing-self-check.md)
+- [README Template](/materials/template-README.md)
 - [GAPS Advisor](/supplementary-material.md#gaps-advisor)
-- [GAPS References](/supplementary-material.md#gaps-references)
+- [GAPS References](/materials/references.md)
 
 ---
 ### Explore GAPS
