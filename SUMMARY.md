@@ -1,6 +1,6 @@
 # Summary
 
-- [INDEX](/home.md)
+- [Home](/home.md)
 
 - [GAPS Structure](content/structure.md)
 
