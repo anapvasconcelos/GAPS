@@ -1,7 +1,7 @@
 # GAPS - Guidance for Artifact Preparation and Sharing
 
 Version: 2.0
-- GAPS Material: [https://gaps.gitbook.io/gaps/jQBaAQpYuk4HtfLcsK7Y](https://gaps.gitbook.io/gaps/jQBaAQpYuk4HtfLcsK7Y)
+- GAPS Material: [https://gaps-material.netlify.app/](https://gaps-material.netlify.app/)
 - GAPS Advisor: [https://notebook.google.com/notebook/17518b1f-e320-48be-a9c2-0edee13c6737](https://notebook.google.com/notebook/17518b1f-e320-48be-a9c2-0edee13c6737)
 
 
