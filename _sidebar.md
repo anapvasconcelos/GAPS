@@ -15,9 +15,9 @@
 - [M9 - Reusability & Extension](content/M9.md#module-9---reusability-and-extension)
 - [M10 - Artifact Evaluation](content/M10.md#module-10---artifact-evaluation-and-submission)
 - [Complementary Resources](content/supplementary-material.md#additional-resources-and-supplementary-materials)
-  - [GAPS Advisor](content/supplementary-material.md#gaps-advisor)
-  - [Researcher-facing Self-check](materials/researcher-facing-self-check.md)
-  - [README Template](materials/template-README.md)
-  - [GAPS References](materials/references.md)
+- [README Template](materials/template-README.md)
+- [Researcher-facing Self-check](materials/researcher-facing-self-check.md)
+- [GAPS References](materials/references.md)
+- [GAPS Advisor](https://notebook.google.com/notebook/17518b1f-e320-48be-a9c2-0edee13c6737)
 
 - [README](/README.md)
