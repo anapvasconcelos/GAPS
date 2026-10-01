@@ -1,3 +1,13 @@
+<div align="center"><nobr>
+
+[README](README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS structure](/content/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[First module →](content/M1.md)
+
+</nobr></div>
+
+---
+
 ![](GAPS-logo.png)
 
 ## GAPS - Guidelines for Artifact Preparing and Sharing
@@ -35,8 +45,6 @@ The interactive mind map provides a visual overview of the GAPS structure, inclu
 
 ---
 
-
-
 ### About the GAPS
   
 - [Purpose of the GAPS](README.md#purpose-of-the-gaps)
@@ -45,3 +53,4 @@ The interactive mind map provides a visual overview of the GAPS structure, inclu
 - [Authors](README.md#authors)
 - [How to cite this material](README.md#how-to-cite-this-material)
 - [License and use](README.md#license-and-use)
+- [README](README.md)

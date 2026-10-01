@@ -1,7 +1,7 @@
 <div align="center"><nobr>
 
-[← Previous module](M10.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[GAPS structure](structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[← Previous module](content/M10.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS structure](content/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
 [References](../materials/references.md)
 
 </nobr></div>

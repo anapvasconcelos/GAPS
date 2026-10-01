@@ -1,6 +1,6 @@
 <div align="center"><nobr>
 
-[README](/README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[Home](../home.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
 [GAPS Structure](../content/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
 [Supplementary materials](../content/supplementary-material.md)
 
