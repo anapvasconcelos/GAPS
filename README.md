@@ -59,11 +59,15 @@ GAPS is accompanied by complementary resources designed to support researchers i
 
 - **README template**: A template to help researchers create a clear and consistent README for their research artifacts.
 
-- **GAPS References**: The references cited throughout GAPS, provided for consultation and further reading.
+- **GAPS References**: The sources supporting the GAPS content, provided for consultation and further reading.
 
-## Sources
+**- GAPS References**: The sources supporting the GAPS content, provided for consultation and further reading.
+
+## Sources**
 
 The content of GAPS was developed from a synthesis of the needs and practices identified in the survey, complemented by relevant guidelines, standards, and research literature, including materials suggested by survey participants.
+
+The references are provided separately to keep the instructional material concise and readable. A full list of sources supporting the GAPS content is available in the [GAPS References](materials/references.md).
 
 We have made every effort to properly acknowledge all sources. If any attribution has been omitted unintentionally, we welcome feedback and will be happy to make the necessary corrections.
 

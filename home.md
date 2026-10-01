@@ -10,7 +10,7 @@
 
 ![](GAPS-logo.png)
 
-## GAPS - Guidelines for Artifact Preparing and Sharing
+## GAPS - Guidelines for Artifact Preparation and Sharing
 
 A practical guide to preparing, documenting, and sharing research artifacts.
 

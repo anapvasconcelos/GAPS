@@ -12,11 +12,10 @@
 
 # GAPS References
 
-This material builds on a shared set of references used throughout the GAPS modules, including survey responses, guidelines, standards, policies, and research studies related to Open Science, reproducibility, and research artifacts.
+This material builds on empirical evidence from survey responses, as well as guidelines, standards, policies, and research studies related to Open Science, reproducibility, and research artifacts.
 
-To avoid redundancy and ensure consistency across modules, all sources used throughout GAPS are centralized in this document.
+The GAPS material was developed based on a combination of empirical evidence, community guidelines, Open Science practices, artifact evaluation policies, and research literature. The references below provide the sources that informed the concepts, recommendations, examples, and practices presented in GAPS.
 
-The GAPS material was developed based on a combination of empirical evidence, community guidelines, Open Science practices, artifact evaluation policies, and research literature. The references below provide the main sources that informed the concepts, recommendations, examples, and practices presented throughout the modules.
 
 ### Abualhaija et al. (2024)
 - Sallam Abualhaija, F. Basak Aydemir, Fabiano Dalpiaz, Davide Dell'Anna, Alessio Ferrari, Xavier Franch, and Davide Fucci. (2024). The NLP4RE ID-Card. Zenodo. [https://doi.org/10.5281/zenodo.14197338](https://doi.org/10.5281/zenodo.14197338) <!-- AbualhaijaEtAl2024 -->
@@ -213,7 +212,7 @@ Available at: [https://www.fsd.tuni.fi/en/services/data-management-guidelines/](
 
 ## Empirical Basis
 
-In addition to the references listed above, the material was informed by empirical evidence gathered through a survey investigating researchers' practices, challenges, and perceptions regarding research artifact construction and sharing. <!-- Survey2026 -->
+The material was also informed by empirical evidence gathered through a survey investigating researchers' practices, challenges, and perceptions regarding research artifact construction and sharing. <!-- Survey2026 -->
 
 ---
 

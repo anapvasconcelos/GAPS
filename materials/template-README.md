@@ -12,7 +12,7 @@
 
 # README template
 
-**About the template.** This README template was developed based on the guidance provided by GAPS (Guidance for Artifact Preparing and Sharing), with the corresponding GAPS sections referenced throughout the template. It aims to provide comprehensive guidance for documenting research artifacts. The sections and items are classified according to their priority: E (Essential), R (Recommended), and G (Good practice). The classification indicates the importance of the information when applicable. It does not imply that every section applies to every type of research artifact. Some essential sections may therefore be marked as not applicable when they are not relevant to a particular artifact.
+**About the template.** This README template was developed based on the guidance provided by GAPS (Guidance for Artifact Preparation and Sharing), with the corresponding GAPS sections referenced throughout the template. It aims to provide comprehensive guidance for documenting research artifacts. The sections and items are classified according to their priority: E (Essential), R (Recommended), and G (Good practice). The classification indicates the importance of the information when applicable. It does not imply that every section applies to every type of research artifact. Some essential sections may therefore be marked as not applicable when they are not relevant to a particular artifact.
 
 - **[E] - Essential:** Information considered fundamental for understanding, accessing, executing, reproducing, or appropriately using the artifact, when applicable to the artifact characteristics.
 
@@ -490,4 +490,4 @@
 
 ---
 
-*This README follows the structure recommended by [GAPS (Guidance for Artifact Preparing and Sharing)](https://doi.org/[GAPS-DOI]).*
+*This README follows the structure recommended by [GAPS (Guidance for Artifact Preparation and Sharing)](https://doi.org/10.5281/zenodo.23074677).*
