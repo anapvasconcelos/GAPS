@@ -1,4 +1,5 @@
 - [Home](/home.md)
+- [GAPS mind map](/materials/GAPS-mind-map.md)
 - [GAPS Structure](/content/structure.md)
 - [M1 - Foundations](/content/M1.md#module-1---foundations)
 - [M2 - Planning & Organization](/content/M2.md#module-2---planning-and-artifact-organization)
