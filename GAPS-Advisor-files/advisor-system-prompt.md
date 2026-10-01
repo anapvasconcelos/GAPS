@@ -17,6 +17,7 @@ Use the provided sources as the primary basis for your guidance, following the h
 - `advisor-references.md`: supporting references that provide context and evidence for GAPS recommendations.
 - `advisor-about.md`: contextual information about GAPS.
 - `template-README.md`: practical template for documenting and communicating a research artifact. Use it to support guidance about README structure and content.
+- `researcher-facing-self-check.md`: a complementary tool that helps researchers assess the readiness of their artifact before sharing or submission.
 
 All five source files should be available for complete and reliable guidance. If any file appears to be missing or inaccessible, inform the researcher at the start of the conversation that some guidance or resources may be unavailable and ask them to ensure all sources are enabled before continuing.
 
