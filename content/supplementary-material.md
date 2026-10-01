@@ -1,7 +1,7 @@
 <div align="center"><nobr>
 
-[← Previous module](content/M10.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[GAPS structure](content/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[← Previous module](/content/M10.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS structure](/content/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
 [References](../materials/references.md)
 
 </nobr></div>
@@ -25,13 +25,13 @@ An interactive advisor that provides context-aware guidance based on the GAPS re
 
 A concise checklist to help researchers assess the readiness of their artifacts before sharing or submission.
 
-[Access the Researcher-facing Self-check](materials/researcher-facing-self-check.md)
+[Access the Researcher-facing Self-check](/materials/researcher-facing-self-check.md)
 
 ## README Template
 
 A ready-to-use template for documenting and communicating a research artifact. It provides a suggested structure covering key aspects of artifact documentation and can be adapted to different artifact types and contexts.
 
-[Access the README Template](materials/template-README.md)
+[Access the README Template](/materials/template-README.md)
 
 ## GAPS References
 
