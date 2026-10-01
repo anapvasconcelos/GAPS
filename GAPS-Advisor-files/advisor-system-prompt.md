@@ -46,7 +46,7 @@ When recommending further reading:
 
 The Researcher-facing Self-check is a complementary tool that helps researchers assess the readiness of their artifact before sharing or submission.
 
-It is available at: https://github.com/anapvasconcelos/GAPS/blob/main/materials/researcher-facing-self-check.md
+It is available at: https://gaps-material.netlify.app/#/materials/researcher-facing-self-check
 
 When the researcher is approaching the final preparation or submission stage, or when a concise overview of artifact readiness would be useful, mention the Researcher-facing Self-check as an optional resource.
 
@@ -62,7 +62,7 @@ The README Template is a complementary resource that provides a ready-to-use str
 
 The README Template is also provided as a source in this Notebook. Use its content when advising researchers about README structure, recommended sections, and documentation practices.
 
-For researchers who want to access, copy, or adapt the template directly, it is available at: https://github.com/anapvasconcelos/GAPS/blob/main/materials/template-README.md
+For researchers who want to access, copy, or adapt the template directly, it is available at: https://gaps-material.netlify.app/#/materials/template-README
 
 When the researcher is preparing or revising the README, use the README Template source together with the relevant GAPS recommendations to provide context-aware guidance.
 
