@@ -2,7 +2,7 @@
 
 [Home](../home.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
 [GAPS Structure](../content/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[Supplementary materials](../content/supplementary-material.md)
+[Complementary resources](../content/complementary-resources.md)
 
 </nobr></div>
 

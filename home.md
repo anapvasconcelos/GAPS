@@ -33,7 +33,7 @@ The guidance is organized into **10 modules** covering the research artifact lif
 
 - [Researcher-facing Self-check](/materials/researcher-facing-self-check.md)
 - [README Template](/materials/template-README.md)
-- [GAPS Advisor](/supplementary-material.md#gaps-advisor)
+- [GAPS Advisor](/content/complementary-resources.md#gaps-advisor)
 - [GAPS References](/materials/references.md)
 
 ---
@@ -47,10 +47,10 @@ The interactive mind map provides a visual overview of the GAPS structure, inclu
 
 ### About the GAPS
   
-- [Purpose of the GAPS](README.md#purpose-of-the-gaps)
-- [GAPS Structure](README.md#gaps-structure)
-- [Sources](README.md#sources)
-- [Authors](README.md#authors)
-- [How to cite this material](README.md#how-to-cite-this-material)
-- [License and use](README.md#license-and-use)
-- [README](README.md)
+- [Purpose of the GAPS](/GAPS-Advisor-files/advisor-about.md#purpose-of-the-gaps)
+- [GAPS Structure](/content/structure.md)
+- [Sources](/GAPS-Advisor-files/advisor-about.md#sources)
+- [Authors](/GAPS-Advisor-files/advisor-about.md#authors)
+- [How to cite this material](/GAPS-Advisor-files/advisor-about.md#how-to-cite-this-material)
+- [License and use](/GAPS-Advisor-files/advisor-about.md#license-and-use)
+- [About](/GAPS-Advisor-files/advisor-about.md)

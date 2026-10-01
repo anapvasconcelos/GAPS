@@ -2,7 +2,7 @@
 
 [Home](../home.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
 [GAPS Structure](../content/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[Supplementary materials](../content/supplementary-material.md)
+[Complementary resources](../content/complementary-resources.md)
 
 </nobr></div>
 
@@ -77,7 +77,7 @@
 > - GAPS §3.4.4 - [Distinguishing essential from auxiliary components](../content/M3.md#344-distinguishing-essential-from-auxiliary-components)
 
 > [!NOTE]
-> **What to document:** Describe the organization of the repository and the purpose of its main directories and files. Distinguish components required for execution or reproduction from supplementary components so that users can identify which parts are essential to the artifact's operation.
+> **What to document:** Describe the organization of the repository and the purpose of its main directories and files. Distinguish components required for execution or reproduction from complementary components so that users can identify which parts are essential to the artifact's operation.
 
 
 # 2. System requirements [E]
@@ -249,7 +249,7 @@
 > - GAPS §3.5.3 - [Mapping outputs to paper results](../content/M3.md#353-mapping-outputs-to-paper-results)
 
 > [!NOTE]
-> **What to document:** Identify the outputs produced by successful execution and provide enough information for users to locate, recognize, and interpret them. Distinguish outputs required for the workflow from reference or supplementary outputs when relevant. Indicate which outputs should be compared with reference results when validating the execution.
+> **What to document:** Identify the outputs produced by successful execution and provide enough information for users to locate, recognize, and interpret them. Distinguish outputs required for the workflow from reference or complementary outputs when relevant. Indicate which outputs should be compared with reference results when validating the execution.
 
 
 ## 6.1. Linking artifact outputs to paper claims and results [E]

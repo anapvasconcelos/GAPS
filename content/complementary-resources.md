@@ -11,9 +11,9 @@
 ![](../GAPS-logo.png)
 
 
-#  Additional Resources and supplementary materials
+# Complementary Resources
 
-The GAPS supplementary materials provide practical resources to support the preparation, documentation, evaluation, and sharing of research artifacts. These resources complement the instructional modules and can be used by researchers, educators, and students according to their needs.
+The GAPS complementary sources provide practical resources to support the preparation, documentation, evaluation, and sharing of research artifacts. These resources complement the instructional modules and can be used by researchers, educators, and students according to their needs.
 
 ## GAPS Advisor
 

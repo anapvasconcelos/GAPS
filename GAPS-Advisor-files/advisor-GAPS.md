@@ -2107,9 +2107,9 @@ During this period: <!-- Source: Survey2026 - - Padhye2019 -->
 
 - **Provide fixes or updated instructions when feasible.** When changes affect the artifact, create a new version rather than silently modifying the version under evaluation.
 
-#  Additional Resources and supplementary materials
+#  Complementary Resources
 
-The GAPS supplementary materials provide practical resources to support the preparation, documentation, evaluation, and sharing of research artifacts. These resources complement the instructional modules and can be used by researchers, educators, and students according to their needs.
+The GAPS complementary resources provide practical resources to support the preparation, documentation, evaluation, and sharing of research artifacts. These resources complement the instructional modules and can be used by researchers, educators, and students according to their needs.
 
 ## GAPS Advisor
 

@@ -107,20 +107,20 @@ GAPS structure &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
   - [10.7. Clarification period and reviewer interaction](/content/M10.md#107-clarification-period-and-reviewer-interaction)
 
 
-## [Complementary Resources](supplementary-material.md)
+## [Complementary Resources](complementary-resources.md)
 
-  - [GAPS Advisor](/content/supplementary-material.md#gaps-advisor)
-  - [Researcher-facing Self-check](/content/supplementary-material.md#researcher-facing-self-check)
-  - [README Template](/content/supplementary-material.md#readme-template)
-  - [GAPS References](/content/supplementary-material.md#gaps-references)
+  - [GAPS Advisor](/content/complementary-resources.md#gaps-advisor)
+  - [Researcher-facing Self-check](/content/complementary-resources.md#researcher-facing-self-check)
+  - [README Template](/content/complementary-resources.md#readme-template)
+  - [GAPS References](/content/complementary-resources.md#gaps-references)
 
 
-## [About the GAPS](../README.md)
+## [About the GAPS](../GAPS-Advisor-files/advisor-about.md)
   
-- [Purpose of the GAPS](../README.md#purpose-of-the-gaps)
-- [GAPS Structure](../README.md#gaps-structure)
-- [Sources](../README.md#sources)
-- [Authors](../README.md#authors)
-- [How to cite this material](../README.md#how-to-cite-this-material)
-- [License and use](../README.md#license-and-use)
+- [Purpose of the GAPS](../GAPS-Advisor-files/advisor-about.md#purpose-of-the-gaps)
+- [GAPS Material content](../GAPS-Advisor-files/advisor-about.md#gaps-material)
+- [Sources](../GAPS-Advisor-files/advisor-about.md#sources)
+- [Authors](../GAPS-Advisor-files/advisor-about.md#authors)
+- [How to cite this material](../GAPS-Advisor-files/advisor-about.md#how-to-cite-this-material)
+- [License and use](../GAPS-Advisor-files/advisor-about.md#license-and-use)
 - [Home](../home.md)

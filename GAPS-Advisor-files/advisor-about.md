@@ -2,13 +2,13 @@
 
 [Home](../home.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
 [GAPS structure](../content/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[Supplementary materials](../content/supplementary-material.md)
+[Complementary resources](../content/complementary-resources.md)
 
 </nobr></div>
 
 ---
 
-![](GAPS-logo.png)
+![](../GAPS-logo.png)
 
 ## GAPS - Guidance for Artifact Preparation and Sharing
 
@@ -49,7 +49,7 @@ GAPS is organized into ten modules covering the main aspects of research artifac
   
 - **Module 10 - Artifact evaluation and submission**: Introduces the artifact evaluation and submission process. It covers reviewer access, artifact evaluation criteria, badges, preparation for evaluation, versioning during review, and interaction with reviewers.
 
-### Additional Resources and supplementary materials
+### Complementary Resources
 
 GAPS is accompanied by complementary resources designed to support researchers in applying the guidance:
 
