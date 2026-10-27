@@ -1,4 +1,6 @@
-- [Home](/home.md)
+# Summary
+
+- [Home](/README.md)
 - [GAPS mind map](/materials/GAPS-mind-map.md)
 - [GAPS Structure](/content/structure.md)
 - [M1 - Foundations](/content/M1.md#module-1---foundations)
@@ -16,4 +18,4 @@
 - [Researcher-facing Self-check](/materials/researcher-facing-self-check.md)
 - [GAPS References](/materials/references.md)
 - [GAPS Advisor](https://notebook.google.com/notebook/17518b1f-e320-48be-a9c2-0edee13c6737)
-- [About](/GAPS-Advisor-files/advisor-about.md)
+- [About](/about.md)

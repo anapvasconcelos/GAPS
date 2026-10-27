@@ -1,7 +1,7 @@
 # This CITATION.cff file was generated with cffinit.
 # Visit https://bit.ly/cffinit to generate yours today!
 
-cff-version: 1.3.0
+cff-version: 1.4.0
 title: GAPS - Guidance for Artifact Preparation and Sharing
 message: >-
   If you use GAPS, please cite it using the metadata from this file.
@@ -21,26 +21,45 @@ authors:
     orcid: 'https://orcid.org/0000-0002-4428-2535'
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.23074677
+    value: 10.5281/zenodo.23605734
     description: The DOI of the archived GAPS release.
 abstract: >-
-  GAPS is an educational resource designed to support
-  researchers in the preparation, documentation, evaluation,
-  and sharing of research artifacts, particularly in Empirical
-  Software Engineering.
+  GAPS (Guidance for Artifact Preparation and Sharing) is an 
+  Open Educational Resource designed to support researchers in 
+  preparing, documenting, validating, publishing, preserving, and 
+  reusing research artifacts, particularly in Empirical Software 
+  Engineering research.
 
+  GAPS provides practical guidance to help researchers identify 
+  and address relevant aspects of artifact preparation and sharing 
+  throughout the research lifecycle. It is intended to support 
+  informed decisions and progressive improvement, rather than 
+  prescribe a single workflow or establish a universal standard 
+  for artifact quality.
 
-  The guidance provided in this document is not intended to
-  be an exhaustive set of features for research artifacts.
-  Instead, it offers examples and practical recommendations
-  based on insights gathered from survey responses, the
-  literature, and existing guidelines, including materials
-  recommended by survey participants.
+  The guidance is not intended to be exhaustive, and not all 
+  recommendations are essential or applicable to every research 
+  artifact. Their relevance depends on the artifact's purpose, 
+  characteristics, and intended use, as well as the level of 
+  coverage and transparency researchers aim to provide. Practical 
+  considerations, such as available time, funding, personnel, 
+  technical resources, and ethical or legal restrictions, may 
+  also influence which recommendations can be implemented.
 
+  Researchers are therefore encouraged to use GAPS selectively, 
+  identifying and prioritizing recommendations that are relevant to 
+  their context and feasible to address. Some recommendations may be 
+  essential for a particular artifact, while others may be optional, 
+  unnecessary, or disproportionate to its purpose. Addressing relevant 
+  recommendations incrementally can still contribute to improving an 
+  artifact, even when it is not feasible or appropriate to implement 
+  every recommendation.
 
-  Overall, GAPS serves as a practical tool to help
-  researchers identify and prioritize key aspects when
-  preparing research artifacts.
+  GAPS is a reference to support researchers' judgment, not a 
+  compliance checklist that every artifact must satisfy in full. 
+  Its purpose is to help researchers make artifact preparation more 
+  deliberate and transparent, while recognizing that appropriate 
+  practices vary across research contexts.
 keywords:
   - Open Science
   - Research Artifacts
@@ -51,6 +70,6 @@ keywords:
   - GAPS
 license: CC-BY-SA-4.0
 repository-code: https://github.com/anapvasconcelos/GAPS
-url: https://gaps.gitbook.io/gaps/jQBaAQpYuk4HtfLcsK7Y
-version: '2.0'
-date-released: '2026-10-01'
+url: https://anapvasconcelos.github.io/GAPS/
+version: '3.0'
+date-released: '2026-10-27'
