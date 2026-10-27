@@ -67,6 +67,7 @@ Use these resources to apply the guidance, self check your artifact, and explore
 | [Where should I start?](/content/where-should-i-start.md) | Helps you identify which modules to consult based on your current task or stage of the artifact lifecycle. |
 | [GAPS mind map](/materials/GAPS-mind-map.md) | Provides a visual overview of the 10 modules, their main topics, and the complementary resources. |
 
+[GAPS mind map 2](/materials/teste-mind-map.md)
 
 ---
 
