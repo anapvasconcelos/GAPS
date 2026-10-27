@@ -1,6 +1,6 @@
 <div align="center"><nobr>
 
-[Home](../README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[Home](/README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
 GAPS structure &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
 [Start here: Module 1 →](/content/M1.md)
 
@@ -125,12 +125,12 @@ GAPS structure &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
   - [GAPS References](/content/complementary-resources.md#gaps-references)
 
 
-## [About GAPS](../about.md)
+## [About GAPS](/about.md)
   
-- [Purpose of the GAPS](../about.md#purpose-of-the-gaps)
-- [GAPS Material content](../about.md#gaps-material)
-- [Sources](../about.md#sources)
-- [Authors](../about.md#authors)
-- [How to cite this material](../about.md#how-to-cite-this-material)
-- [License and use](../about.md#license-and-use)
-- [Home](../README.md)
+- [Purpose of the GAPS](/about.md#purpose-of-the-gaps)
+- [GAPS Material content](/about.md#gaps-material)
+- [Sources](/about.md#sources)
+- [Authors](/about.md#authors)
+- [How to cite this material](/about.md#how-to-cite-this-material)
+- [License and use](/about.md#license-and-use)
+- [Home](/README.md)
