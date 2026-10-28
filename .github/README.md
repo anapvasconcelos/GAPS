@@ -8,7 +8,7 @@ GAPS provides practical guidance to support informed decisions and progressive i
 
 You can start at the [GAPS home page at GitHub](../README.md) or use a more reader-friendly version at the [GAPS webbook](https://anapvasconcelos.github.io/GAPS/), for easier navigation through the modules and complementary resources.
 
-Technical details about GAPS are available in [About](../resources/about.md).
+For more information about GAPS, including its development, organization, sources, authorship, citation, licensing, and terms of use, see [About GAPS](../resources/about.md).
 
 ---
 
