@@ -8,7 +8,7 @@
 
 ---
 
-![](/images/GAPS-logo.png)
+![](../images/GAPS-logo.png)
 
 # Guidance for Artifact Preparation and Sharing
 

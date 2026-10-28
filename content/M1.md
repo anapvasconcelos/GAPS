@@ -8,7 +8,7 @@
 
 ---
 
-![](/images/GAPS-logo.png)
+![](../images/GAPS-logo.png)
 
 # Module 1 - Foundations
 
