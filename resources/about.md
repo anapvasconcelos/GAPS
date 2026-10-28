@@ -8,7 +8,7 @@
 
 ---
 
-![](/GAPS/images/GAPS-logo.png)
+![](/images/GAPS-logo.png)
 
 # About GAPS
 
@@ -104,7 +104,7 @@ This license also addresses the ShareAlike requirements associated with adapted 
 
 For the full terms, see the [CC BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/) or the [license file](LICENSE).
 
-![](/GAPS/images/FIG-CC-BY-SA.svg)
+![](/images/FIG-CC-BY-SA.svg)
 
 ---
 
