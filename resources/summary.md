@@ -1,4 +1,4 @@
-- **[Home](/README.md)**
+- [**Home**](/README.md)
 
 - **Getting Started**
   - [GAPS mind map](/resources/GAPS-mind-map.md)

@@ -304,27 +304,31 @@
       .markdown-section { padding-left: 24px !important; padding-right: 24px !important; }
     }
 
-    /* Reduce indentation in the sidebar navigation */
-    .sidebar-nav ul {
-      padding-left: 6px;
-    }
+/* Compact sidebar spacing and indentation */
+.sidebar-nav ul {
+  margin: 0 !important;
+  padding-left: 8px !important;
+}
 
-    .sidebar-nav > ul {
-      padding-left: 0;
-    }
+.sidebar-nav > ul {
+  padding-left: 0 !important;
+}
 
-    /* Reduce spacing between sidebar group titles and their items */
-    .sidebar-nav > ul > li {
-      margin-bottom: 0;
-    }
+.sidebar-nav li {
+  margin: 0 !important;
+}
 
-    .sidebar-nav > ul > li > a {
-      margin-bottom: 0;
-    }
+.sidebar-nav li > a {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  line-height: 1.4;
+}
 
-    .sidebar-nav > ul > li > ul {
-      margin-top: 0;
-    }
+/* Keep nested sections close to their parent */
+.sidebar-nav li > ul {
+  margin-left: 0 !important;
+  padding-left: 8px !important;
+}
 
   </style>
 </head>
