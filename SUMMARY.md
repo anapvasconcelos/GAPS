@@ -1,7 +1,4 @@
-# Summary
-
 - [Home](/README.md)
-- [Where should I start?](/content/where-should-i-start.md)
 - [GAPS mind map](/materials/GAPS-mind-map.md)
 - [GAPS Structure](/content/structure.md)
 - [M1 - Foundations](/content/M1.md#module-1---foundations)
@@ -15,8 +12,8 @@
 - [M9 - Reusability & Extension](/content/M9.md#module-9---reusability-and-extension)
 - [M10 - Artifact Evaluation](/content/M10.md#module-10---artifact-evaluation-and-submission)
 - [Complementary Resources](/content/complementary-resources.md)
-- [README Template](/materials/template-README.md)
 - [Researcher-facing Self-check](/materials/researcher-facing-self-check.md)
+- [README Template](/materials/template-README.md)
 - [GAPS References](/materials/references.md)
-- [GAPS Advisor](https://notebook.google.com/notebook/17518b1f-e320-48be-a9c2-0edee13c6737)
 - [About](/about.md)
+- [GAPS Advisor](https://notebook.google.com/notebook/17518b1f-e320-48be-a9c2-0edee13c6737)
