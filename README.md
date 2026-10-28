@@ -93,4 +93,11 @@ You may submit feedback anonymously. Providing contact information is optional.
 
 ---
 
+## GAPS webbook
+
+For a more reader-friendly browsing experience, visit the [GAPS webbook](https://anapvasconcelos.github.io/GAPS/), which provides easier navigation through the modules and complementary resources.
+
+---
+---
+
 GAPS - Guidance for Artifact Preparation and Sharing © 2026 by Ana Paula Vasconcelos, Fernanda Madeiral, and Sergio Soares is licensed under CC BY-SA 4.0.
