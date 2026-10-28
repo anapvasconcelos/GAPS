@@ -321,13 +321,22 @@
 
 .sidebar-nav li > a {
   display: block;
-  padding: 3px 0 !important;
+  padding: 3px 0 3px 18px !important;
   line-height: 1.3 !important;
+  position: relative;
 }
 
-.sidebar-nav li > p {
-  margin: 0 !important;
-  padding: 3px 0 !important;
+/* Keep the arrow separate from the link text */
+.sidebar-nav li > a:before {
+  position: absolute;
+  left: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Highlight expanded sections that contain subitems */
+.sidebar-nav li:has(> ul):not(.collapse) > a {
+  font-weight: 600 !important;
 }
 
 
@@ -335,7 +344,7 @@
 /* Keep standalone section links consistent with group headings */
 .sidebar-nav > ul > li > a[href*="GAPS-Advisor"],
 .sidebar-nav > ul > li > a[href*="resources/about.md"] {
-  font-size: 14px !important;
+  font-size: 16px !important;
   font-weight: 600 !important;
 }
 
