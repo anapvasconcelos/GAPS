@@ -1,13 +1,3 @@
-<div align="center"><nobr>
-
-[Home](/README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[GAPS mind map](/resources/GAPS-mind-map.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[Start here: Module 1 →](/content/M1.md)
-
-</nobr></div>
-
----
-
 ![](../images/GAPS-logo.png)
 
 # Guidance for Artifact Preparation and Sharing

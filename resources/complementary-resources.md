@@ -1,13 +1,3 @@
-<div align="center"><nobr>
-
-[Home](/README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[GAPS structure](/resources/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[References](/resources/references.md)
-
-</nobr></div>
-
----
-
 ![](../images/GAPS-logo.png)
 
 
