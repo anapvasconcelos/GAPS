@@ -48,6 +48,11 @@
       border-left-color: #2e7d32;
       background: #f1f8f1;
     }
+    /* SOURCE: references supporting the template item */
+    .markdown-section blockquote.gaps-callout-source {
+      border-left-color: #5579a8;
+      background: #edf3fa;
+    }
     .markdown-section .gaps-callout-title {
       margin-bottom: 0.5em;
       font-size: 0.95em;
@@ -56,6 +61,7 @@
     .markdown-section .gaps-callout-note .gaps-callout-title { color: #245a9e; }
     .markdown-section .gaps-callout-important .gaps-callout-title { color: #b71c1c; }
     .markdown-section .gaps-callout-tip .gaps-callout-title { color: #256629; }
+    .markdown-section .gaps-callout-source .gaps-callout-title { color: #355b87; }
 
     /* Reading controls */
     #gaps-reading-tools {
@@ -159,6 +165,22 @@
       background: #20232b !important;
       color: #e5e7eb !important;
     }
+    html.gaps-dark .sidebar-toggle,
+    html.gaps-dark .sidebar-toggle-button {
+      background: #303542 !important;
+      color: #f2f4fa !important;
+      border-color: #555d70 !important;
+    }
+    html.gaps-dark .sidebar-toggle span,
+    html.gaps-dark .sidebar-toggle-button span,
+    html.gaps-dark .sidebar-toggle::before,
+    html.gaps-dark .sidebar-toggle::after {
+      background-color: #f2f4fa !important;
+      border-color: #f2f4fa !important;
+    }
+    html.gaps-dark .sidebar-toggle-button {
+      opacity: 1 !important;
+    }
     html.gaps-dark .sidebar a,
     html.gaps-dark .markdown-section a { color: #a9b7ff; }
     html.gaps-dark .markdown-section h1,
@@ -171,8 +193,7 @@
     html.gaps-dark .markdown-section td {
       border-color: #454a57;
     }
-    html.gaps-dark .markdown-section th { background: #282c36; }
-    html.gaps-dark .markdown-section tr:nth-child(2n) { background: #20232b; }
+    /* Detailed table colors are defined in the table accessibility section below. */
     html.gaps-dark .markdown-section blockquote:not(.gaps-callout) {
       border-left-color: #68718a;
       color: #d9dce5;
@@ -189,9 +210,15 @@
       background: #20352a;
       border-left-color: #80d69a;
     }
+    html.gaps-dark .markdown-section blockquote.gaps-callout-source {
+      background: #263447;
+      border-left-color: #91b9e8;
+      color: #e6edf7;
+    }
     html.gaps-dark .markdown-section .gaps-callout-note .gaps-callout-title { color: #a8ceff; }
     html.gaps-dark .markdown-section .gaps-callout-important .gaps-callout-title { color: #ffb0b0; }
     html.gaps-dark .markdown-section .gaps-callout-tip .gaps-callout-title { color: #a6edb6; }
+    html.gaps-dark .markdown-section .gaps-callout-source .gaps-callout-title { color: #b9d7fa; }
     html.gaps-dark .markdown-section pre,
     html.gaps-dark .markdown-section code {
       background: #242832 !important;
@@ -218,6 +245,45 @@
     .markdown-section td,
     .markdown-section th,
     .markdown-section blockquote { line-height: 1.7; }
+
+    /* Tables: restrained striping with readable text in both themes */
+    .markdown-section table {
+      display: table;
+      width: 100%;
+      border-collapse: collapse;
+      color: var(--base-color, #333);
+    }
+    .markdown-section th,
+    .markdown-section td {
+      border: 1px solid #d6dbe5;
+      padding: 0.65em 0.75em;
+      vertical-align: top;
+    }
+    .markdown-section th {
+      background: #e9edf5;
+      color: #202938;
+      font-weight: 700;
+    }
+    .markdown-section tbody tr:nth-child(odd) { background: #ffffff; }
+    .markdown-section tbody tr:nth-child(even) { background: #f4f6fa; }
+    .markdown-section tbody tr:hover { background: #e9eff8; }
+    html.gaps-dark .markdown-section table { color: #e5e7eb; }
+    html.gaps-dark .markdown-section th,
+    html.gaps-dark .markdown-section td {
+      border-color: #4b5260;
+    }
+    html.gaps-dark .markdown-section th {
+      background: #303642;
+      color: #f3f5f9;
+    }
+    html.gaps-dark .markdown-section tbody tr:nth-child(odd) { background: #20232b; }
+    html.gaps-dark .markdown-section tbody tr:nth-child(even) { background: #292e38; }
+    html.gaps-dark .markdown-section tbody tr:hover { background: #343c4a; }
+    html.gaps-dark .markdown-section td,
+    html.gaps-dark .markdown-section td p,
+    html.gaps-dark .markdown-section td li {
+      color: #e5e7eb !important;
+    }
 
     @media (max-width: 900px) {
       #gaps-reading-tools { top: 8px; right: 8px; gap: 3px; padding: 4px; }
@@ -269,7 +335,7 @@
                 if (!firstParagraph) return;
 
                 const match = firstParagraph.innerHTML.match(
-                  /^\s*\[!(NOTE|IMPORTANT|TIP)\]\s*/i
+                  /^\s*\[!(NOTE|IMPORTANT|TIP|SOURCE)\]\s*/i
                 );
 
                 if (!match) return;
@@ -278,7 +344,7 @@
                 const slug = type.toLowerCase();
 
                 firstParagraph.innerHTML = firstParagraph.innerHTML
-                  .replace(/^\s*\[!(NOTE|IMPORTANT|TIP)\]\s*/i, '')
+                  .replace(/^\s*\[!(NOTE|IMPORTANT|TIP|SOURCE)\]\s*/i, '')
                   .trim();
 
                 if (!firstParagraph.innerHTML) firstParagraph.remove();

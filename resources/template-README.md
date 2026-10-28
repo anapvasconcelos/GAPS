@@ -27,6 +27,7 @@
 
 # 1. [Artifact name] [E]
 
+> SOURCE:
 > - GAPS §3.5.1 - [Artifact purpose statement](/content/M3.md#351-artifact-purpose-statement)
 > - GAPS §7.7.1 - [PIDs and immutability at publication](/content/M7.md#771-pids-and-immutability-at-publication)
 > - GAPS §8.3.4 - [Version tagging](/content/M8.md#834-version-tagging)
