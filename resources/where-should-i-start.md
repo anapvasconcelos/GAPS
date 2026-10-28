@@ -37,4 +37,5 @@ You can also use the complementary resources:
 - **[GAPS structure](/resources/structure.md):** An overview of how the modules and complementary resources are organized.
 - **[GAPS Advisor](https://notebook.google.com/notebook/17518b1f-e320-48be-a9c2-0edee13c6737):** An interactive advisor that provides guidance based on GAPS recommendations and the researcher's current situation.
 
-> **TIP:** You do not need to apply every recommendation to every artifact. The appropriate practices depend on the artifact's nature, intended use, research context, and any ethical, legal, or technical constraints. Use GAPS to identify and address the requirements relevant to your situation.
+> [!TIP]
+> You do not need to apply every recommendation to every artifact. The appropriate practices depend on the artifact's nature, intended use, research context, and any ethical, legal, or technical constraints. Use GAPS to identify and address the requirements relevant to your situation.
