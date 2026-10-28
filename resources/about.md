@@ -102,9 +102,9 @@ The license permits the material to be reused, adapted, and redistributed, inclu
 
 This license also addresses the ShareAlike requirements associated with adapted content from sources licensed under CC BY-SA 4.0.
 
-For the full terms, see the [CC BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/) or the [license file](LICENSE).
+For the full terms, see the [CC BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
 
-![](/images/FIG-CC-BY-SA.svg)
+![](../images/FIG-CC-BY-SA.svg)
 
 ---
 

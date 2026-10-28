@@ -57,7 +57,7 @@ Open Science encompasses a broad and evolving ecosystem of practices, principles
 
 <div align="center">
 
-![Open Science elements](/images/FIG-open-science-elements.png) <!-- Source: GallagherEtAl2020 -->
+![Open Science elements](../images/FIG-open-science-elements.png) <!-- Source: GallagherEtAl2020 -->
 
 </div>
 
@@ -158,7 +158,7 @@ Openness alone is not sufficient. FAIR principles complement Open Science by foc
 
 <div align="center">
 
-![FAIR Principles](/images/FIG-FAIR-IDS.png)
+![FAIR Principles](../images/FIG-FAIR-IDS.png)
 
 </div>
 
@@ -309,7 +309,7 @@ Research artifacts evolve throughout the research process, from early planning a
 
 <div align="center">
 
-![Artifact life cycle](/images/FIG-artifact-life-cycle.png) <!-- Source: Montgomery2024 - - Gemini2026 -->
+![Artifact life cycle](../images/FIG-artifact-life-cycle.png) <!-- Source: Montgomery2024 - - Gemini2026 -->
 
 </div>
 
