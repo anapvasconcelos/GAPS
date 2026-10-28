@@ -103,6 +103,12 @@
       font-size: 12px;
     }
 
+
+    #gaps-reading-reset {
+      font-size: 20px;
+      line-height: 1;
+    }
+
     /* Always-visible side navigation for the ten GAPS modules */
     .gaps-page-nav {
       position: fixed;
@@ -307,7 +313,7 @@
 /* Compact sidebar navigation */
 .sidebar-nav ul {
   margin: 0 !important;
-  padding-left: 8px !important;
+  padding-left: 8px !important; 
 }
 
 .sidebar-nav > ul {
@@ -321,30 +327,104 @@
 
 .sidebar-nav li > a {
   display: block;
-  padding: 1px 0 1px 18px !important;
-  margin: 0 !important;
+  /*padding: 3px 0 !important;*/
+  padding: 1px 0 1px 15px !important;
   line-height: 1.3 !important;
-  position: relative;
 }
 
-/* Keep the arrow separate from the link text */
-.sidebar-nav li > a:before {
-  position: absolute;
-  left: 2px;
-  top: 50%;
-  transform: translateY(-50%);
+.sidebar-nav li > p {
+  margin: 0 !important;
+  padding: 3px 0 !important;
 }
 
 /* Highlight expanded sections */
 .sidebar-nav li:has(> ul):not(.collapse) > a {
-  font-weight: 600 !important;
+  font-weight: 800 !important;
+  font-size: 14px !important;
 }
 
-/* Keep standalone section links consistent with group headings */
-.sidebar-nav > ul > li > a[href*="GAPS-Advisor"],
-.sidebar-nav > ul > li > a[href*="resources/about.md"] {
-  font-size: 16px !important;
-  font-weight: 600 !important;
+
+
+
+/* Reduce spacing around standalone sidebar headings */
+.sidebar-nav > ul > li:has(> a[href*="GAPS-Advisor"]),
+.sidebar-nav > ul > li:has(> a[href*="resources/about.md"]) {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.sidebar-nav > ul > li:has(> a[href*="GAPS-Advisor"]) > a,
+.sidebar-nav > ul > li:has(> a[href*="resources/about.md"]) > a {
+  margin: 0 !important;
+  padding-top: 1px !important;
+  padding-bottom: 1px !important;
+  line-height: 1.3 !important;
+}
+
+
+/* Standalone sidebar links: control spacing independently */
+.sidebar-nav > p {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.3 !important;
+}
+
+/* Add space before GAPS Advisor, not after it */
+.sidebar-nav > p:has(> a[href*="GAPS-Advisor"]) {
+  margin-top: 6px !important;
+  margin-bottom: 0 !important;
+}
+
+/* Keep About GAPS aligned with the section headings */
+.sidebar-nav > p:has(> a[href*="resources/about.md"]) {
+  margin-top: 6px !important;
+  margin-bottom: 0 !important;
+}
+
+/* Bold About GAPS when its page is active */
+.sidebar-nav > p.active > a[href*="resources/about.md"],
+.sidebar-nav > p.active > a[href*="resources/about.md"] strong {
+  font-weight: 800 !important;
+}
+
+
+/* Add scrollable space at the bottom of the sidebar */
+.sidebar-nav {
+  padding-bottom: 30px !important;
+}
+
+
+
+/* Place reading controls at the bottom of the sidebar */
+#gaps-reading-tools {
+  position: static !important;
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+  z-index: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: auto;
+  margin: 12px 10px 20px;
+  padding: 8px;
+  gap: 5px;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+/* Keep controls compact inside the sidebar */
+#gaps-reading-tools button {
+  min-width: 32px;
+  min-height: 30px;
+  padding: 4px 6px;
+}
+
+#gaps-font-label {
+  min-width: 38px;
 }
 
   </style>
@@ -358,7 +438,7 @@
       repo: 'https://github.com/anapvasconcelos/GAPS',
       loadSidebar: 'resources/summary.md',
       subMaxLevel: 4,
-      auto2top: false,
+      auto2top: true,
       homepage: 'README.md',
       search: {
         maxAge: 86400000,
@@ -441,9 +521,24 @@
             larger.textContent = 'A+';
             larger.title = 'Increase text size';
             larger.setAttribute('aria-label', 'Increase text size');
+            
 
-            tools.append(themeButton, smaller, fontLabel, larger);
-            document.body.appendChild(tools);
+
+            const reset = document.createElement('button');
+            reset.type = 'button';
+            reset.id = 'gaps-reading-reset';
+            reset.textContent = '↺';
+            reset.title = 'Reset reading preferences';
+            reset.setAttribute('aria-label', 'Reset reading preferences');
+
+
+            tools.append(themeButton, smaller, fontLabel, larger, reset);
+            /*tools.append(themeButton, smaller, fontLabel, larger);
+            document.body.appendChild(tools);*/
+
+            const sidebarNav = document.querySelector('.sidebar-nav');
+            (sidebarNav || document.body).appendChild(tools);
+
 
             const savedTheme = localStorage.getItem('gaps-theme');
             const systemDark = window.matchMedia &&
@@ -468,6 +563,14 @@
               const current = Number(document.documentElement.dataset.gapsFontSize || 16);
               applyFontSize(Math.min(22, current + 1));
               localStorage.setItem('gaps-font-size', document.documentElement.dataset.gapsFontSize);
+            });
+            
+            reset.addEventListener('click', function () {
+              applyTheme('light');
+              applyFontSize(16);
+
+              localStorage.setItem('gaps-theme', 'light');
+              localStorage.setItem('gaps-font-size', '16');
             });
           }
 
