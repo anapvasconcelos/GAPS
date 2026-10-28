@@ -123,8 +123,13 @@
       pointer-events: none;
       cursor: default;
     }
-    #gaps-page-prev { left: 12px; }
+    /* Keep the back arrow outside the sidebar when it is open. */
+    #gaps-page-prev { left: calc(var(--sidebar-width) + 12px); }
     #gaps-page-next { right: 12px; }
+
+    /* When Docsify collapses the sidebar, return the back arrow to the edge. */
+    body.close #gaps-page-prev,
+    body.sidebar-close #gaps-page-prev { left: 12px; }
 
     /* User-selected dark theme */
     html.gaps-dark {
@@ -219,8 +224,10 @@
       #gaps-reading-tools button { min-width: 30px; min-height: 30px; padding: 4px 6px; }
       #gaps-font-label { display: none; }
       .gaps-page-nav { width: 34px; height: 50px; font-size: 26px; }
-      #gaps-page-prev { left: 4px; }
+      #gaps-page-prev { left: calc(var(--sidebar-width) + 4px); }
       #gaps-page-next { right: 4px; }
+      body.close #gaps-page-prev,
+      body.sidebar-close #gaps-page-prev { left: 4px; }
     }
     @media (max-width: 600px) {
       #gaps-reading-tools { top: auto; bottom: 10px; right: 10px; }
@@ -289,18 +296,10 @@
         },
 
         function (hook, vm) {
-          const modules = [
-            { number: 1, title: 'M1 - Foundations', path: '/content/M1' },
-            { number: 2, title: 'M2 - Planning & Organization', path: '/content/M2' },
-            { number: 3, title: 'M3 - Documentation', path: '/content/M3' },
-            { number: 4, title: 'M4 - Environments & Automation', path: '/content/M4' },
-            { number: 5, title: 'M5 - Data, Privacy & Ethics', path: '/content/M5' },
-            { number: 6, title: 'M6 - Validation & Pre-release', path: '/content/M6' },
-            { number: 7, title: 'M7 - Publishing & Licensing', path: '/content/M7' },
-            { number: 8, title: 'M8 - Preservation & Maintenance', path: '/content/M8' },
-            { number: 9, title: 'M9 - Reusability & Extension', path: '/content/M9' },
-            { number: 10, title: 'M10 - Artifact Evaluation', path: '/content/M10' }
-          ];
+          /*
+           * Navigation follows the actual Docsify pagination links, so it
+           * stays consistent with the site's configured Previous/Next order.
+           */
 
           function ensureReadingTools() {
             if (document.getElementById('gaps-reading-tools')) return;
@@ -388,8 +387,8 @@
               previous.id = 'gaps-page-prev';
               previous.className = 'gaps-page-nav';
               previous.innerHTML = '&#8249;';
-              previous.setAttribute('aria-label', 'Previous module');
-              previous.title = 'Previous module';
+              previous.setAttribute('aria-label', 'Previous page');
+              previous.title = 'Previous page';
               document.body.appendChild(previous);
             }
             if (!next) {
@@ -397,47 +396,46 @@
               next.id = 'gaps-page-next';
               next.className = 'gaps-page-nav';
               next.innerHTML = '&#8250;';
-              next.setAttribute('aria-label', 'Next module');
-              next.title = 'Next module';
+              next.setAttribute('aria-label', 'Next page');
+              next.title = 'Next page';
               document.body.appendChild(next);
             }
 
-            const hashPath = decodeURIComponent(window.location.hash.split('?')[0]);
-            const match = hashPath.match(/\/content\/M(10|[1-9])(?:\.md)?(?:$|[#/])/i);
-            const currentNumber = match ? Number(match[1]) : null;
+            /*
+             * docsify-pagination generates the links shown in the footer.
+             * Reuse their destinations rather than maintaining a separate list.
+             */
+            const previousFooterLink = document.querySelector(
+              '.pagination-item--previous a, .pagination-item.pagination-item--previous a, .pagination-prev a'
+            );
+            const nextFooterLink = document.querySelector(
+              '.pagination-item--next a, .pagination-item.pagination-item--next a, .pagination-next a'
+            );
 
-            if (currentNumber === null) {
-              previous.hidden = true;
-              next.hidden = true;
-              return;
-            }
-
-            previous.hidden = false;
-            next.hidden = false;
-            const previousModule = modules.find(function (module) {
-              return module.number === currentNumber - 1;
-            });
-            const nextModule = modules.find(function (module) {
-              return module.number === currentNumber + 1;
-            });
-
-            configureNavLink(previous, previousModule, 'Previous module');
-            configureNavLink(next, nextModule, 'Next module');
+            syncSideLink(previous, previousFooterLink, 'Previous page');
+            syncSideLink(next, nextFooterLink, 'Next page');
           }
 
-          function configureNavLink(link, module, label) {
-            if (!module) {
-              link.removeAttribute('href');
-              link.setAttribute('aria-disabled', 'true');
-              link.setAttribute('tabindex', '-1');
-              link.title = label + ' (no more modules)';
+          function syncSideLink(sideLink, footerLink, label) {
+            if (!footerLink || !footerLink.getAttribute('href')) {
+              sideLink.hidden = true;
+              sideLink.removeAttribute('href');
+              sideLink.setAttribute('aria-disabled', 'true');
+              sideLink.setAttribute('tabindex', '-1');
               return;
             }
-            link.href = '#'+ module.path;
-            link.removeAttribute('aria-disabled');
-            link.removeAttribute('tabindex');
-            link.title = label + ': ' + module.title;
-            link.setAttribute('aria-label', label + ': ' + module.title);
+
+            sideLink.hidden = false;
+            sideLink.href = footerLink.href;
+            sideLink.removeAttribute('aria-disabled');
+            sideLink.removeAttribute('tabindex');
+
+            const destinationLabel =
+              (footerLink.textContent || '').replace(/\s+/g, ' ').trim();
+            sideLink.title = destinationLabel
+              ? label + ': ' + destinationLabel
+              : label;
+            sideLink.setAttribute('aria-label', sideLink.title);
           }
 
           hook.ready(function () {
