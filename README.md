@@ -2,7 +2,7 @@
 
 [About GAPS](/resources/about.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
 [GAPS structure](/resources/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[Start here: Module 1 →](/content/M1.md)
+[Start here: Module 1 →](/GAPS-Material-files/M1.md)
 
 </nobr></div>
 
@@ -33,17 +33,17 @@ GAPS Material covers the research artifact lifecycle, from foundational concepts
 
 | Module | Content description |
 | --- | --- |
-| [Module 1 - Foundations](/content/M1.md) | Introduces Open Science and research artifacts, including their types and roles, the FAIR principles, the artifact life cycle, and the characteristics of usable, reproducible, and reusable research artifacts. |
-| [Module 2 - Planning & Organization](/content/M2.md) | Covers artifact-oriented workflows and early planning, file format selection, repository organization, naming conventions, and data curation, including the traceability of data transformations and anticipated sharing constraints. |
-| [Module 3 - Documentation](/content/M3.md) | Addresses operational, structural, and scientific documentation, including README files, artifact organization and usage instructions, the connection between artifacts and reported research results, limitations, and complementary documentation. |
-| [Module 4 - Environments & Automation](/content/M4.md) | Covers dependency specification, reproducible and isolated environments, portability, scripts, workflow automation, version control, and common pitfalls that can undermine reproducibility. |
-| [Module 5 - Data, Privacy & Ethics](/content/M5.md) | Discusses legal and ethical considerations, privacy and consent, anonymization strategies, the handling of sensitive data, and approaches to sharing restricted data while preserving analytical value. |
-| [Module 6 - Validation & Pre-release](/content/M6.md) | Covers artifact validation under realistic conditions, verification of completeness and consistency with reported results, documentation of result variability and limitations, final inspection, and pre-release checks before sharing. |
-| [Module 7 - Publishing & Licensing](/content/M7.md) | Covers repository selection, artifact packaging and publication, licensing, persistent identifiers (PIDs), citation metadata, Data Availability Statements (DAS), anonymization for review, and publication visibility. |
-| [Module 8 - Preservation & Maintenance](/content/M8.md) | Discusses artifact decay, long-term preservation, versioning and immutability of published releases, changelogs, and post-publication maintenance of dependencies, documentation, and known issues. |
-| [Module 9 - Reusability & Extension](/content/M9.md) | Focuses on identifying reusable components, documenting how to adapt artifacts to new inputs and configurations, describing reuse limitations, and providing guidance and examples for extending existing artifacts beyond their original purpose. |
-| [Module 10 - Artifact Evaluation](/content/M10.md) | Covers artifact evaluation criteria, access and anonymization requirements, badge systems, common reviewer checks, submission preparation, versioning during review, and responding to reviewer feedback. |
-| [GAPS all-in-one](/content/GAPS-all-in-one.md) | Provides the content of all 10 modules in a single page, making the guidance available in one place and facilitating full-text searches across modules. |
+| [Module 1 - Foundations](/GAPS-Material-files/M1.md) | Introduces Open Science and research artifacts, including their types and roles, the FAIR principles, the artifact life cycle, and the characteristics of usable, reproducible, and reusable research artifacts. |
+| [Module 2 - Planning & Organization](/GAPS-Material-files/M2.md) | Covers artifact-oriented workflows and early planning, file format selection, repository organization, naming conventions, and data curation, including the traceability of data transformations and anticipated sharing constraints. |
+| [Module 3 - Documentation](/GAPS-Material-files/M3.md) | Addresses operational, structural, and scientific documentation, including README files, artifact organization and usage instructions, the connection between artifacts and reported research results, limitations, and complementary documentation. |
+| [Module 4 - Environments & Automation](/GAPS-Material-files/M4.md) | Covers dependency specification, reproducible and isolated environments, portability, scripts, workflow automation, version control, and common pitfalls that can undermine reproducibility. |
+| [Module 5 - Data, Privacy & Ethics](/GAPS-Material-files/M5.md) | Discusses legal and ethical considerations, privacy and consent, anonymization strategies, the handling of sensitive data, and approaches to sharing restricted data while preserving analytical value. |
+| [Module 6 - Validation & Pre-release](/GAPS-Material-files/M6.md) | Covers artifact validation under realistic conditions, verification of completeness and consistency with reported results, documentation of result variability and limitations, final inspection, and pre-release checks before sharing. |
+| [Module 7 - Publishing & Licensing](/GAPS-Material-files/M7.md) | Covers repository selection, artifact packaging and publication, licensing, persistent identifiers (PIDs), citation metadata, Data Availability Statements (DAS), anonymization for review, and publication visibility. |
+| [Module 8 - Preservation & Maintenance](/GAPS-Material-files/M8.md) | Discusses artifact decay, long-term preservation, versioning and immutability of published releases, changelogs, and post-publication maintenance of dependencies, documentation, and known issues. |
+| [Module 9 - Reusability & Extension](/GAPS-Material-files/M9.md) | Focuses on identifying reusable components, documenting how to adapt artifacts to new inputs and configurations, describing reuse limitations, and providing guidance and examples for extending existing artifacts beyond their original purpose. |
+| [Module 10 - Artifact Evaluation](/GAPS-Material-files/M10.md) | Covers artifact evaluation criteria, access and anonymization requirements, badge systems, common reviewer checks, submission preparation, versioning during review, and responding to reviewer feedback. |
+| [GAPS all-in-one](/GAPS-Material-files/GAPS-all-in-one.md) | Provides the content of all 10 modules in a single page, making the guidance available in one place and facilitating full-text searches across modules. |
 
 
 ---

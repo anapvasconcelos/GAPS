@@ -32,7 +32,7 @@ The material also includes complementary resources to support its practical appl
 - **README Template:** a reusable template for documenting an artifact and providing information and instructions for its use.
 - **GAPS References:** a collection of sources supporting the material and providing opportunities for further reading.
 
-For a detailed overview, see the [GAPS structure](/resources/structure.md). The complete content is also available in [GAPS all-in-one](/content/GAPS-all-in-one.md).
+For a detailed overview, see the [GAPS structure](/resources/structure.md). The complete content is also available in [GAPS all-in-one](/GAPS-Material-files/GAPS-all-in-one.md).
 
 ### GAPS Advisor
 
