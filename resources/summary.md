@@ -1,4 +1,4 @@
-- [Home](/README.md)
+- **[Home](/README.md)**
 
 - **Getting Started**
   - [GAPS mind map](/resources/GAPS-mind-map.md)
@@ -22,8 +22,6 @@
   - [README Template](/resources/template-README.md)
   - [GAPS References](/resources/references.md)
 
-- **GAPS Advisor**
-  - [GAPS Advisor](/resources/GAPS-Advisor.md)
+- [**GAPS Advisor**](/resources/GAPS-Advisor.md)
 
-- **About GAPS**
-  - [About GAPS](/resources/about.md)
+- [**About GAPS**](/resources/about.md)
