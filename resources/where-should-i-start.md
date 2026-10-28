@@ -1,14 +1,14 @@
 <div align="center"><nobr>
 
 [Home](/README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[GAPS structure](/content/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS structure](/resources/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
 [Start here: Module 1 →](/content/M1.md)
 
 </nobr></div>
 
 ---
 
-![](../GAPS-logo.png)
+![](/images/GAPS-logo.png)
 
 # Where should I start?
 
@@ -36,15 +36,15 @@ Artifact preparation involves interconnected activities. You may need to consult
 - **Preparing an artifact for submission:** Start with Module 6 to validate the artifact, then consult Module 7 for publication requirements and Module 10 for the target venue's artifact evaluation process.
 - **Sharing research data involving human participants:** Start with Module 5 to assess ethical, legal, and privacy constraints. Consult Modules 2 and 3 for data organization and documentation, and Module 7 for publication and access conditions.
 - **Making an artifact reproducible:** Start with Module 4 for environments and automation, Module 3 for execution instructions, and Module 6 for independent validation.
-- **Improving an existing artifact:** Use the [Researcher-facing Self-check](/materials/researcher-facing-self-check.md) to identify aspects that may need attention, then consult the corresponding modules for guidance.
+- **Improving an existing artifact:** Use the [Researcher-facing Self-check](/resources/researcher-facing-self-check.md) to identify aspects that may need attention, then consult the corresponding modules for guidance.
 
 ## Looking for a quick reference?
 
 You can also use the complementary resources:
 
-- **[README Template](/materials/template-README.md):** A starting point for documenting a research artifact.
-- **[Researcher-facing Self-check](/materials/researcher-facing-self-check.md):** A checklist to help assess artifact readiness before sharing or submission.
-- **[GAPS structure](/content/structure.md):** An overview of how the modules and complementary resources are organized.
+- **[README Template](/resources/template-README.md):** A starting point for documenting a research artifact.
+- **[Researcher-facing Self-check](/resources/researcher-facing-self-check.md):** A checklist to help assess artifact readiness before sharing or submission.
+- **[GAPS structure](/resources/structure.md):** An overview of how the modules and complementary resources are organized.
 - **[GAPS Advisor](https://notebook.google.com/notebook/17518b1f-e320-48be-a9c2-0edee13c6737):** An interactive advisor that provides guidance based on GAPS recommendations and the researcher's current situation.
 
 > **TIP:** You do not need to apply every recommendation to every artifact. The appropriate practices depend on the artifact's nature, intended use, research context, and any ethical, legal, or technical constraints. Use GAPS to identify and address the requirements relevant to your situation.

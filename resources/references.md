@@ -8,7 +8,7 @@
 
 ---
 
-![](/images/GAPS-logo.png)
+![](/GAPS/images/GAPS-logo.png)
 
 # GAPS References
 

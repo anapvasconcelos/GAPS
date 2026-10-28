@@ -8,7 +8,7 @@
 
 ---
 
-![](../GAPS-logo.png)
+![](/images/GAPS-logo.png)
 
 # Researcher-facing self-check
 
