@@ -1,11 +1,11 @@
 - [Home](/README.md)
 
-**Where should I start?**
+**> Getting Started**
 - [GAPS mind map](/resources/GAPS-mind-map.md)
 - [GAPS Structure](/resources/structure.md)
 - [Where should I start?](/resources/where-should-i-start.md)
 
-**GAPS Material**
+**> GAPS Material**
 - [M1 - Foundations](/content/M1.md#module-1---foundations)
 - [M2 - Planning & Organization](/content/M2.md#module-2---planning-and-artifact-organization)
 - [M3 - Documentation](/content/M3.md#module-3---documentation)
@@ -21,6 +21,8 @@
 - [README Template](/resources/template-README.md)
 - [GAPS References](/resources/references.md)
 
+**> About GAPS**
 - [About GAPS](/resources/about.md)
 
+**> GAPS Advisor**
 - [GAPS Advisor](https://notebook.google.com/notebook/17518b1f-e320-48be-a9c2-0edee13c6737)
