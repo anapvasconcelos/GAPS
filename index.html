@@ -427,13 +427,107 @@
   min-width: 38px;
 }
 
+
+@font-face {
+  font-family: "Quadrillion";
+  src: url("/GAPS/resources/quadrillion.semi-bold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+.gaps-brand-name {
+  font-family: "Quadrillion", sans-serif !important;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+/* Align the GAPS logo and brand name vertically */
+.sidebar > h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* Align the logo and GAPS brand name */
+.sidebar > h1 {
+  text-align: center;
+}
+
+.sidebar > h1 > a {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px;
+  line-height: 1 !important;
+}
+
+.sidebar > h1 img {
+  display: block;
+  height: 47px;
+  width: auto;
+  margin: 0 !important;
+  flex-shrink: 0;
+}
+
+.gaps-brand-name {
+  display: inline-block;
+  font-family: "Quadrillion", sans-serif !important;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1 !important;
+  color: #071A9E !important;
+}
+
+
+/* Keep all reading controls on one row */
+#gaps-reading-tools {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  justify-content: center;
+  gap: 4px !important;
+  width: max-content !important;
+  max-width: calc(100% - 20px);
+  box-sizing: border-box;
+  margin: 12px auto 20px !important;
+  padding: 6px !important;
+}
+
+/* Compact controls to fit the sidebar */
+#gaps-reading-tools button {
+  flex: 0 0 auto;
+  min-width: 30px !important;
+  min-height: 30px !important;
+  padding: 4px 6px !important;
+  white-space: nowrap;
+}
+
+#gaps-font-label {
+  flex: 0 0 38px;
+  min-width: 38px !important;
+  white-space: nowrap;
+  font-size: 12px !important;
+  text-align: center;
+}
+
+/* Keep the reset button consistent with the others */
+#gaps-reading-reset {
+  font-size: 20px !important;
+  line-height: 1 !important;
+}
+
+
+
   </style>
 </head>
 <body>
   <div id="app">Loading…</div>
   <script>
     window.$docsify = {
-      name: '<img src="/GAPS/images/GAPS-logo-mala.png" style="height:28px;vertical-align:middle;margin-right:6px"> GAPS',
+      /*name: '<img src="/GAPS/images/GAPS-logo-mala.png" style="height:28px;vertical-align:middle;margin-right:6px"> GAPS',*/
+      name: '<img src="/GAPS/images/GAPS-logo-mala.png" style="height:47px"> <span class="gaps-brand-name">GAPS</span>',
       nameLink: '/GAPS/',
       repo: 'https://github.com/anapvasconcelos/GAPS',
       loadSidebar: 'resources/summary.md',
