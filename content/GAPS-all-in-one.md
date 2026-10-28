@@ -424,7 +424,7 @@ Structure your project so that it can be directly shared as a replication packag
 
 Without an artifact-oriented approach, data may become disorganized or partially lost, important decisions may remain undocumented, and results may become difficult to reproduce, even by the original authors. <!-- Source: ACMSIGPLAN - - Survey2026 - - SEFM2024 -->
 
-When the research involves sensitive or restricted data, ethical and legal considerations should also be anticipated at this stage. See [Module 5](#module-5---data-privacy-and-ethics) for guidance.
+When the research involves sensitive or restricted data, ethical and legal considerations should also be anticipated at this stage. See Module 5 for guidance.
 
 ### 2.2.2. Planning for reuse
 
@@ -438,7 +438,7 @@ Reusability is not an afterthought, it depends on decisions made early in the pr
 - Use public benchmarks and datasets that others can also access and run independently. <!-- Source: Survey2026 -->
 - Avoid relying on unstable external resources. When external datasets, APIs, or repositories are required, consider their versioning and long-term availability.
 
-For guidance on documenting an artifact for reuse, including the Reusability Guide and extension scenarios, see [Module 9](#module-9---reusability-and-extension).
+For guidance on documenting an artifact for reuse, including the Reusability Guide and extension scenarios, see Module 9.
 
 ## 2.3. File formats
 
@@ -474,7 +474,7 @@ Additional format guidelines: <!-- Source: ETAPS2025 - - BezjakEtAl2018 - - Surv
 - Prefer machine-readable formats for automated and reproducible workflows. <!-- Source: MendezEtAl2020 -->
 - When both human- and machine-readable representations are valuable, provide both. Avoid spreadsheet formats as the sole representation of research data.However, you can provide CSV for automation and spreadsheet formats for manual inspection. <!-- Source: MendezEtAl2020 -->
 
-For guidance on file formats and long-term preservation, see [Module 8](#module-8---preservation-versioning-and-maintenance).
+For guidance on file formats and long-term preservation, see Module 8.
 
 ## 2.4. Repository organization
 
@@ -486,7 +486,7 @@ Discuss and align the repository structure with collaborators early in the proje
 
 The folder structure should reflect the research workflow. <!-- Source: MendezEtAl2020 - - Survey2026 - - DamascenoStruber2021 -->
 
-This structure should later be documented for external users so that they can navigate the artifact and understand the role of its components. See [Module 3](#module-3---documentation), section 3.4, for guidance on documenting the repository structure.
+This structure should later be documented for external users so that they can navigate the artifact and understand the role of its components. See Module 3, section 3.4, for guidance on documenting the repository structure.
 
 #### 2.4.1.1. Separating raw and processed data
 
@@ -515,7 +515,7 @@ Consistency matters more than any particular naming style. Avoid inconsistent ab
 
 Data curation focuses on preserving the quality, traceability, and integrity of data throughout the research process. Researchers should keep track of how data are collected, transformed, filtered, and organized so that these decisions remain traceable when the artifact is prepared for sharing. <!-- Source: ZeeReich2018 - - Survey2026 -->
 
-The resulting information should later be documented for external users as part of the artifact documentation. See [Module 3](#module-3---documentation), section 3.5.2, for guidance on documenting datasets.
+The resulting information should later be documented for external users as part of the artifact documentation. See Module 3, section 3.5.2, for guidance on documenting datasets.
 
 ### 2.5.1. Tracking data collection and transformation
 
@@ -531,7 +531,7 @@ Record the decisions and procedures that affect the resulting data, including: <
 
 Preserve sufficient information to trace how the data used in analyses or reported results were derived from the original data. <!-- Source: MendezEtAl2020 - - Survey2026 -->
 
-For data involving human participants or other sensitive information, identify anonymization, ethical, legal, or licensing constraints during the research process rather than addressing them only when preparing the artifact for sharing. See [Module 5](#module-5---data-privacy-and-ethics) for detailed guidance.
+For data involving human participants or other sensitive information, identify anonymization, ethical, legal, or licensing constraints during the research process rather than addressing them only when preparing the artifact for sharing. See Module 5 for detailed guidance.
 
 ### 2.5.2. Identifying data sharing constraints
 
@@ -539,7 +539,7 @@ Identify early whether the data can be shared and what restrictions may apply. C
 
 When full public sharing is not possible, plan early for the documentation and access conditions that will be needed when the artifact is prepared for sharing. <!-- Source: Survey2026 -->
 
-See [Module 5](#module-5---data-privacy-and-ethics) for strategies for handling sensitive or restricted data and [Module 3](#module-3---documentation), section 3.7, for guidance on documenting non-shared components and controlled access.
+See Module 5 for strategies for handling sensitive or restricted data and Module 3, section 3.7, for guidance on documenting non-shared components and controlled access.
 
 -----
 
@@ -585,7 +585,7 @@ State the expected technical background of the user at the beginning. Document t
 - Estimated execution time and storage requirements.
 - Any credentials, access permissions, or software licenses required.
 
-See [Module 4](#module-4---environments-dependencies-and-automation) for guidance on specifying and isolating execution environments.
+See Module 4 for guidance on specifying and isolating execution environments.
 
 Avoid overstating platform support. Clearly state which platforms have been tested and avoid claiming compatibility that has not been verified. Document hardware architecture assumptions (e.g., x86, ARM) explicitly. Architecture incompatibilities may prevent reproduction even when all software dependencies are available. <!-- Source: Survey2026 - - ETAPS2025 -->
 
@@ -683,7 +683,7 @@ Being transparent about problems is more helpful than presenting the artifact as
 
 ## 3.4. Structural documentation
 
-Structural documentation translates the repository organization set up in [Module 2](#module-2---planning-and-artifact-organization) into clear explanations for external users. It makes it possible for them to navigate the repository efficiently without having to read the entire paper first. <!-- Source: Survey2026 -->
+Structural documentation translates the repository organization set up in Module 2 into clear explanations for external users. It makes it possible for them to navigate the repository efficiently without having to read the entire paper first. <!-- Source: Survey2026 -->
 
 ### 3.4.1. Folder structure
 
@@ -712,7 +712,7 @@ For each directory, describe: <!-- Source: Survey2026 - - ETAPS2025 -->
 
 Provide a table of contents or navigation index in the README when the repository is large or complex. <!-- Source: Survey2026 -->
 
-See [Module 2](#module-2---planning-and-artifact-organization), section 2.4, for guidance on how to structure and name folders.
+See Module 2, section 2.4, for guidance on how to structure and name folders.
 
 ### 3.4.2. In-folder documentation
 
@@ -720,7 +720,7 @@ For complex projects, place additional documentation files within specific folde
 
 ### 3.4.3. Naming conventions
 
-The guidance for creating naming conventions is covered in [Module 2](#module-2---planning-and-artifact-organization), section 2.4.1.2. From a documentation perspective, the key complement is: when terminology changed between artifact development and paper submission - for example, if a concept was renamed after the analysis was complete - include a brief explanation of old versus new terminology in the README, before the execution instructions. This helps users map the paper's language to the files they are working with. <!-- Source: Survey2026 - - MendezEtAl2020 - - DamascenoStruber2021 -->
+The guidance for creating naming conventions is covered in Module 2, section 2.4.1.2. From a documentation perspective, the key complement is: when terminology changed between artifact development and paper submission - for example, if a concept was renamed after the analysis was complete - include a brief explanation of old versus new terminology in the README, before the execution instructions. This helps users map the paper's language to the files they are working with. <!-- Source: Survey2026 - - MendezEtAl2020 - - DamascenoStruber2021 -->
 
 ### 3.4.4. Distinguishing essential from auxiliary components
 
@@ -756,7 +756,7 @@ For technical datasets, provide precise documentation of each data field, includ
 
 For non-executable artifacts, such as interview guides, protocols, codebooks, or qualitative datasets, also explain how the materials can be interpreted and reused by other researchers or practitioners. <!-- Source: RE2026 - - Survey2026 -->
 
-For ethical, privacy, and legal considerations affecting data sharing, see [Module 5](#module-5---data-privacy-and-ethics).
+For ethical, privacy, and legal considerations affecting data sharing, see Module 5.
 
 ### 3.5.3. Mapping outputs to paper results
 
@@ -850,7 +850,7 @@ When the paper has no artifacts at all, explain in the paper itself why no artif
 
 Providing partial transparency is always more useful than providing no documentation at all. <!-- Source: IPDPS26 - - BeyerWinter2025 -->
 
-For strategies for sharing restricted or sensitive data, see [Module 5](#module-5---data-privacy-and-ethics), section 5.4.
+For strategies for sharing restricted or sensitive data, see Module 5, section 5.4.
 
 ### 3.7.3. Disclosure statement
 
@@ -863,13 +863,13 @@ The disclosure statement should address, when applicable:
 - Ethical considerations, such as data handling conditions or consent agreements.
 - Components or materials that are not included in the shared artifact and the reasons for their exclusion.
 
-The disclosure statement is distinct from the [Data Availability Statement (DAS)](#78-data-availability-statements-das) in the paper. The former provides transparency about the artifact, while the latter declares the availability and access conditions of the materials supporting the study.
+The disclosure statement is distinct from the Data Availability Statement (DAS) in the paper (see about DAS in section 7.8.). The former provides transparency about the artifact, while the latter declares the availability and access conditions of the materials supporting the study.
 
 ### 3.7.4. Impact of anonymization on interpretability
 
 When data have been anonymized before sharing, document the impact on the data's interpretability. Explain how anonymization may reduce clarity or completeness, and indicate any limitations this introduces for reproduction or reuse. <!-- Source: SaundersKitzingerKitzinger2015 - - Survey2026 -->
 
-See [Module 5](#module-5---data-privacy-and-ethics) for anonymization strategies and methods.
+See Module 5 for anonymization strategies and methods.
 
 ### 3.7.5. Contextual variability in empirical studies
 
@@ -888,7 +888,7 @@ When data cannot be made fully public but can be made available under controlled
 - How users can request access.
 - Any relevant governance or approval requirements.
 
-See [Module 5](#module-5---data-privacy-and-ethics) for strategies for sharing restricted data and [Module 7](#module-7---publishing-licensing-and-citation) for repository and publication considerations.
+See Module 5 for strategies for sharing restricted data and Module 7 for repository and publication considerations.
 
 ## 3.8. Complementary documentation
 
@@ -919,7 +919,7 @@ When terminology differs between the artifact and the paper, include a brief exp
 
 ### 3.8.1. Changelogs
 
-When the artifact has multiple released versions, maintain a changelog documenting relevant changes and their potential effects on reproducibility, execution, or reuse. See [Module 8](#module-8---preservation-versioning-and-maintenance), section 8.3.5, for guidance on maintaining changelogs.
+When the artifact has multiple released versions, maintain a changelog documenting relevant changes and their potential effects on reproducibility, execution, or reuse. See Module 8, section 8.3.5, for guidance on maintaining changelogs.
 
 -----
 
@@ -1124,7 +1124,7 @@ Guidelines: <!-- Source: WilsonEtAl2017 - - Survey2026 -->
 
 When code and data have different characteristics or distribution requirements, they may be maintained under separate version control or distribution strategies. <!-- Source: WilsonEtAl2017 - - Survey2026 -->
 
-For guidance on artifact versioning with persistent identifiers, see [Module 8](#module-8---preservation-versioning-and-maintenance), section 8.3.
+For guidance on artifact versioning with persistent identifiers, see Module 8, section 8.3.
 
 ## 4.5. Common pitfalls
 
@@ -1366,7 +1366,7 @@ Different strategies may be adopted depending on the sensitivity of the data: <!
 
 A common practice is to maintain the original raw data in a **restricted (shadow) repository** while preparing a separate shareable version for public release. Ensure that the shared version preserves sufficient information to understand which privacy-preserving transformations were applied and how they affect the data. <!-- Source: Survey2026 -->
 
-See [Module 3](#module-3---documentation), section 3.7, for guidance on documenting non-shared components and their limitations.
+See Module 3, section 3.7, for guidance on documenting non-shared components and their limitations.
 
 Many datasets containing participant-level private information can be shared once de-identified or once a qualified expert has determined that the dataset does not allow individual identification. Consult your Research Ethics Board or Institutional Review Board to learn which approaches are applicable in your context. <!-- Source: BezjakEtAl2018 -->
 
@@ -1418,7 +1418,7 @@ Reproducible artifacts should allow external users to understand, execute, and v
 
 For results to be independently verifiable, the artifact must provide sufficient context for others to understand how conclusions were derived, configure the environment correctly, and interpret the outputs they produce. <!-- Source: ACMSIGPLAN - - DamascenoStruber2021 -->
 
-Validation is the testing counterpart to documentation: where [Module 3](#module-3---documentation) defines what must be written and claimed about the artifact, this module defines how to verify that those claims actually hold.
+Validation is the testing counterpart to documentation: where Module 3 defines what must be written and claimed about the artifact, this module defines how to verify that those claims actually hold.
 
 Three core validation questions should guide the process:
 
@@ -1451,7 +1451,7 @@ Authors often test artifacts only on their own machines, where implicit dependen
 | Test compressed packages | Verify that archives can be extracted correctly on different operating systems. Avoid absolute paths or platform-specific compression tools. |
 | Test copy-paste commands | Execute each command from the README exactly as written. |
 
-For guidance on specifying dependencies and preparing reproducible execution environments, see [Module 4](#module-4---environments-dependencies-and-automation).
+For guidance on specifying dependencies and preparing reproducible execution environments, see Module 4.
 
 Validation should not be limited to checking whether the artifact runs successfully. Verify that its actual behavior matches what the documentation claims, including expected inputs, outputs, execution steps, resource requirements, supported platforms, and known limitations. <!-- Source: Survey2026 - - ACMSIGPLAN -->
 
@@ -1515,9 +1515,9 @@ Verify that: <!-- Source: BeyerWinter2025 - - Survey2026 - - AdarEtAl2017 - - SE
 - **All materials are available in English.** If the associated paper is written in English, ensure that the artifact materials are also available in English. <!-- Source: Survey2026 -->
 - **All required components are present.** Confirm that the files, data, scripts, configurations, and other materials required for the documented reproduction workflow are included and functional. <!-- Source: Survey2026 - - DamascenoStruber2021 -->
 - **The artifact is consistent with the paper.** Confirm that variable names, metrics, units, outputs, experimental conditions, figures, tables, and supported claims are consistent with the publication. <!-- Source: Survey2026 -->
-- **The artifact is consistent with its documentation.** Execute the documented workflow as an external user would and confirm that the instructions, commands, expected outputs, resource requirements, and supported platforms correspond to the actual artifact (see [Module 3](#module-3---documentation) for guidance on documenting the artifact). <!-- Source: Survey2026 -->
+- **The artifact is consistent with its documentation.** Execute the documented workflow as an external user would and confirm that the instructions, commands, expected outputs, resource requirements, and supported platforms correspond to the actual artifact (see Module 3 for guidance on documenting the artifact). <!-- Source: Survey2026 -->
 - **The artifact contains no unnecessary internal materials.** Check for temporary files, backups, obsolete versions, internal comments, TODOs, unused scripts, dead code, or other materials that do not contribute to the shared artifact. <!-- Source: Survey2026 -->
-- **Sensitive and restricted materials are appropriately handled.** Confirm that sensitive information, credentials, personal data, and proprietary materials have been removed, anonymized, or appropriately restricted. See [Module 5](#module-5---data-privacy-and-ethics) for guidance on privacy and anonymization. <!-- Source: Survey2026 -->
+- **Sensitive and restricted materials are appropriately handled.** Confirm that sensitive information, credentials, personal data, and proprietary materials have been removed, anonymized, or appropriately restricted. See Module 5 for guidance on privacy and anonymization. <!-- Source: Survey2026 -->
 - **Links and references work as expected.** Verify hyperlinks, cross-references, embedded assets, and references to external resources.
 - **Known limitations and deviations are documented.** Confirm that differences from the reported results, unsupported claims, known constraints, and relevant exclusions are clearly explained. <!-- Source: Survey2026 -->
 - **Access conditions are correctly configured.** Confirm that intended users can retrieve and use the artifact under the documented access conditions. <!-- Source: Survey2026 -->
@@ -1616,7 +1616,7 @@ Supplementary material published on personal or project webpages does not receiv
 
 ## 7.3. Applying FAIR principles at publication
 
-Before publishing the artifact, verify that the selected repository and publication metadata support the FAIR characteristics introduced in [Module 1](#module-1---foundations). <!-- Source: Survey2026 -->
+Before publishing the artifact, verify that the selected repository and publication metadata support the FAIR characteristics introduced in Module 1. <!-- Source: Survey2026 -->
 
 - **Findable**: provide a persistent identifier, descriptive metadata, and searchable repository information. <!-- Source: Survey2026 -->
 
@@ -1670,11 +1670,11 @@ At publication time, assemble the final artifact package from the components pre
 
 Artifacts do not need to be complete to be valuable, they simply need to be relevant to the study and add value beyond the paper. Even the data behind a single figure can improve transparency significantly. <!-- Source: ICSE2026 -->
 
-Use [Module 6](#module-6---validation-and-pre-release-preparation) to verify that the package is complete and internally consistent before publication.
+Use Module 6 to verify that the package is complete and internally consistent before publication.
 
 ### 7.5.2. File formats for publication
 
-Use the file-format guidance in [Module 2](#module-2---planning-and-artifact-organization) when preparing the artifact. At publication time, verify that reusable data and results are available in formats that users can inspect and process without requiring proprietary software whenever possible. <!-- Source: Survey2026 - - BeyerWinter2025 - - ETAPS2025 -->
+Use the file-format guidance in Module 2 when preparing the artifact. At publication time, verify that reusable data and results are available in formats that users can inspect and process without requiring proprietary software whenever possible. <!-- Source: Survey2026 - - BeyerWinter2025 - - ETAPS2025 -->
 
 ### 7.5.3. Preparing the archive for publication
 
@@ -1810,7 +1810,7 @@ Always use the PID for the specific version used to produce the results in the p
 
 A Data Availability Statement (DAS) explains which data and materials supported the study, whether they are openly available or restricted, and how other researchers can access them. It should appear as a dedicated section in the paper, typically before the references. <!-- Source: Researchdata - - ConfPub -->
 
-The [Disclosure statement](#373-disclosure-statement) in the README is distinct from the Data Availability Statement in the paper. The former provides transparency about the artifact, the latter declares the availability and access conditions of the materials supporting the study.
+The Disclosure statement in the README is distinct from the Data Availability Statement in the paper (see about Disclosure statement in section 3.7.3.). The former provides transparency about the artifact, the latter declares the availability and access conditions of the materials supporting the study.
 
 A good DAS should: <!-- Source: Researchdata -->
 
@@ -1890,7 +1890,7 @@ Long-term preservation requires the archived artifact to remain obtainable indep
 - If a development repository is also provided, clearly distinguish it from the archived version used for reproduction.
 - The continued availability of an authors' development account or repository should not be a prerequisite for obtaining the published artifact.
 
-See [Module 7](#module-7---publishing-licensing-and-citation) for guidance on selecting archival repositories and publishing the artifact.
+See Module 7 for guidance on selecting archival repositories and publishing the artifact.
 
 ## 8.3. Versioning and changelogs
 
@@ -1987,7 +1987,7 @@ After each release, verify that the artifact documentation remains consistent wi
 
 Changes that affect reproducibility, execution, or reuse should also be recorded in the changelog. <!-- Source: Survey2026 - - DamascenoStruber2021 -->
 
-See [Module 3](#module-3---documentation) for guidance on artifact documentation.
+See Module 3 for guidance on artifact documentation.
 
 -----
 
@@ -2007,7 +2007,7 @@ By the end of this module, you will be able to:
 
 ## 9.2. Designing for reusability
 
-The early planning decisions that support extensibility, including open licensing, modular code structure, stable dependencies, and source code availability, are addressed in [Module 2](#module-2---planning-and-artifact-organization), section 2.2.2. This section focuses on what to document and make explicit within the artifact so that other researchers can actually extend it.
+The early planning decisions that support extensibility, including open licensing, modular code structure, stable dependencies, and source code availability, are addressed in Module 2, section 2.2.2. This section focuses on what to document and make explicit within the artifact so that other researchers can actually extend it.
 
 <!-- Source: Survey2026 - - DamascenoStruber2021 -->
 - **Document how to adapt to new inputs.** Explain which parameters, datasets, or configurations need to change for the artifact to be applied to a new study.
@@ -2119,7 +2119,7 @@ The artifact documentation should make clear: <!-- Source: Padhye2019 - - ACMSIG
 
 When full execution is impractical because of time or resource constraints, an evaluation may use a reduced configuration or other form of approximate reproduction. The relationship between the reduced configuration and the full experiment should be made explicit so that reviewers can understand what is being evaluated and what differences should be expected. <!-- Source: Padhye2019 -->
 
-Detailed guidance on documentation, execution instructions, resource requirements, and failure recovery is provided in [Module 3](#module-3---documentation) and [Module 4](#module-4---environments-dependencies-and-automation).
+Detailed guidance on documentation, execution instructions, resource requirements, and failure recovery is provided in Module 3 and Module 4.
 
 ## 10.6. Artifact versioning during review
 
@@ -2127,7 +2127,7 @@ An artifact may be updated during the evaluation process in response to reviewer
 
 Consider using a concept PID when submitting. It always points to the latest version, eliminating the need to update the link as revisions are made. Once evaluation is complete, switch to a version-specific PID in the camera-ready paper to ensure readers access the exact version associated with the publication. <!-- Source: USENIXSec2026 - - BeyerWinter2025 - - WOOT2025 -->
 
-See [Module 8](#module-8---preservation-versioning-and-maintenance) for guidance on artifact versioning and persistent identifiers.
+See Module 8 for guidance on artifact versioning and persistent identifiers.
 
 ## 10.7. Clarification period and reviewer interaction
 
