@@ -1,14 +1,14 @@
 <div align="center"><nobr>
 
 [Home](/README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-GAPS structure &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS mind map](/resources/GAPS-mind-map.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
 [Start here: Module 1 →](/content/M1.md)
 
 </nobr></div>
 
 ---
 
-![](../GAPS-logo.png)
+![](/images/GAPS-logo.png)
 
 # Guidance for Artifact Preparation and Sharing
 
@@ -118,17 +118,16 @@ GAPS structure &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp;
 
 ## [Complementary Resources](complementary-resources.md)
 
-  - [Researcher-facing Self-check](/content/complementary-resources.md#researcher-facing-self-check)
-  - [README Template](/content/complementary-resources.md#readme-template)
-  - [GAPS References](/content/complementary-resources.md#gaps-references)
+  - [Researcher-facing Self-check](/resources/complementary-resources.md#researcher-facing-self-check)
+  - [README Template](/resources/complementary-resources.md#readme-template)
+  - [GAPS References](/resources/complementary-resources.md#gaps-references)
 
 
-## [About GAPS](/about.md)
+## [About GAPS](/resources/about.md)
   
-- [Purpose of the GAPS](/about.md#purpose-of-the-gaps)
-- [GAPS Material content](/about.md#gaps-material)
-- [Sources](/about.md#sources)
-- [Authors](/about.md#authors)
-- [How to cite this material](/about.md#how-to-cite-this-material)
-- [License and use](/about.md#license-and-use)
+- [Purpose and scope](/resources/about.md#purpose-and-scope)
+- [Development and sources](/resources/about.md#sources)
+- [Authors](/resources/about.md#authors)
+- [How to cite this material](/resources/about.md#how-to-cite-this-material)
+- [License and use](/resources/about.md#license-and-use)
 - [Home](/README.md)

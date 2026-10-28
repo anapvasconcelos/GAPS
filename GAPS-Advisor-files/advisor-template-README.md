@@ -478,4 +478,4 @@
 
 ---
 
-*This README follows the structure recommended by [GAPS (Guidance for Artifact Preparation and Sharing)](https://doi.org/10.5281/zenodo.23074677).*
+*This README follows the structure recommended by [GAPS (Guidance for Artifact Preparation and Sharing)](https://anapvasconcelos.github.io/GAPS/).*

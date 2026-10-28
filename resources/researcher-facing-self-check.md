@@ -1,8 +1,8 @@
 <div align="center"><nobr>
 
 [Home](/README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[GAPS Structure](/content/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[Complementary materials](/content/complementary-resources.md)
+[GAPS Structure](/resources/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[Complementary materials](/resources/complementary-resources.md)
 
 </nobr></div>
 

@@ -1,14 +1,14 @@
 <div align="center"><nobr>
 
 [Home](/README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[GAPS Structure](/content/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[Complementary resources](/content/complementary-resources.md)
+[GAPS Structure](/resources/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[Complementary resources](/resources/complementary-resources.md)
 
 </nobr></div>
 
 ---
 
-![](../GAPS-logo.png)
+![](/images/GAPS-logo.png)
 
 # README template
 
@@ -490,4 +490,4 @@
 
 ---
 
-*This README follows the structure recommended by [GAPS (Guidance for Artifact Preparation and Sharing)](https://doi.org/10.5281/zenodo.23074677).*
+*This README follows the structure recommended by [GAPS (Guidance for Artifact Preparation and Sharing)](https://anapvasconcelos.github.io/GAPS/).*

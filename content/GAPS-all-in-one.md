@@ -1,14 +1,14 @@
 <div align="center"><nobr>
 
 [Home](/README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[GAPS structure](/content/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[Complementary resources](/content/complementary-resources.md)
+[GAPS structure](/resources/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[Complementary resources](/resources/complementary-resources.md)
 
 </nobr></div>
 
 ---
 
-![](../GAPS-logo.png)
+![](/images/GAPS-logo.png)
 
 # Module 1 - Foundations
 
@@ -57,7 +57,7 @@ Open Science encompasses a broad and evolving ecosystem of practices, principles
 
 <div align="center">
 
-![Open Science elements](../images/FIG-open-science-elements.png) <!-- Source: GallagherEtAl2020 -->
+![Open Science elements](/images/FIG-open-science-elements.png) <!-- Source: GallagherEtAl2020 -->
 
 </div>
 
@@ -158,7 +158,7 @@ Openness alone is not sufficient. FAIR principles complement Open Science by foc
 
 <div align="center">
 
-![FAIR Principles](../images/FIG-FAIR-IDS.png)
+![FAIR Principles](/images/FIG-FAIR-IDS.png)
 
 </div>
 
@@ -309,7 +309,7 @@ Research artifacts evolve throughout the research process, from early planning a
 
 <div align="center">
 
-![Artifact life cycle](../images/FIG-artifact-life-cycle.png) <!-- Source: Montgomery2024 - - Gemini2026 -->
+![Artifact life cycle](/images/FIG-artifact-life-cycle.png) <!-- Source: Montgomery2024 - - Gemini2026 -->
 
 </div>
 
@@ -2151,19 +2151,19 @@ The GAPS complementary resources support researchers in preparing, documenting, 
 
 A checklist to help researchers review their artifacts and identify aspects that may need attention before sharing or submission.
 
-Access the [Researcher-facing Self-check](/materials/researcher-facing-self-check.md)
+Access the [Researcher-facing Self-check](/resources/researcher-facing-self-check.md)
 
 ## README Template
 
 A ready-to-use template that provides a suggested structure for documenting a research artifact. It can be adapted to different artifact types and research contexts.
 
-Access the [README Template](/materials/template-README.md)
+Access the [README Template](/resources/template-README.md)
 
 ## GAPS References
 
 A collection of the sources that support the recommendations and practices presented throughout GAPS and informed the development of the material.
 
-Access the [GAPS References](/materials/references.md)
+Access the [GAPS References](/resources/references.md)
 
 ---
 

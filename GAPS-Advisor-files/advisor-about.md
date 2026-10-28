@@ -46,9 +46,9 @@ GAPS Material is the core educational resource. It is organized into ten topic-b
 
 The material also includes complementary resources to support its practical application:
 
-- Researcher-facing Self-check: a checklist for reviewing an artifact and identifying aspects that may require attention before sharing. Link: https://anapvasconcelos.github.io/GAPS/#/materials/researcher-facing-self-check
-- README Template: a reusable template for documenting an artifact and providing information and instructions for its use. Link: https://anapvasconcelos.github.io/GAPS/#/materials/template-README
-- GAPS References: a collection of sources supporting the material and providing opportunities for further reading. Link: https://anapvasconcelos.github.io/GAPS/#/materials/references
+- Researcher-facing Self-check: a checklist for reviewing an artifact and identifying aspects that may require attention before sharing. Link: https://anapvasconcelos.github.io/GAPS/#/resources/researcher-facing-self-check
+- README Template: a reusable template for documenting an artifact and providing information and instructions for its use. Link: https://anapvasconcelos.github.io/GAPS/#/resources/template-README
+- GAPS References: a collection of sources supporting the material and providing opportunities for further reading. Link: https://anapvasconcelos.github.io/GAPS/#/resources/references
 
 ### GAPS Advisor
 
@@ -64,7 +64,7 @@ The content of GAPS was developed based on a synthesis of needs and practices id
 
 These sources informed the practical guidance presented in the resource. The recommendations are intended to help researchers make informed decisions when preparing and sharing artifacts, while recognizing that appropriate practices may depend on the characteristics and constraints of each study.
 
-The GAPS References (https://anapvasconcelos.github.io/GAPS/#/materials/references) page provides the sources supporting the material for consultation and further reading. Every effort has been made to acknowledge the sources used. If an attribution has been omitted unintentionally, feedback is welcome so that the necessary correction can be made.
+The GAPS References (https://anapvasconcelos.github.io/GAPS/#/resources/references) page provides the sources supporting the material for consultation and further reading. Every effort has been made to acknowledge the sources used. If an attribution has been omitted unintentionally, feedback is welcome so that the necessary correction can be made.
 
 ## Authors
 

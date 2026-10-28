@@ -23,6 +23,60 @@
       font-weight: 600;
       font-size: 14px;
     }
+
+    /* GAPS callout boxes: NOTE, IMPORTANT, TIP */
+    .markdown-section blockquote.gaps-callout {
+      margin: 1.5em 0;
+      padding: 1em 1.25em;
+      border-left: 4px solid;
+      border-radius: 0 4px 4px 0;
+      color: var(--base-color);
+    }
+
+    .markdown-section blockquote.gaps-callout p:first-of-type {
+      margin-top: 0;
+    }
+
+    .markdown-section blockquote.gaps-callout p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* NOTE: explanatory or contextual information */
+    .markdown-section blockquote.gaps-callout-note {
+      border-left-color: #3976c5;
+      background: #f3f6fb;
+    }
+
+    /* IMPORTANT: important distinctions or warnings */
+    .markdown-section blockquote.gaps-callout-important {
+      border-left-color: #c62828;
+      background: #fff3f2;
+    }
+
+    /* TIP: practical suggestions */
+    .markdown-section blockquote.gaps-callout-tip {
+      border-left-color: #2e7d32;
+      background: #f1f8f1;
+    }
+
+    .markdown-section .gaps-callout-title {
+      margin-bottom: 0.5em;
+      font-size: 0.95em;
+      font-weight: 700;
+    }
+
+    .markdown-section .gaps-callout-note .gaps-callout-title {
+      color: #245a9e;
+    }
+
+    .markdown-section .gaps-callout-important .gaps-callout-title {
+      color: #b71c1c;
+    }
+
+    .markdown-section .gaps-callout-tip .gaps-callout-title {
+      color: #256629;
+    }
+
   </style>
 </head>
 <body>
@@ -32,7 +86,7 @@
       name: '<img src="/GAPS/images/GAPS-logo-mala.png" style="height:28px;vertical-align:middle;margin-right:6px"> GAPS',
       nameLink: '/GAPS/',
       repo: 'https://github.com/anapvasconcelos/GAPS',
-      loadSidebar: 'summary.md',
+      loadSidebar: '/materials/summary.md',
       subMaxLevel: 4,
       auto2top: true,
       homepage: 'README.md',
@@ -43,7 +97,53 @@
         noData: 'No results.',
         depth: 4
       },
-      plugins: [],
+      
+      plugins: [
+        function (hook, vm) {
+          hook.doneEach(function () {
+            document
+              .querySelectorAll('.markdown-section blockquote')
+              .forEach(function (blockquote) {
+                if (blockquote.dataset.gapsCallout) return;
+
+                const firstParagraph = blockquote.querySelector('p');
+                if (!firstParagraph) return;
+
+                const match = firstParagraph.innerHTML.match(
+                  /^\s*\[!(NOTE|IMPORTANT|TIP)\]\s*/i
+                );
+
+                if (!match) return;
+
+                const type = match[1].toUpperCase();
+                const slug = type.toLowerCase();
+
+                firstParagraph.innerHTML =
+                  firstParagraph.innerHTML.replace(
+                    /^\s*\[!(NOTE|IMPORTANT|TIP)\]\s*/i,
+                    ''
+                  ).trim();
+
+                if (!firstParagraph.innerHTML) {
+                  firstParagraph.remove();
+                }
+
+                blockquote.classList.add(
+                  'gaps-callout',
+                  'gaps-callout-' + slug
+                );
+
+                const title = document.createElement('div');
+                title.className = 'gaps-callout-title';
+                title.textContent = type;
+
+                blockquote.insertBefore(title, blockquote.firstChild);
+                blockquote.dataset.gapsCallout = 'true';
+              });
+          });
+        }
+      ],
+
       themeColor: '#3949ab',
       pagination: {
         previousText: '← Previous',

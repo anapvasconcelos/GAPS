@@ -1,14 +1,14 @@
 <div align="center"><nobr>
 
-[About](about.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[GAPS structure](/content/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[About](/resources/about.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS structure](/resources/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
 [Start here: Module 1 →](/content/M1.md)
 
 </nobr></div>
 
 ---
 
-![](GAPS-logo.png)
+![](/images/GAPS-logo.png)
 
 # Guidance for Artifact Preparation and Sharing
 
@@ -54,9 +54,9 @@ Use these resources to apply the guidance, self check your artifact, and explore
 
 | Resource | Description |
 | --- | --- |
-| [Researcher-facing Self-check](/materials/researcher-facing-self-check.md) | A checklist to help you review your artifact, identify potential gaps, and determine which aspects may need attention before sharing. |
-| [README Template](/materials/template-README.md) | A reusable template for documenting an artifact, including its contents, requirements, and instructions for use. |
-| [GAPS References](/materials/references.md) | Lists the references and supporting resources used in or recommended by GAPS. |
+| [Researcher-facing Self-check](/resources/researcher-facing-self-check.md) | A checklist to help you review your artifact, identify potential gaps, and determine which aspects may need attention before sharing. |
+| [README Template](/resources/template-README.md) | A reusable template for documenting an artifact, including its contents, requirements, and instructions for use. |
+| [GAPS References](/resources/references.md) | Lists the references and supporting resources used in or recommended by GAPS. |
 
 ---
 
@@ -64,10 +64,8 @@ Use these resources to apply the guidance, self check your artifact, and explore
 
 | Page | Content description |
 | --- | --- |
-| [Where should I start?](/content/where-should-i-start.md) | Helps you identify which modules to consult based on your current task or stage of the artifact lifecycle. |
-| [GAPS mind map](/materials/GAPS-mind-map.md) | Provides a visual overview of the 10 modules, their main topics, and the complementary resources. |
-
-[GAPS mind map 2](/materials/teste-mind-map.md)
+| [Where should I start?](/resources/where-should-i-start.md) | Helps you identify which modules to consult based on your current task or stage of the artifact lifecycle. |
+| [GAPS mind map](/resources/GAPS-mind-map.md) | Provides a visual overview of the 10 modules, their main topics, and the complementary resources. |
 
 ---
 
@@ -77,12 +75,22 @@ Learn about the purpose, development, organization, and use of GAPS.
 
 | Page | Content description |
 | --- | --- |
-| [Purpose and scope](about.md#purpose-and-scope) | Explains why GAPS was developed and the needs it aims to address. |
-| [GAPS Structure](/content/structure.md) | Presents the organization of the 10 modules and the topics covered in each one. |
-| [Sources](about.md#sources) | Identifies the sources used to develop the guidance. |
-| [Authors](about.md#authors) | Introduces the people responsible for developing GAPS. |
-| [How to cite this material](about.md#how-to-cite-this-material) | Explains how to cite GAPS in academic work. |
-| [License and use](about.md#license-and-use) | Explains the license and the conditions for using, adapting, and redistributing GAPS. |
-| [About](about.md) | Provides general information about GAPS, including its purpose, sources, authorship, and terms of use. |
+| [Purpose and scope](/resources/about.md#purpose-and-scope) | Explains why GAPS was developed and the needs it aims to address. |
+| [GAPS Structure](/resources/structure.md) | Presents the organization of the 10 modules and the topics covered in each one. |
+| [Sources](/resources/about.md#sources) | Identifies the sources used to develop the guidance. |
+| [Authors](/resources/about.md#authors) | Introduces the people responsible for developing GAPS. |
+| [How to cite this material](/resources/about.md#how-to-cite-this-material) | Explains how to cite GAPS in academic work. |
+| [License and use](/resources/about.md#license-and-use) | Explains the license and the conditions for using, adapting, and redistributing GAPS. |
+| [About](/resources/about.md) | Provides general information about GAPS, including its purpose, sources, authorship, and terms of use. |
 
 ---
+
+## Feedback and Suggestions
+
+GAPS is an evolving educational resource, and feedback from its users is welcome. If you have suggestions, constructive criticism, or have identified an error or an opportunity for improvement, please share your feedback through our [Feedback and Suggestions form](https://forms.gle/49eskfSPDp3mVzJs9).
+
+You may submit feedback anonymously. Providing contact information is optional.
+
+---
+
+GAPS - Guidance for Artifact Preparation and Sharing © 2026 by Ana Paula Vasconcelos, Fernanda Madeiral, and Sergio Soares is licensed under CC BY-SA 4.0.

@@ -1780,7 +1780,7 @@ Always use the PID for the specific version used to produce the results in the p
 
 A Data Availability Statement (DAS) explains which data and materials supported the study, whether they are openly available or restricted, and how other researchers can access them. It should appear as a dedicated section in the paper, typically before the references. <!-- Source: Researchdata - - ConfPub -->
 
-The [Disclosure statement](advisor-GAPS.md#373-disclosure-statement) in the README is distinct from the Data Availability Statement in the paper. The former provides transparency about the artifact, the latter declares the availability and access conditions of the materials supporting the study.
+The [Disclosure statement](#373-disclosure-statement) in the README is distinct from the Data Availability Statement in the paper. The former provides transparency about the artifact, the latter declares the availability and access conditions of the materials supporting the study.
 
 A good DAS should: <!-- Source: Researchdata -->
 
@@ -2119,22 +2119,22 @@ The GAPS complementary resources provide practical resources to support the prep
 
 An interactive advisor that provides context-aware guidance based on the GAPS recommendations and checklist. Rather than presenting the recommendations sequentially, the Advisor identifies requirements relevant to the researcher's artifact and current situation.
 
-[Access the GAPS Advisor](https://notebook.google.com/notebook/17518b1f-e320-48be-a9c2-0edee13c6737)
+Access the [GAPS Advisor](https://notebook.google.com/notebook/17518b1f-e320-48be-a9c2-0edee13c6737)
 
 ## Researcher-facing Self-check
 
 A concise checklist to help researchers assess the readiness of their artifacts before sharing or submission.
 
-[Access the Researcher-facing Self-check](https://github.com/anapvasconcelos/GAPS/blob/main/materials/researcher-facing-self-check.md)
+Access the [Researcher-facing Self-check](https://github.com/anapvasconcelos/GAPS/blob/main/resources/researcher-facing-self-check.md)
 
 ## README Template
 
 A ready-to-use template for documenting and communicating a research artifact. It provides a suggested structure covering key aspects of artifact documentation and can be adapted to different artifact types and contexts.
 
-[Access the README Template](https://github.com/anapvasconcelos/GAPS/blob/main/materials/template-README.md)
+Access the [README Template](https://github.com/anapvasconcelos/GAPS/blob/main/resources/template-README.md)
 
 ## GAPS References
 
 A collection of the references that support the recommendations and practices presented throughout GAPS. It provides the literature and guidelines used as the basis for the development of the material.
 
-[Access the GAPS References](https://github.com/anapvasconcelos/GAPS/blob/main/materials/references.md)
+Access the [GAPS References](https://github.com/anapvasconcelos/GAPS/blob/main/resources/references.md)

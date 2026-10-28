@@ -1,14 +1,14 @@
 <div align="center"><nobr>
 
-[Home](README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[GAPS structure](/content/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
-[References](/materials/references.md)
+[Home](/README.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[GAPS structure](/resources/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[References](/resources/references.md)
 
 </nobr></div>
 
 ---
 
-![](GAPS-logo.png)
+![](/images/GAPS-logo.png)
 
 # About GAPS
 
@@ -30,6 +30,8 @@ GAPS is a reference to support researchers' judgment, not a compliance checklist
 
 GAPS consists of two main components: **GAPS Material** and **GAPS Advisor**.
 
+For a visual overview of GAPS and its components, explore the [GAPS Mind Map](/resources/GAPS-mind-map.md), which provides an interactive view of the resource's structure and main topics. For descriptions of the modules and complementary resources, visit the [GAPS home page](/README.md), which presents an overview of their content and purpose.
+
 ### GAPS Material
 
 GAPS Material is the core educational resource. It is organized into ten topic-based modules covering different aspects of the research artifact lifecycle. The modules can be followed in sequence or consulted independently according to the researcher's needs.
@@ -40,7 +42,7 @@ The material also includes complementary resources to support its practical appl
 - **README Template:** a reusable template for documenting an artifact and providing information and instructions for its use.
 - **GAPS References:** a collection of sources supporting the material and providing opportunities for further reading.
 
-For a detailed overview, see the [GAPS structure](/content/structure.md). The complete content is also available in [GAPS all-in-one](/content/GAPS-all-in-one.md).
+For a detailed overview, see the [GAPS structure](/resources/structure.md). The complete content is also available in [GAPS all-in-one](/content/GAPS-all-in-one.md).
 
 ### GAPS Advisor
 
@@ -56,7 +58,7 @@ The content of GAPS was developed based on a synthesis of needs and practices id
 
 These sources informed the practical guidance presented in the resource. The recommendations are intended to help researchers make informed decisions when preparing and sharing artifacts, while recognizing that appropriate practices may depend on the characteristics and constraints of each study.
 
-The [GAPS References](/materials/references.md) page provides the sources supporting the material for consultation and further reading. Every effort has been made to acknowledge the sources used. If an attribution has been omitted unintentionally, feedback is welcome so that the necessary correction can be made.
+The [GAPS References](/resources/references.md) page provides the sources supporting the material for consultation and further reading. Every effort has been made to acknowledge the sources used. If an attribution has been omitted unintentionally, feedback is welcome so that the necessary correction can be made.
 
 ## Authors
 
@@ -103,6 +105,14 @@ This license also addresses the ShareAlike requirements associated with adapted 
 For the full terms, see the [CC BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/) or the [license file](LICENSE).
 
 ![](/images/FIG-CC-BY-SA.svg)
+
+---
+
+## Feedback and Suggestions
+
+GAPS is an evolving educational resource, and feedback from its users is welcome. If you have suggestions, constructive criticism, or have identified an error or an opportunity for improvement, please share your feedback through our [Feedback and Suggestions form](https://forms.gle/49eskfSPDp3mVzJs9).
+
+You may submit feedback anonymously. Providing contact information is optional.
 
 ---
 
