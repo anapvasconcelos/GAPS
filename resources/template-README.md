@@ -27,7 +27,7 @@
 
 # 1. [Artifact name] [E]
 
-> SOURCE:
+> [!SOURCE]
 > - GAPS §3.5.1 - [Artifact purpose statement](/content/M3.md#351-artifact-purpose-statement)
 > - GAPS §7.7.1 - [PIDs and immutability at publication](/content/M7.md#771-pids-and-immutability-at-publication)
 > - GAPS §8.3.4 - [Version tagging](/content/M8.md#834-version-tagging)
@@ -57,6 +57,7 @@
 
 ## 1.1. Summary [E]
 
+> [!SOURCE]
 > - GAPS §3.5.1 - [Artifact purpose statement](/content/M3.md#351-artifact-purpose-statement)
 
 > [!NOTE]
@@ -65,6 +66,7 @@
 
 ## 1.2. Artifact overview [R]
 
+> [!SOURCE]
 > - GAPS §3.4.1 - [Folder structure](/content/M3.md#341-folder-structure)
 > - GAPS §3.5.1 - [Artifact purpose statement](/content/M3.md#351-artifact-purpose-statement)
 
@@ -74,6 +76,7 @@
 
 ## 1.3. Repository structure [E]
 
+> [!SOURCE]
 > - GAPS §3.4.1 - [Folder structure](/content/M3.md#341-folder-structure)
 > - GAPS §3.4.4 - [Distinguishing essential from auxiliary components](/content/M3.md#344-distinguishing-essential-from-auxiliary-components)
 
@@ -83,6 +86,7 @@
 
 # 2. System requirements [E]
 
+> [!SOURCE]
 > - GAPS §3.3.1 - [Assumed background and requirements](/content/M3.md#331-assumed-background-and-requirements)
 > - GAPS §4.2 - [Reproducible environments](/content/M4.md#42-reproducible-environments)
 
@@ -92,6 +96,7 @@
 
 ## 2.1. Technical background [R]
 
+> [!SOURCE]
 > - GAPS §3.3.1 - [Assumed background and requirements](/content/M3.md#331-assumed-background-and-requirements)
 
 > [!NOTE]
@@ -102,6 +107,7 @@
 
 ## 2.2. Tested environments [R]
 
+> [!SOURCE]
 > - GAPS §3.3.1 - [Assumed background and requirements](/content/M3.md#331-assumed-background-and-requirements)
 > - GAPS §4.2 - [Reproducible environments](/content/M4.md#42-reproducible-environments)
 
@@ -111,6 +117,7 @@
 
 ## 2.3. Minimum requirements [E]
 
+> [!SOURCE]
 > - GAPS §3.3.1 - [Assumed background and requirements](/content/M3.md#331-assumed-background-and-requirements)
 > - GAPS §4.2.1 - [Dependency specification](/content/M4.md#421-dependency-specification)
 
@@ -120,6 +127,7 @@
 
 ### 2.3.1. Hardware requirements
 
+> [!SOURCE]
 > - GAPS §3.3.1 - [Assumed background and requirements](/content/M3.md#331-assumed-background-and-requirements)
 > - GAPS §4.2 - [Reproducible environments](/content/M4.md#42-reproducible-environments)
 
@@ -130,6 +138,7 @@
 
 ### 2.3.2. Software dependencies
 
+> [!SOURCE]
 > - GAPS §4.2.1 - [Dependency specification](/content/M4.md#421-dependency-specification)
 
 > [!NOTE]
@@ -138,6 +147,7 @@
 
 ### 2.3.3. Additional requirements
 
+> [!SOURCE]
 > - GAPS §3.3.1 - [Assumed background and requirements](/content/M3.md#331-assumed-background-and-requirements)
 
 > [!NOTE]
@@ -146,6 +156,7 @@
 
 ## 2.4. Potential risks and safety considerations [E]
 
+> [!SOURCE]
 > - GAPS §3.3.4 - [Documenting parameters and configurations](/content/M3.md#334-documenting-parameters-and-configurations)
 
 > [!NOTE]
@@ -154,6 +165,7 @@
 
 # 3. Installation and setup [E]
 
+> [!SOURCE]
 > - GAPS §3.3.2 - [Step-by-step execution instructions](/content/M3.md#332-step-by-step-execution-instructions)
 
 > [!NOTE]
@@ -162,6 +174,7 @@
 
 ## 3.1. Obtaining the artifact [E]
 
+> [!SOURCE]
 > - GAPS §3.3.2 - [Step-by-step execution instructions](/content/M3.md#332-step-by-step-execution-instructions)
 
 > [!NOTE]
@@ -170,6 +183,7 @@
 
 ## 3.2. Preparing the artifact [E]
 
+> [!SOURCE]
 > - GAPS §3.3.2 - [Step-by-step execution instructions](/content/M3.md#332-step-by-step-execution-instructions)
 > - GAPS §4.2.1 - [Dependency specification](/content/M4.md#421-dependency-specification)
 > - GAPS §4.2.2 - [Environment isolation and portability](/content/M4.md#422-environment-isolation-and-portability)
@@ -180,6 +194,7 @@
 
 # 4. Getting started [R]
 
+> [!SOURCE]
 > - GAPS §4.2.5 - [Ease of use](/content/M4.md#425-ease-of-use)
 > - GAPS §4.3.3 - [Modular and incremental execution](/content/M4.md#433-modular-and-incremental-execution)
 > - GAPS §10.5 - [Preparing for artifact evaluation](/content/M10.md#105-preparing-for-artifact-evaluation)
@@ -193,6 +208,7 @@
 
 # 5. Usage and execution [E]
 
+> [!SOURCE]
 > - GAPS §3.3.2 - [Step-by-step execution instructions](/content/M3.md#332-step-by-step-execution-instructions)
 > - GAPS §3.3.3 - [Execution time and resource expectations](/content/M3.md#333-execution-time-and-resource-expectations)
 
@@ -202,6 +218,7 @@
 
 ## 5.1. Execution time overview [R]
 
+> [!SOURCE]
 > - GAPS §3.3.3 - [Execution time and resource expectations](/content/M3.md#333-execution-time-and-resource-expectations)
 > - GAPS §10.5 - [Preparing for artifact evaluation](/content/M10.md#105-preparing-for-artifact-evaluation)
 
@@ -211,6 +228,7 @@
 
 ## 5.2. Full reproduction (all results) [E]
 
+> [!SOURCE]
 > - GAPS §3.3.2 - [Step-by-step execution instructions](/content/M3.md#332-step-by-step-execution-instructions)
 
 > [!NOTE]
@@ -219,6 +237,7 @@
 
 ## 5.3. Demo run (reduced configuration) [G]
 
+> [!SOURCE]
 > - GAPS §4.2.5 - [Ease of use](/content/M4.md#425-ease-of-use)
 > - GAPS §4.3.3 - [Modular and incremental execution](/content/M4.md#433-modular-and-incremental-execution)
 > - GAPS §10.5 - [Preparing for artifact evaluation](/content/M10.md#105-preparing-for-artifact-evaluation)
@@ -229,6 +248,7 @@
 
 ## 5.4. Parameters and configurations [E]
 
+> [!SOURCE]
 > - GAPS §3.3.4 - [Documenting parameters and configurations](/content/M3.md#334-documenting-parameters-and-configurations)
 
 > [!NOTE]
@@ -237,6 +257,7 @@
 
 ## 5.5. Expected result variability [R]
 
+> [!SOURCE]
 > - GAPS §6.4.1 - [Expected result variability](/content/M6.md#641-expected-result-variability)
 
 > [!NOTE]
@@ -245,6 +266,7 @@
 
 # 6. Expected outputs [E]
 
+> [!SOURCE]
 > - GAPS §3.3.2 - [Step-by-step execution instructions](/content/M3.md#332-step-by-step-execution-instructions)
 > - GAPS §6.4.1 - [Expected result variability](/content/M6.md#641-expected-result-variability)
 > - GAPS §3.5.3 - [Mapping outputs to paper results](/content/M3.md#353-mapping-outputs-to-paper-results)
@@ -255,6 +277,7 @@
 
 ## 6.1. Linking artifact outputs to paper claims and results [E]
 
+> [!SOURCE]
 > - GAPS §3.5.3 - [Mapping outputs to paper results](/content/M3.md#353-mapping-outputs-to-paper-results)
 > - GAPS §3.5.4 - [Handling comparative evaluations](/content/M3.md#354-handling-comparative-evaluations)
 > - GAPS §3.7.1 - [Scope and unsupported claims](/content/M3.md#371-scope-and-unsupported-claims)
@@ -265,6 +288,7 @@
 
 # 7. Data [E]
 
+> [!SOURCE]
 > - GAPS §3.5.2 - [Data description](/content/M3.md#352-data-description)
 > - GAPS §2.5.1 - [Tracking data collection and transformation](/content/M2.md#251-tracking-data-collection-and-transformation)
 
@@ -274,6 +298,7 @@
 
 ## 7.1. Dataset overview [R]
 
+> [!SOURCE]
 > - GAPS §3.5.2 - [Data description](/content/M3.md#352-data-description)
 
 > [!NOTE]
@@ -282,6 +307,7 @@
 
 ## 7.2. Field description [R]
 
+> [!SOURCE]
 > - GAPS §3.5.2 - [Data description](/content/M3.md#352-data-description)
 
 > [!NOTE]
@@ -290,6 +316,7 @@
 
 ## 7.3. Data collection and processing [E]
 
+> [!SOURCE]
 > - GAPS §3.5.2 - [Data description](/content/M3.md#352-data-description)
 > - GAPS §2.5.1 - [Tracking data collection and transformation](/content/M2.md#251-tracking-data-collection-and-transformation)
 
@@ -299,6 +326,7 @@
 
 # 8. Privacy, ethics, and anonymization [E]
 
+> [!SOURCE]
 > - GAPS §3.7.2 - [Non-shared components](/content/M3.md#372-non-shared-components)
 > - GAPS §3.7.4 - [Impact of anonymization on interpretability](/content/M3.md#374-impact-of-anonymization-on-interpretability)
 > - GAPS §3.7.3 - [Disclosure statement](/content/M3.md#373-disclosure-statement)
@@ -318,6 +346,7 @@
 
 ## 8.1. Non-shared components [E]
 
+> [!SOURCE]
 > - GAPS §3.7.2 - [Non-shared components](/content/M3.md#372-non-shared-components)
 
 > [!NOTE]
@@ -326,6 +355,7 @@
 
 ## 8.2. Access conditions [E]
 
+> [!SOURCE]
 > - GAPS §3.7.6 - [Controlled data access](/content/M3.md#376-controlled-data-access)
 
 > [!NOTE]
@@ -334,6 +364,7 @@
 
 ## 8.3. Impact of anonymization [R]
 
+> [!SOURCE]
 > - GAPS §3.7.4 - [Impact of anonymization on interpretability](/content/M3.md#374-impact-of-anonymization-on-interpretability)
 
 > [!NOTE]
@@ -342,6 +373,7 @@
 
 # 9. Scope and limitations [R]
 
+> [!SOURCE]
 > - GAPS §3.7.1 - [Scope and unsupported claims](/content/M3.md#371-scope-and-unsupported-claims)
 > - GAPS §6.4 - [Documenting result variability and limitations](/content/M6.md#64-documenting-result-variability-and-limitations)
 
@@ -351,6 +383,7 @@
 
 ## 9.1. Claims not supported by the artifact [R]
 
+> [!SOURCE]
 > - GAPS §3.7.1 - [Scope and unsupported claims](/content/M3.md#371-scope-and-unsupported-claims)
 
 > [!NOTE]
@@ -359,6 +392,7 @@
 
 ## 9.2. Known artifact limitations [R]
 
+> [!SOURCE]
 > - GAPS §6.4 - [Documenting result variability and limitations](/content/M6.md#64-documenting-result-variability-and-limitations)
 > - GAPS §3.7.5 - [Contextual variability in empirical studies](/content/M3.md#375-contextual-variability-in-empirical-studies)
 
@@ -368,6 +402,7 @@
 
 # 10. Troubleshooting and known issues [R]
 
+> [!SOURCE]
 > - GAPS §3.3.5 - [Error recovery](/content/M3.md#335-error-recovery)
 > - GAPS §8.4 - [Active maintenance after publication](/content/M8.md#84-active-maintenance-after-publication)
 > - GAPS §8.4.1 - [Keeping documentation current](/content/M8.md#841-keeping-documentation-current)
@@ -378,6 +413,7 @@
 
 ## 10.1. Getting help [G]
 
+> [!SOURCE]
 > - GAPS §8.4 - [Active maintenance after publication](/content/M8.md#84-active-maintenance-after-publication)
 > - GAPS §8.4.1 - [Keeping documentation current](/content/M8.md#841-keeping-documentation-current)
 
@@ -387,6 +423,7 @@
 
 # 11. Reusability guide [G]
 
+> [!SOURCE]
 > - GAPS §9.2 - [Designing for reusability](/content/M9.md#92-designing-for-reusability)
 > - GAPS §9.3 - [Reusability guide](/content/M9.md#93-reusability-guide)
 
@@ -396,6 +433,7 @@
 
 ## 11.1. Reusable components [G]
 
+> [!SOURCE]
 > - GAPS §9.2 - [Designing for reusability](/content/M9.md#92-designing-for-reusability)
 > - GAPS §9.3 - [Reusability guide](/content/M9.md#93-reusability-guide)
 
@@ -405,6 +443,7 @@
 
 ## 11.2. Reuse limitations [G]
 
+> [!SOURCE]
 > - GAPS §9.2 - [Designing for reusability](/content/M9.md#92-designing-for-reusability)
 > - GAPS §9.3 - [Reusability guide](/content/M9.md#93-reusability-guide)
 
@@ -415,6 +454,7 @@
 
 # 12. Version and maintenance [R]
 
+> [!SOURCE]
 > - GAPS §8.3 - [Versioning and changelogs](/content/M8.md#83-versioning-and-changelogs)
 > - GAPS §8.3.4 - [Version tagging](/content/M8.md#834-version-tagging)
 > - GAPS §8.3.6 - [Immutability of published versions](/content/M8.md#836-immutability-of-published-versions)
@@ -426,6 +466,7 @@
 
 ## 12.1. Changelog [G]
 
+> [!SOURCE]
 > - GAPS §3.8.1 - [Changelogs](/content/M3.md#381-changelogs)
 > - GAPS §8.3.5 - [Changelog](/content/M8.md#835-changelog)
 
@@ -435,6 +476,7 @@
 
 ## 12.2. Known maintenance considerations [R]
 
+> [!SOURCE]
 > - GAPS §8.2 - [Artifact decay: causes and prevention](/content/M8.md#82-artifact-decay-causes-and-prevention)
 > - GAPS §8.4 - [Active maintenance after publication](/content/M8.md#84-active-maintenance-after-publication)
 > - GAPS §8.4.1 - [Keeping documentation current](/content/M8.md#841-keeping-documentation-current)
@@ -445,6 +487,7 @@
 
 # 13. License [E]
 
+> [!SOURCE]
 > - GAPS §7.6.1 - [Distinguishing software from non-software artifacts](/content/M7.md#761-distinguishing-software-from-non-software-artifacts)
 > - GAPS §7.6.2 - [Selecting an appropriate license](/content/M7.md#762-selecting-an-appropriate-license)
 > - GAPS §7.6.3 - [Checking compatibility and constraints](/content/M7.md#763-checking-compatibility-and-constraints)
@@ -456,6 +499,7 @@
 
 # 14. Citation [R]
 
+> [!SOURCE]
 > - GAPS §7.7.1 - [PIDs and immutability at publication](/content/M7.md#771-pids-and-immutability-at-publication)
 > - GAPS §7.7.2 - [CITATION.cff and AUTHORS file](/content/M7.md#772-citationcff-and-authors-file)
 > - GAPS §7.7.3 - [Citing the artifact in the paper](/content/M7.md#773-citing-the-artifact-in-the-paper)
@@ -466,6 +510,7 @@
 
 # 15. Authors and contact [G]
 
+> [!SOURCE]
 > - GAPS §7.7.2 - [CITATION.cff and AUTHORS file](/content/M7.md#772-citationcff-and-authors-file)
 > - GAPS §8.4 - [Active maintenance after publication](/content/M8.md#84-active-maintenance-after-publication)
 
@@ -475,6 +520,7 @@
 
 # 16. Disclosure statement [G]
 
+> [!SOURCE]
 > - GAPS §3.7.3 - [Disclosure statement](/content/M3.md#373-disclosure-statement)
 > - GAPS §7.8 - [Data Availability Statements (DAS)](/content/M7.md#78-data-availability-statements-das)
 
