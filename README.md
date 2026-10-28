@@ -12,7 +12,7 @@
 
 # Guidance for Artifact Preparation and Sharing
 
-GAPS (Guidance for Artifact Preparation and Sharing) is an open educational resource that helps researchers prepare, document, validate, publish, preserve, and reuse research artifacts, particularly in Empirical Software Engineering.
+GAPS (Guidance for Artifact Preparation and Sharing) is an open educational resource that helps researchers prepare, document, validate, publish, preserve, and reuse research artifacts, particularly in Empirical Software Engineering
 
 GAPS provides practical guidance to support informed decisions and progressive improvement in research artifact preparation and sharing. **It is not intended to be exhaustive, nor does it establish a universal standard that every artifact must satisfy**. The relevance of individual recommendations depends on the artifact's purpose, characteristics, and intended use, as well as the level of coverage and transparency researchers aim to provide. Researchers are encouraged to use the guidance selectively, prioritizing recommendations that are relevant and feasible in their context. Some recommendations may be essential for a particular artifact, while others may be unnecessary or inappropriate. The goal is to support context-sensitive decisions and continuous improvement, not enforce compliance with every recommendation.
 
