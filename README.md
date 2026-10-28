@@ -1,6 +1,6 @@
 <div align="center"><nobr>
 
-[About](/resources/about.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
+[About GAPS](/resources/about.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
 [GAPS structure](/resources/structure.md) &nbsp;&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;&nbsp; 
 [Start here: Module 1 →](/content/M1.md)
 
@@ -77,11 +77,11 @@ Learn about the purpose, development, organization, and use of GAPS.
 | --- | --- |
 | [Purpose and scope](/resources/about.md#purpose-and-scope) | Explains why GAPS was developed and the needs it aims to address. |
 | [GAPS Structure](/resources/structure.md) | Presents the organization of the 10 modules and the topics covered in each one. |
-| [Sources](/resources/about.md#sources) | Identifies the sources used to develop the guidance. |
+| [Development and sources](/resources/about.md#development-and-sources) | Identifies the sources used to develop the guidance. |
 | [Authors](/resources/about.md#authors) | Introduces the people responsible for developing GAPS. |
 | [How to cite this material](/resources/about.md#how-to-cite-this-material) | Explains how to cite GAPS in academic work. |
 | [License and use](/resources/about.md#license-and-use) | Explains the license and the conditions for using, adapting, and redistributing GAPS. |
-| [About](/resources/about.md) | Provides general information about GAPS, including its purpose, sources, authorship, and terms of use. |
+| [About GAPS](/resources/about.md) | Provides general information about GAPS, including its purpose, sources, authorship, and terms of use. |
 
 ---
 
