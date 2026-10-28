@@ -15,5 +15,5 @@
 - [Researcher-facing Self-check](/resources/researcher-facing-self-check.md)
 - [README Template](/resources/template-README.md)
 - [GAPS References](/resources/references.md)
-- [About](/about.md)
+- [About](/resources/about.md)
 - [GAPS Advisor](https://notebook.google.com/notebook/17518b1f-e320-48be-a9c2-0edee13c6737)

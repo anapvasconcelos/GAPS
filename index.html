@@ -14,7 +14,9 @@
       --sidebar-background: #f8f9fc;
       --base-font-size: 15px;
       --cover-background-color: linear-gradient(135deg, #1a237e 0%, #3949ab 100%);
+      --gaps-reading-font-size: 16px;
     }
+
     .sidebar .sidebar-nav ul li a {
       font-size: 13px;
     }
@@ -31,51 +33,202 @@
       border-radius: 0 4px 4px 0;
       color: var(--base-color);
     }
+    .markdown-section blockquote.gaps-callout p:first-of-type { margin-top: 0; }
+    .markdown-section blockquote.gaps-callout p:last-child { margin-bottom: 0; }
 
-    .markdown-section blockquote.gaps-callout p:first-of-type {
-      margin-top: 0;
-    }
-
-    .markdown-section blockquote.gaps-callout p:last-child {
-      margin-bottom: 0;
-    }
-
-    /* NOTE: explanatory or contextual information */
     .markdown-section blockquote.gaps-callout-note {
       border-left-color: #3976c5;
       background: #f3f6fb;
     }
-
-    /* IMPORTANT: important distinctions or warnings */
     .markdown-section blockquote.gaps-callout-important {
       border-left-color: #c62828;
       background: #fff3f2;
     }
-
-    /* TIP: practical suggestions */
     .markdown-section blockquote.gaps-callout-tip {
       border-left-color: #2e7d32;
       background: #f1f8f1;
     }
-
     .markdown-section .gaps-callout-title {
       margin-bottom: 0.5em;
       font-size: 0.95em;
       font-weight: 700;
     }
+    .markdown-section .gaps-callout-note .gaps-callout-title { color: #245a9e; }
+    .markdown-section .gaps-callout-important .gaps-callout-title { color: #b71c1c; }
+    .markdown-section .gaps-callout-tip .gaps-callout-title { color: #256629; }
 
-    .markdown-section .gaps-callout-note .gaps-callout-title {
-      color: #245a9e;
+    /* Reading controls */
+    #gaps-reading-tools {
+      position: fixed;
+      z-index: 1000;
+      top: 14px;
+      right: 18px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px;
+      border: 1px solid #d8dce8;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.96);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+      color: #202124;
+      font: 14px/1.2 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    #gaps-reading-tools button {
+      min-width: 34px;
+      min-height: 32px;
+      padding: 5px 8px;
+      border: 1px solid #d4d8e2;
+      border-radius: 6px;
+      background: #fff;
+      color: #202124;
+      font: inherit;
+      cursor: pointer;
+    }
+    #gaps-reading-tools button:hover { background: #eef1fa; }
+    #gaps-reading-tools button:focus-visible,
+    .gaps-page-nav:focus-visible {
+      outline: 3px solid #7186ed;
+      outline-offset: 2px;
+    }
+    #gaps-font-label {
+      min-width: 42px;
+      text-align: center;
+      font-size: 12px;
     }
 
-    .markdown-section .gaps-callout-important .gaps-callout-title {
-      color: #b71c1c;
+    /* Always-visible side navigation for the ten GAPS modules */
+    .gaps-page-nav {
+      position: fixed;
+      z-index: 900;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 64px;
+      border: 1px solid #d8dce8;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.94);
+      color: #27358a;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.10);
+      text-decoration: none;
+      font: 32px/1 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      transition: background-color 0.15s ease, opacity 0.15s ease;
     }
-
-    .markdown-section .gaps-callout-tip .gaps-callout-title {
-      color: #256629;
+    .gaps-page-nav:hover { background: #eef1fa; text-decoration: none; }
+    .gaps-page-nav[aria-disabled="true"] {
+      opacity: 0.28;
+      pointer-events: none;
+      cursor: default;
     }
+    #gaps-page-prev { left: 12px; }
+    #gaps-page-next { right: 12px; }
 
+    /* User-selected dark theme */
+    html.gaps-dark {
+      color-scheme: dark;
+      --theme-color: #9baaff;
+      --base-background-color: #17191f;
+      --base-color: #e5e7eb;
+      --sidebar-background: #20232b;
+      --sidebar-nav-link-color: #d7dbea;
+      --sidebar-nav-link-color--active: #ffffff;
+      --link-color: #a9b7ff;
+      --heading-color: #f2f3f7;
+      --code-theme-background: #242832;
+      --code-theme-text: #e5e7eb;
+    }
+    html.gaps-dark body,
+    html.gaps-dark #app,
+    html.gaps-dark .content,
+    html.gaps-dark main,
+    html.gaps-dark .markdown-section {
+      background: #17191f !important;
+      color: #e5e7eb !important;
+    }
+    html.gaps-dark .sidebar,
+    html.gaps-dark .sidebar > h1,
+    html.gaps-dark .sidebar-nav {
+      background: #20232b !important;
+      color: #e5e7eb !important;
+    }
+    html.gaps-dark .sidebar a,
+    html.gaps-dark .markdown-section a { color: #a9b7ff; }
+    html.gaps-dark .markdown-section h1,
+    html.gaps-dark .markdown-section h2,
+    html.gaps-dark .markdown-section h3,
+    html.gaps-dark .markdown-section h4,
+    html.gaps-dark .markdown-section strong { color: #f2f3f7; }
+    html.gaps-dark .markdown-section table,
+    html.gaps-dark .markdown-section th,
+    html.gaps-dark .markdown-section td {
+      border-color: #454a57;
+    }
+    html.gaps-dark .markdown-section th { background: #282c36; }
+    html.gaps-dark .markdown-section tr:nth-child(2n) { background: #20232b; }
+    html.gaps-dark .markdown-section blockquote:not(.gaps-callout) {
+      border-left-color: #68718a;
+      color: #d9dce5;
+    }
+    html.gaps-dark .markdown-section blockquote.gaps-callout-note {
+      background: #202d40;
+      border-left-color: #72a9f7;
+    }
+    html.gaps-dark .markdown-section blockquote.gaps-callout-important {
+      background: #3a2529;
+      border-left-color: #ff8585;
+    }
+    html.gaps-dark .markdown-section blockquote.gaps-callout-tip {
+      background: #20352a;
+      border-left-color: #80d69a;
+    }
+    html.gaps-dark .markdown-section .gaps-callout-note .gaps-callout-title { color: #a8ceff; }
+    html.gaps-dark .markdown-section .gaps-callout-important .gaps-callout-title { color: #ffb0b0; }
+    html.gaps-dark .markdown-section .gaps-callout-tip .gaps-callout-title { color: #a6edb6; }
+    html.gaps-dark .markdown-section pre,
+    html.gaps-dark .markdown-section code {
+      background: #242832 !important;
+      color: #e5e7eb !important;
+    }
+    html.gaps-dark #gaps-reading-tools,
+    html.gaps-dark .gaps-page-nav {
+      background: rgba(35, 38, 47, 0.97);
+      border-color: #4a5060;
+      color: #e8ebf5;
+    }
+    html.gaps-dark #gaps-reading-tools button {
+      background: #2b303b;
+      border-color: #505767;
+      color: #f0f2f8;
+    }
+    html.gaps-dark #gaps-reading-tools button:hover,
+    html.gaps-dark .gaps-page-nav:hover { background: #3a4150; }
+
+    /* Adjustable reading text without resizing navigation and controls */
+    .markdown-section { font-size: var(--gaps-reading-font-size, 16px); }
+    .markdown-section p,
+    .markdown-section li,
+    .markdown-section td,
+    .markdown-section th,
+    .markdown-section blockquote { line-height: 1.7; }
+
+    @media (max-width: 900px) {
+      #gaps-reading-tools { top: 8px; right: 8px; gap: 3px; padding: 4px; }
+      #gaps-reading-tools button { min-width: 30px; min-height: 30px; padding: 4px 6px; }
+      #gaps-font-label { display: none; }
+      .gaps-page-nav { width: 34px; height: 50px; font-size: 26px; }
+      #gaps-page-prev { left: 4px; }
+      #gaps-page-next { right: 4px; }
+    }
+    @media (max-width: 600px) {
+      #gaps-reading-tools { top: auto; bottom: 10px; right: 10px; }
+      .gaps-page-nav { width: 30px; height: 44px; }
+      #gaps-page-prev { left: 3px; }
+      #gaps-page-next { right: 3px; }
+      .markdown-section { padding-left: 24px !important; padding-right: 24px !important; }
+    }
   </style>
 </head>
 <body>
@@ -96,7 +249,7 @@
         noData: 'No results.',
         depth: 4
       },
-      
+
       plugins: [
         function (hook, vm) {
           hook.doneEach(function () {
@@ -117,20 +270,13 @@
                 const type = match[1].toUpperCase();
                 const slug = type.toLowerCase();
 
-                firstParagraph.innerHTML =
-                  firstParagraph.innerHTML.replace(
-                    /^\s*\[!(NOTE|IMPORTANT|TIP)\]\s*/i,
-                    ''
-                  ).trim();
+                firstParagraph.innerHTML = firstParagraph.innerHTML
+                  .replace(/^\s*\[!(NOTE|IMPORTANT|TIP)\]\s*/i, '')
+                  .trim();
 
-                if (!firstParagraph.innerHTML) {
-                  firstParagraph.remove();
-                }
+                if (!firstParagraph.innerHTML) firstParagraph.remove();
 
-                blockquote.classList.add(
-                  'gaps-callout',
-                  'gaps-callout-' + slug
-                );
+                blockquote.classList.add('gaps-callout', 'gaps-callout-' + slug);
 
                 const title = document.createElement('div');
                 title.className = 'gaps-callout-title';
@@ -140,6 +286,169 @@
                 blockquote.dataset.gapsCallout = 'true';
               });
           });
+        },
+
+        function (hook, vm) {
+          const modules = [
+            { number: 1, title: 'M1 - Foundations', path: '/content/M1' },
+            { number: 2, title: 'M2 - Planning & Organization', path: '/content/M2' },
+            { number: 3, title: 'M3 - Documentation', path: '/content/M3' },
+            { number: 4, title: 'M4 - Environments & Automation', path: '/content/M4' },
+            { number: 5, title: 'M5 - Data, Privacy & Ethics', path: '/content/M5' },
+            { number: 6, title: 'M6 - Validation & Pre-release', path: '/content/M6' },
+            { number: 7, title: 'M7 - Publishing & Licensing', path: '/content/M7' },
+            { number: 8, title: 'M8 - Preservation & Maintenance', path: '/content/M8' },
+            { number: 9, title: 'M9 - Reusability & Extension', path: '/content/M9' },
+            { number: 10, title: 'M10 - Artifact Evaluation', path: '/content/M10' }
+          ];
+
+          function ensureReadingTools() {
+            if (document.getElementById('gaps-reading-tools')) return;
+
+            const tools = document.createElement('div');
+            tools.id = 'gaps-reading-tools';
+            tools.setAttribute('role', 'group');
+            tools.setAttribute('aria-label', 'Reading preferences');
+
+            const themeButton = document.createElement('button');
+            themeButton.type = 'button';
+            themeButton.id = 'gaps-theme-toggle';
+            themeButton.setAttribute('aria-label', 'Switch to dark mode');
+            themeButton.title = 'Switch light/dark mode';
+            themeButton.textContent = '☾';
+
+            const smaller = document.createElement('button');
+            smaller.type = 'button';
+            smaller.textContent = 'A−';
+            smaller.title = 'Decrease text size';
+            smaller.setAttribute('aria-label', 'Decrease text size');
+
+            const fontLabel = document.createElement('span');
+            fontLabel.id = 'gaps-font-label';
+
+            const larger = document.createElement('button');
+            larger.type = 'button';
+            larger.textContent = 'A+';
+            larger.title = 'Increase text size';
+            larger.setAttribute('aria-label', 'Increase text size');
+
+            tools.append(themeButton, smaller, fontLabel, larger);
+            document.body.appendChild(tools);
+
+            const savedTheme = localStorage.getItem('gaps-theme');
+            const systemDark = window.matchMedia &&
+              window.matchMedia('(prefers-color-scheme: dark)').matches;
+            applyTheme(savedTheme || (systemDark ? 'dark' : 'light'));
+
+            const savedFont = Number(localStorage.getItem('gaps-font-size'));
+            applyFontSize(savedFont >= 14 && savedFont <= 22 ? savedFont : 16);
+
+            themeButton.addEventListener('click', function () {
+              const dark = !document.documentElement.classList.contains('gaps-dark');
+              const theme = dark ? 'dark' : 'light';
+              applyTheme(theme);
+              localStorage.setItem('gaps-theme', theme);
+            });
+            smaller.addEventListener('click', function () {
+              const current = Number(document.documentElement.dataset.gapsFontSize || 16);
+              applyFontSize(Math.max(14, current - 1));
+              localStorage.setItem('gaps-font-size', document.documentElement.dataset.gapsFontSize);
+            });
+            larger.addEventListener('click', function () {
+              const current = Number(document.documentElement.dataset.gapsFontSize || 16);
+              applyFontSize(Math.min(22, current + 1));
+              localStorage.setItem('gaps-font-size', document.documentElement.dataset.gapsFontSize);
+            });
+          }
+
+          function applyTheme(theme) {
+            const dark = theme === 'dark';
+            document.documentElement.classList.toggle('gaps-dark', dark);
+            const button = document.getElementById('gaps-theme-toggle');
+            if (button) {
+              button.textContent = dark ? '☀' : '☾';
+              button.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+              button.title = dark ? 'Switch to light mode' : 'Switch to dark mode';
+            }
+          }
+
+          function applyFontSize(size) {
+            document.documentElement.dataset.gapsFontSize = String(size);
+            document.documentElement.style.setProperty('--gaps-reading-font-size', size + 'px');
+            const label = document.getElementById('gaps-font-label');
+            if (label) label.textContent = size + ' px';
+          }
+
+          function ensurePageNavigation() {
+            let previous = document.getElementById('gaps-page-prev');
+            let next = document.getElementById('gaps-page-next');
+
+            if (!previous) {
+              previous = document.createElement('a');
+              previous.id = 'gaps-page-prev';
+              previous.className = 'gaps-page-nav';
+              previous.innerHTML = '&#8249;';
+              previous.setAttribute('aria-label', 'Previous module');
+              previous.title = 'Previous module';
+              document.body.appendChild(previous);
+            }
+            if (!next) {
+              next = document.createElement('a');
+              next.id = 'gaps-page-next';
+              next.className = 'gaps-page-nav';
+              next.innerHTML = '&#8250;';
+              next.setAttribute('aria-label', 'Next module');
+              next.title = 'Next module';
+              document.body.appendChild(next);
+            }
+
+            const hashPath = decodeURIComponent(window.location.hash.split('?')[0]);
+            const match = hashPath.match(/\/content\/M(10|[1-9])(?:\.md)?(?:$|[#/])/i);
+            const currentNumber = match ? Number(match[1]) : null;
+
+            if (currentNumber === null) {
+              previous.hidden = true;
+              next.hidden = true;
+              return;
+            }
+
+            previous.hidden = false;
+            next.hidden = false;
+            const previousModule = modules.find(function (module) {
+              return module.number === currentNumber - 1;
+            });
+            const nextModule = modules.find(function (module) {
+              return module.number === currentNumber + 1;
+            });
+
+            configureNavLink(previous, previousModule, 'Previous module');
+            configureNavLink(next, nextModule, 'Next module');
+          }
+
+          function configureNavLink(link, module, label) {
+            if (!module) {
+              link.removeAttribute('href');
+              link.setAttribute('aria-disabled', 'true');
+              link.setAttribute('tabindex', '-1');
+              link.title = label + ' (no more modules)';
+              return;
+            }
+            link.href = '#'+ module.path;
+            link.removeAttribute('aria-disabled');
+            link.removeAttribute('tabindex');
+            link.title = label + ': ' + module.title;
+            link.setAttribute('aria-label', label + ': ' + module.title);
+          }
+
+          hook.ready(function () {
+            ensureReadingTools();
+            ensurePageNavigation();
+          });
+
+          hook.doneEach(function () {
+            ensureReadingTools();
+            ensurePageNavigation();
+          });
         }
       ],
 
@@ -147,7 +456,7 @@
       pagination: {
         previousText: '← Previous',
         nextText: 'Next →',
-        crossChapter: true,
+        crossChapter: true
       }
     }
   </script>
