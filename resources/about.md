@@ -50,6 +50,18 @@ These sources informed the practical guidance presented in the resource. The rec
 
 The [GAPS References](/resources/references.md) page provides the sources supporting the material for consultation and further reading. Every effort has been made to acknowledge the sources used. If an attribution has been omitted unintentionally, feedback is welcome so that the necessary correction can be made.
 
+## Acknowledgments
+
+The development and evaluation of GAPS benefited from the contributions of researchers and colleagues who generously shared their time, experiences, and feedback throughout the process.
+
+We are especially grateful to the researchers who responded to the initial survey on research artifact preparation and sharing. Their experiences, practices, and perspectives provided an important foundation for identifying needs and informing the development of GAPS.
+
+We also thank the researchers who participated in the subsequent evaluation stages of the resource. Their feedback and suggestions helped us assess GAPS and identify opportunities for improvement.
+
+Finally, we thank the colleagues who piloted the survey instruments used throughout the research. Their contributions helped us identify issues and improve the instruments before their application.
+
+We sincerely appreciate everyone's contribution to this work. Despite this, participation in the surveys, pilot studies, and evaluation activities does not necessarily imply endorsement of GAPS or its contents.
+
 ## Authors
 
 [**Ana Paula Vasconcelos**](https://orcid.org/0000-0002-2513-4924) is a Ph.D. student at the Centro de Informática of the Universidade Federal de Pernambuco (CIn/UFPE) and a Technical Staff Member at the Universidade do Estado de Mato Grosso (UNEMAT), Brazil. Her research interests include Open Science and research artifacts, with a focus on education and training.
@@ -59,6 +71,8 @@ The [GAPS References](/resources/references.md) page provides the sources suppor
 [**Sergio Soares**](https://orcid.org/0000-0002-4428-2535) is an Associate Professor at the Centro de Informática of the Universidade Federal de Pernambuco (CIn/UFPE), one of Brazil's top Computer Science academic groups. He has experience in coordinating industry research, development, and innovation projects. He works on software engineering, mainly in experimental Software Engineering, data protection and privacy, Open Science, smart cities, knowledge management, and digital health.
 
 ## How to cite this material
+
+When referring to GAPS in reports and presentations, we recommend citing the paper presenting the GAPS explanation and elaboration, rather than referring only to the GAPS website.
 
 The citation metadata is also available in the [`CITATION.cff`](https://github.com/anapvasconcelos/GAPS/blob/main/CITATION.cff) file for tools that support it. The following formats are provided for convenience.
 

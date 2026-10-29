@@ -62,6 +62,12 @@ Bergen, Norway: CESSDA ERIC. Available at: [https://dmeg.cessda.eu/](https://dme
 ### Data Citation Synthesis Group (2014)
 - Data Citation Synthesis Group: Joint Declaration of Data Citation Principles. Martone M. (ed.) San Diego CA: FORCE11; 2014. Available at: [https://doi.org/10.25490/a97f-egyk](https://doi.org/10.25490/a97f-egyk) <!-- DataCitationSynthesisGroup2014 -->
 
+### ECOOP - European Conference on Object-Oriented Programming
+- ECOOP (2025). Artifact Evaluation. Available at: [https://2025.ecoop.org/track/ecoop-2025-artifact-evaluation](https://2025.ecoop.org/track/ecoop-2025-artifact-evaluation)
+
+### ESEC/FSE - The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering
+- ESEC/FSE (2022). Artifacts. Available at: [https://2022.esec-fse.org/track/fse-2022-artifacts](https://2022.esec-fse.org/track/fse-2022-artifacts)
+
 ### ETAPS - International Joint Conferences On Theory & Practice Of Software
 - ETAPS (2025). ESOP, FASE and FoSSaCS Artifact Evaluation (2025). Available at: [https://etaps.org/2025/conferences/ae-esop-fase-fossacs/](https://etaps.org/2025/conferences/ae-esop-fase-fossacs/) <!-- ETAPS2025 -->
 
@@ -82,10 +88,14 @@ Available at: [https://www.fsd.tuni.fi/en/services/data-management-guidelines/](
 - ICSA (2025). Artifacts Evaluation Track. Available at: [https://conf.researchr.org/track/icsa-2025/icsaartifacts+evaluation+track2025](https://conf.researchr.org/track/icsa-2025/icsaartifacts+evaluation+track2025) <!-- ICSA2025 -->
 
 ### ICSE - IEEE/ACM International Conference on Software Engineering
+- ICSE (2025). Artifact Evaluation. Available at: [https://conf.researchr.org/track/icse-2025/icse-2025-artifact-evaluation](https://conf.researchr.org/track/icse-2025/icse-2025-artifact-evaluation)
 - ICSE (2026). Artifacts Evaluation Track. Available at: [https://conf.researchr.org/track/icse-2026/icse-2026-artifact-evaluation](https://conf.researchr.org/track/icse-2026/icse-2026-artifact-evaluation) <!-- ICSE2026 -->
 
 ### IPDPS - IEEE International Parallel & Distributed Processing Symposium
 - IPDPS (2026). IPDPS26 Guidelines for Paper Authors. Available at: [https://github.com/IPDPS/ipdps26-repro/tree/main](https://github.com/IPDPS/ipdps26-repro/tree/main) <!-- IPDPS26 -->
+
+### ISSTA - ACM SIGSOFT International Symposium on Software Testing and Analysis
+- ISSTA (2023). Artifact Evaluation. Available at: [https://2023.issta.org/track/issta-2023-artifact-evaluation#Call-for-Artifacts](https://2023.issta.org/track/issta-2023-artifact-evaluation#Call-for-Artifacts)
 
 ### JORS - The Journal of Open Research Software
 - JORS. Recommended Repositories. Available at: [https://openresearchsoftware.metajnl.com/about#recommended-repositories](https://openresearchsoftware.metajnl.com/about#recommended-repositories) <!-- JORS -->
@@ -93,8 +103,14 @@ Available at: [https://www.fsd.tuni.fi/en/services/data-management-guidelines/](
 ### Klimpel (2013)
 - Klimpel, P. (2013). Consequences, risks and side-effects of the license module "non-commercial use only - NC". Available at: [https://web.archive.org/web/20140629072316/http://openglam.org/files/2013/01/iRights_CC-NC_Guide_English.pdf](https://web.archive.org/web/20140629072316/http://openglam.org/files/2013/01/iRights_CC-NC_Guide_English.pdf) <!-- Klimpel2013 -->
 
+### Kokkonis
+- Kokkonis, Dimitri. CS artifact template. Available at: [https://github.com/kokkonisd/cs-artifact-template](https://github.com/kokkonisd/cs-artifact-template)
+
 ### LGPD (2018)
 - Brazil's General Data Protection Law (Lei Geral de Proteção de Dados – LGPD), Law No. 13,709/2018. Available at: [https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm) <!-- LGPD -->
+
+### Medeiros et al. (2023)
+- Medeiros, C. M. B.; Laender, A. H. F.; Packer, A. L.; Val, A. L.; Cruz, C. H. B.; Chavez, C. F. G.; Marques, E. C. L.; Kon, F.; Cendes, I. L. C.; Barcinski, M. A.; Sluys, M. V.; Almeida, U. B. (2023). Open science: overview and general recommendations. Rio de Janeiro: Academia Brasileira de Ciências. Available at: https://www.abc.org.br/wp-content/uploads/2023/11/Open-Science-Overview-and-General-Recommendations.pdf - https://repositorio.usp.br/item/003267226 <!-- MedeirosEtAl2023 -- >
 
 ### Mendez et al. (2019)
 - Daniel Mendez, Martin Monperrus, Robert Feldt, and Thomas Zimmermann (2019) The open science initiative of the Empirical Software Engineering journal. Empirical Software Engineering. Available at: [https://doi.org/10.1007/s10664-019-09712-x](https://doi.org/10.1007/s10664-019-09712-x) <!-- MendezEtAl2019 -->
@@ -133,6 +149,12 @@ Available at: [https://www.fsd.tuni.fi/en/services/data-management-guidelines/](
 ### PLDI - ACM SIGPLAN Conference on Programming Language Design and Implementation
 - PLDI (2025). PLDI Research Artifacts. Available at: [https://pldi25.sigplan.org/track/pldi-2025-pldi-research-artifacts#Call-for-Artifacts](https://pldi25.sigplan.org/track/pldi-2025-pldi-research-artifacts#Call-for-Artifacts) <!-- PLDI2025 -->
 
+### Pontika et al. (2015)
+- Pontika, Knoth, Cancellieri, and Pearce. 2015. Fostering open science to research using a taxonomy and an eLearning portal. In Proceedings of the 15th International Conference on Knowledge Technologies and Data-driven Business (i-KNOW '15). Association for Computing Machinery, New York, NY, USA, Article 11, 1–8. Available at: [https://doi.org/10.1145/2809563.2809571](https://doi.org/10.1145/2809563.2809571) <!-- PontikaEtAl2015 -->
+
+### PRISMA 2020
+- PRISMA 2020. Available at: [https://www.prisma-statement.org/prisma-2020](https://www.prisma-statement.org/prisma-2020)
+
 ### Rapoport
 - Marianna Rapoport. Proof Artifacts. Guidelines for Submission and Reviewing. Available at: [https://proofartifacts.github.io/guidelines/](https://proofartifacts.github.io/guidelines/) <!-- Rapoport -->
 
@@ -157,6 +179,10 @@ Available at: [https://www.fsd.tuni.fi/en/services/data-management-guidelines/](
 ### SPLASH - ACM SIGPLAN International Conference on Systems, Programming, Languages and Applications: Software for Humanity
 - SPLASH (2024) OOPSLA Artifacts. About. Available at: [https://2024.splashcon.org/track/splash-2024-oopsla-artifacts#About](https://2024.splashcon.org/track/splash-2024-oopsla-artifacts#About) <!-- SPLASH2024-About -->
 - SPLASH (2024) OOPSLA Artifacts. Call for Artifacts. Available at: [https://2024.splashcon.org/track/splash-2024-oopsla-artifacts#Call-for-Artifacts](https://2024.splashcon.org/track/splash-2024-oopsla-artifacts#Call-for-Artifacts) <!-- SPLASH2024-CfA -->
+- SPLASH (2026). Artifact evaluation. Available at: [https://2026.splashcon.org/track/splash-2026-artifact-evaluation#Submission-Guidelines](https://2026.splashcon.org/track/splash-2026-artifact-evaluation#Submission-Guidelines)
+
+### S&P - IEEE Symposium on Security and Privacy
+- S&P (2026). Artifact Evaluation Process. Available at: [https://www.ieee-security.org/TC/SP2026/artifact_instructions.html](https://www.ieee-security.org/TC/SP2026/artifact_instructions.html)
 
 ### Tennant et al. (2019)
 - Tennant, Caron, Havemann, Guay, Colomb, Lantsoght, Tóth-Czifra, Kriegel, Ahinon, Smout. (2019). OpenScienceMOOC/Module-1-Open-Principles: Second release (Version 2.0.0). Zenodo. Available at: [http://doi.org/10.5281/zenodo.2595951](http://doi.org/10.5281/zenodo.2595951) - [https://opensciencemooc.eu/modules/open-principles/](https://opensciencemooc.eu/modules/open-principles/) - [https://github.com/OpenScienceMOOC/Module-1-Open-Principles/tree/2.0.0](https://github.com/OpenScienceMOOC/Module-1-Open-Principles/tree/2.0.0) <!-- TennantEtAl2019 -->
@@ -223,10 +249,3 @@ The GAPS visual identity was designed with Quadrillion font by [Typodermic Fonts
 ## Scope of the Material
 
 The recommendations presented throughout GAPS are intended as practical guidance rather than mandatory requirements. Conferences, journals, institutions, and research domains may impose additional policies, constraints, or expectations that should be considered alongside the practices described in this material.
-
-<!--
-### Medeiros et al. (2023)
-- Medeiros, C. M. B.; Laender, A. H. F.; Packer, A. L.; Val, A. L.; Cruz, C. H. B.; Chavez, C. F. G.; Marques, E. C. L.; Kon, F.; Cendes, I. L. C.; Barcinski, M. A.; Sluys, M. V.; Almeida, U. B. (2023). Open science: overview and general recommendations. Rio de Janeiro: Academia Brasileira de Ciências. Available at: https://www.abc.org.br/wp-content/uploads/2023/11/Open-Science-Overview-and-General-Recommendations.pdf - https://repositorio.usp.br/item/003267226 <!-- MedeirosEtAl2023 -- > <!--- FALTAAA --- >
-
-### Pontika et al. (2015)
-- Pontika, Knoth, Cancellieri, and Pearce. 2015. Fostering open science to research using a taxonomy and an eLearning portal. In Proceedings of the 15th International Conference on Knowledge Technologies and Data-driven Business (i-KNOW '15). Association for Computing Machinery, New York, NY, USA, Article 11, 1–8. Available at: [https://doi.org/10.1145/2809563.2809571](https://doi.org/10.1145/2809563.2809571) <!-- PontikaEtAl2015 -->

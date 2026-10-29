@@ -66,6 +66,7 @@ Use these resources to apply the guidance, self check your artifact, and explore
 | --- | --- |
 | [Where should I start?](/resources/where-should-i-start.md) | Helps you identify which modules to consult based on your current task or stage of the artifact lifecycle. |
 | [GAPS mind map](/resources/GAPS-mind-map.md) | Provides a visual overview of the 10 modules, their main topics, and the complementary resources. |
+| [GAPS Structure](/resources/structure.md) | Presents the organization of the 10 modules and the topics covered in each one. |
 
 ---
 
@@ -76,7 +77,6 @@ Learn about the purpose, development, organization, and use of GAPS.
 | Page | Content description |
 | --- | --- |
 | [Purpose and scope](/resources/about.md#purpose-and-scope) | Explains why GAPS was developed and the needs it aims to address. |
-| [GAPS Structure](/resources/structure.md) | Presents the organization of the 10 modules and the topics covered in each one. |
 | [Development and sources](/resources/about.md#development-and-sources) | Identifies the sources used to develop the guidance. |
 | [Authors](/resources/about.md#authors) | Introduces the people responsible for developing GAPS. |
 | [How to cite this material](/resources/about.md#how-to-cite-this-material) | Explains how to cite GAPS in academic work. |
@@ -90,6 +90,12 @@ Learn about the purpose, development, organization, and use of GAPS.
 GAPS is an evolving educational resource, and feedback from its users is welcome. If you have suggestions, constructive criticism, or have identified an error or an opportunity for improvement, please share your feedback through our [Feedback and Suggestions form](https://forms.gle/49eskfSPDp3mVzJs9).
 
 You may submit feedback anonymously. Providing contact information is optional.
+
+---
+
+## Acknowledgments
+
+We gratefully acknowledge all researchers who contributed to the development and evaluation of GAPS. We thank the researchers who responded to the initial survey, whose experiences and perspectives informed the development of this open educational resource. We also thank everyone who participated in the subsequent evaluation stages and the colleagues who piloted the survey instruments. Their time, feedback, and willingness to share their experiences helped shape and improve GAPS.
 
 ---
 
